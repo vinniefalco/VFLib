@@ -27,4 +27,10 @@ using std::bind;
 using std::placeholders::_1;
 #endif
 
+#if defined JUCE_IOS || defined JUCE_MAC 
+using std::tr1::bind;
+using std::tr1::function;
+using namespace std::tr1::placeholders;
+#endif
+
 #endif

@@ -166,6 +166,11 @@ using juce::uint8;
 
 #if JUCE_MSVC
 #include <crtdbg.h>
+#include <functional>
+#endif
+
+#if defined JUCE_IOS || defined JUCE_MAC 
+#include <tr1/functional>
 #endif
 
 #include <algorithm>
@@ -174,7 +179,6 @@ using juce::uint8;
 #include <cstdarg>
 #include <cstddef>
 #include <exception>
-#include <functional>
 #include <istream>
 #include <iterator>
 #include <limits>
