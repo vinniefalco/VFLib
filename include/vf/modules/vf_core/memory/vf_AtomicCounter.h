@@ -75,6 +75,11 @@ public:
 	return m_value.get() > 0;
   }
 
+  int get() const noexcept
+  {
+	  return m_value.get();
+  }
+
 private:
   juce::Atomic <int> m_value;
 };
