@@ -10,7 +10,7 @@
 #include <cassert>
 #include <string>
 
-#include "vf/modules/vf_lua/vf_lua.h"
+#include "../../vf_lua/vf_lua.h"
 
 #ifndef USE_OTHER_SHARED_PTR
 #	include "shared_ptr.hpp"

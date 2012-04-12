@@ -34,7 +34,7 @@
 
     @ingroup vf_core
 */
-class PerformedAtExit : LockFreeStack <PerformedAtExit>::Node
+class PerformedAtExit : public LockFreeStack <PerformedAtExit>::Node
 {
 protected:
   explicit PerformedAtExit ();

@@ -39,7 +39,7 @@ public:
   static void detectAllLeaks ();
 
 protected:
-  class CounterBase : LockFreeStack <CounterBase>::Node
+  class CounterBase : public LockFreeStack <CounterBase>::Node
   {
   public:
     CounterBase ();

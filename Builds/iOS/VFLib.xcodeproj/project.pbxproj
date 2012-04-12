@@ -1,0 +1,153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+		E5FB54C36FAFA0ABED0CFFEE = { isa = PBXBuildFile; fileRef = 836AA48445DEA9ACE4B72BD8; };
+		E3098DA248585EB644063C26 = { isa = PBXBuildFile; fileRef = F588C079213B14169C07C66D; };
+		69EBC5DF28356943A3B06E6A = { isa = PBXBuildFile; fileRef = 56B572D17BF40334E4CFCBB3; };
+		7240B0BFB18729C189DAD923 = { isa = PBXBuildFile; fileRef = B3A6DFABCB53951431B34A14; };
+		9ABFDC9EF9CF8E353689C2A0 = { isa = PBXBuildFile; fileRef = CCEAEAFEDFFC084773919123; };
+		83F8261431A30C14D77A72E2 = { isa = PBXBuildFile; fileRef = 62C712873E38C0B454D75397; };
+		6DE3FF6D8D90578963F62FD0 = { isa = PBXBuildFile; fileRef = 92336D1CAD733E78B1D9AA81; };
+		F5CA2CCC72A707463C5C19F6 = { isa = PBXBuildFile; fileRef = 69FF4908E7EBB537C8073870; };
+		D7F574AA6FE50DAF188D9BBD = { isa = PBXBuildFile; fileRef = 4654AB51F8BCF9C04D34E16B; };
+		AFEBDF551EBE87D4CA25A6E9 = { isa = PBXBuildFile; fileRef = 1F293456B45B1D8E59BD26C6; };
+		1F293456B45B1D8E59BD26C6 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_concurrent.cpp"; path = "../../include/vf/modules/vf_concurrent/vf_concurrent.cpp"; sourceTree = "SOURCE_ROOT"; };
+		27EB691DA17F275C16C36C64 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vf.h; path = ../../include/vf/vf.h; sourceTree = "SOURCE_ROOT"; };
+		2EE01DEB6ABEF3BEDA8ED4D1 = { isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVFLib.a; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		4654AB51F8BCF9C04D34E16B = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_core.cpp"; path = "../../include/vf/modules/vf_core/vf_core.cpp"; sourceTree = "SOURCE_ROOT"; };
+		56B572D17BF40334E4CFCBB3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_luabridge.cpp"; path = "../../include/vf/modules/vf_luabridge/vf_luabridge.cpp"; sourceTree = "SOURCE_ROOT"; };
+		62C712873E38C0B454D75397 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_db.cpp"; path = "../../include/vf/modules/vf_db/vf_db.cpp"; sourceTree = "SOURCE_ROOT"; };
+		69FF4908E7EBB537C8073870 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_audio.cpp"; path = "../../include/vf/modules/vf_audio/vf_audio.cpp"; sourceTree = "SOURCE_ROOT"; };
+		836AA48445DEA9ACE4B72BD8 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_taglib.cpp"; path = "../../include/vf/modules/vf_taglib/vf_taglib.cpp"; sourceTree = "SOURCE_ROOT"; };
+		8E753E55D1A8CFCE5FF12F4D = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = "SOURCE_ROOT"; };
+		92336D1CAD733E78B1D9AA81 = { isa = PBXFileReference; lastKnownFileType = file.c; name = "vf_bzip2.c"; path = "../../include/vf/modules/vf_bzip2/vf_bzip2.c"; sourceTree = "SOURCE_ROOT"; };
+		A523CFCC0743A36D0B774257 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = ../../JuceLibraryCode/AppConfig.h; sourceTree = "SOURCE_ROOT"; };
+		B3A6DFABCB53951431B34A14 = { isa = PBXFileReference; lastKnownFileType = file.c; name = "vf_lua.c"; path = "../../include/vf/modules/vf_lua/vf_lua.c"; sourceTree = "SOURCE_ROOT"; };
+		CCEAEAFEDFFC084773919123 = { isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "vf_gui.cpp"; path = "../../include/vf/modules/vf_gui/vf_gui.cpp"; sourceTree = "SOURCE_ROOT"; };
+		F588C079213B14169C07C66D = { isa = PBXFileReference; lastKnownFileType = file.c; name = "vf_sqlite.c"; path = "../../include/vf/modules/vf_sqlite/vf_sqlite.c"; sourceTree = "SOURCE_ROOT"; };
+		49B9C2610520CB0C8376FE0D = { isa = PBXGroup; children = (
+				836AA48445DEA9ACE4B72BD8,
+				F588C079213B14169C07C66D,
+				56B572D17BF40334E4CFCBB3,
+				B3A6DFABCB53951431B34A14,
+				CCEAEAFEDFFC084773919123,
+				62C712873E38C0B454D75397,
+				92336D1CAD733E78B1D9AA81,
+				69FF4908E7EBB537C8073870,
+				4654AB51F8BCF9C04D34E16B,
+				1F293456B45B1D8E59BD26C6,
+				27EB691DA17F275C16C36C64 ); name = "VF Library Code"; sourceTree = "<group>"; };
+		A06BE895F2E62A6C9BC5E0C3 = { isa = PBXGroup; children = (
+				49B9C2610520CB0C8376FE0D ); name = VFLib; sourceTree = "<group>"; };
+		903DDA082D93702387976E46 = { isa = PBXGroup; children = (
+				A523CFCC0743A36D0B774257,
+				8E753E55D1A8CFCE5FF12F4D ); name = "Juce Library Code"; sourceTree = "<group>"; };
+		A0B29591EA5006A8DF9AD30B = { isa = PBXGroup; children = (  ); name = Resources; sourceTree = "<group>"; };
+		BB9AF54723B2D8A4E6F3817E = { isa = PBXGroup; children = (  ); name = Frameworks; sourceTree = "<group>"; };
+		FD943D3F96DC7389EFC8E4F0 = { isa = PBXGroup; children = (
+				2EE01DEB6ABEF3BEDA8ED4D1 ); name = Products; sourceTree = "<group>"; };
+		9F3A2DC5F433AE9AAC5349F9 = { isa = PBXGroup; children = (
+				A06BE895F2E62A6C9BC5E0C3,
+				903DDA082D93702387976E46,
+				A0B29591EA5006A8DF9AD30B,
+				BB9AF54723B2D8A4E6F3817E,
+				FD943D3F96DC7389EFC8E4F0 ); name = Source; sourceTree = "<group>"; };
+		2D439AC0B4797BB5E86DE3F9 = { isa = XCBuildConfiguration; buildSettings = {
+				SRCROOT = "../..";
+				HEADER_SEARCH_PATHS = "../../JuceLibraryCode ../../../juce $(inherited)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				ONLY_ACTIVE_ARCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+				"_DEBUG=1",
+				"DEBUG=1",
+				"JUCE_ObjCExtraSuffix=yYS4cq",
+				"JUCER_XCODE_IPHONE_5BC26AE3=1"); }; name = Debug; };
+		9076D028A73CAC7819A6574D = { isa = XCBuildConfiguration; buildSettings = {
+				SRCROOT = "../..";
+				HEADER_SEARCH_PATHS = "../../JuceLibraryCode ../../../juce $(inherited)";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Info.plist;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+				"_NDEBUG=1",
+				"NDEBUG=1",
+				"JUCE_ObjCExtraSuffix=yYS4cq",
+				"JUCER_XCODE_IPHONE_5BC26AE3=1"); }; name = Release; };
+		565A08D98E7C1E303AA09B76 = { isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				WARNING_CFLAGS = -Wreorder;
+				GCC_MODEL_TUNING = G5;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				PRODUCT_NAME = "VFLib"; }; name = Debug; };
+		9C53A0838005936A11C87F6C = { isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				WARNING_CFLAGS = -Wreorder;
+				GCC_MODEL_TUNING = G5;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				PRODUCT_NAME = "VFLib"; }; name = Release; };
+		79B629DEC92B62EABED51654 = { isa = XCConfigurationList; buildConfigurations = (
+				565A08D98E7C1E303AA09B76,
+				9C53A0838005936A11C87F6C ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		F954C90EB1180E1CC1AAA814 = { isa = XCConfigurationList; buildConfigurations = (
+				2D439AC0B4797BB5E86DE3F9,
+				9076D028A73CAC7819A6574D ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		80EAFA073DED113B617D27F1 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				E5FB54C36FAFA0ABED0CFFEE,
+				E3098DA248585EB644063C26,
+				69EBC5DF28356943A3B06E6A,
+				7240B0BFB18729C189DAD923,
+				9ABFDC9EF9CF8E353689C2A0,
+				83F8261431A30C14D77A72E2,
+				6DE3FF6D8D90578963F62FD0,
+				F5CA2CCC72A707463C5C19F6,
+				D7F574AA6FE50DAF188D9BBD,
+				AFEBDF551EBE87D4CA25A6E9 ); runOnlyForDeploymentPostprocessing = 0; };
+		A52CCA0408FB779498962F7F = { isa = PBXNativeTarget; buildConfigurationList = F954C90EB1180E1CC1AAA814; buildPhases = (
+				80EAFA073DED113B617D27F1 ); buildRules = ( ); dependencies = ( ); name = VFLib; productName = VFLib; productReference = 2EE01DEB6ABEF3BEDA8ED4D1; productType = "com.apple.product-type.library.static"; };
+		CEE6DFE3269DC57D31D24E93 = { isa = PBXProject; buildConfigurationList = 79B629DEC92B62EABED51654; compatibilityVersion = "Xcode 3.2"; hasScannedForEncodings = 0; mainGroup = 9F3A2DC5F433AE9AAC5349F9; projectDirPath = ""; projectRoot = ""; targets = ( A52CCA0408FB779498962F7F ); };
+	};
+	rootObject = CEE6DFE3269DC57D31D24E93;
+}

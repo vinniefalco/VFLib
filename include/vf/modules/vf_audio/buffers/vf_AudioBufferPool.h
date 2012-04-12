@@ -171,14 +171,14 @@ class AudioBufferPoolType
 public:
   Buffer* requestBuffer (int numChannels, int numSamples)
   {
-    TypeOfCriticalSectionToUse::ScopedLockType lock (m_mutex);
+    typename TypeOfCriticalSectionToUse::ScopedLockType lock (m_mutex);
 
     return requestBufferInternal (numChannels, numSamples);
   }
 
   void releaseBuffer (Buffer* buffer)
   {
-    TypeOfCriticalSectionToUse::ScopedLockType lock (m_mutex);
+    typename TypeOfCriticalSectionToUse::ScopedLockType lock (m_mutex);
 
     releaseBufferInternal (buffer);
   }    

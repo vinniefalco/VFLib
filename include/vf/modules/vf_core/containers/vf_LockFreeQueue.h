@@ -24,6 +24,7 @@
 
 #include "../memory/vf_CacheLine.h"
 #include "../memory/vf_AtomicPointer.h"
+#include "../threads/vf_SpinDelay.h"
 
 //==============================================================================
 /** 
