@@ -27,7 +27,7 @@ private:
   typedef juce::SpinLock LockType;
 
   Deleter ()
-    : ReferenceCountedSingleton (SingletonLifetime::persistAfterCreation)
+    : ReferenceCountedSingleton <Deleter> (SingletonLifetime::persistAfterCreation)
     , m_fifo ("Deleter")
   {
 	m_fifo.start ();

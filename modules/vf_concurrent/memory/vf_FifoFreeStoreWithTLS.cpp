@@ -55,12 +55,12 @@ public:
 
   ~Page ()
   {
-    vfassert (m_refs.get() == 0);
+    vfassert (! m_refs.isSignaled ());
   }
 
   inline bool release ()
   {
-    vfassert (m_refs.get () > 0);
+    vfassert (! m_refs.isSignaled ());
 
     return m_refs.release ();
   }

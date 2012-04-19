@@ -106,8 +106,10 @@ public:
     return getObjectPtr ();
   }
 
-private:
+  // TODO: Crashes on iOS if not accessed before usage
   static char s_storage [sizeof (ObjectType)];
+
+private:
 };
 
 template <class ObjectType, class Tag>
