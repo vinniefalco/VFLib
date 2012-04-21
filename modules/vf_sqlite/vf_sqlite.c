@@ -25,9 +25,9 @@
     @ingroup vf_sqlite external
 */
 
-#include "AppConfig.h"
+#include "vf_sqlite.h"
 
-#include "modules/juce_core/system/juce_TargetPlatform.h"
+#if !VF_USE_NATIVE_SQLITE
 
 #if JUCE_MSVC
 #pragma warning (push)
@@ -50,4 +50,6 @@
 
 #if JUCE_MSVC
 #pragma warning (pop)
+#endif
+
 #endif
