@@ -368,7 +368,8 @@ private:
 
     void operator() (void* const listener)
     {
-      m_f.operator() (static_cast <ListenerClass*> (listener));
+	  ListenerClass* object = static_cast <ListenerClass*> (listener);
+	  m_f.operator() (object);
     }
 
   private:

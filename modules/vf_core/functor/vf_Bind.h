@@ -27,9 +27,17 @@ using std::bind;
 using std::placeholders::_1;
 
 #elif JUCE_IOS || JUCE_MAC
+#if VF_USE_BOOST
+using boost::bind;
+using boost::function;
+using ::_1;
+using ::_2;
+#else
 using std::tr1::bind;
 using std::tr1::function;
-using namespace std::tr1::placeholders;
+using std::tr1::placeholders::_1;
+using std::tr1::placeholders::_2;
+#endif
 
 #else
 #error Unknown platform in vf_Bind.h

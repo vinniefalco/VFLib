@@ -341,8 +341,13 @@ using juce::uint8;
 #include <functional>
 #endif
 
-#if defined JUCE_IOS || defined JUCE_MAC 
+#if JUCE_IOS || JUCE_MAC
+#if VF_USE_BOOST
+#include <boost/bind.hpp>
+#include <boost/function.hpp>
+#else
 #include <tr1/functional>
+#endif
 #endif
 
 #include <algorithm>
