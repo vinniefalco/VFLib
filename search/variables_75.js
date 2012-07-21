@@ -25,6 +25,7 @@ var searchData=
   ['usedefaultoutputchannels',['useDefaultOutputChannels',['http://www.rawmaterialsoftware.com/juce/api/structAudioDeviceManager_1_1AudioDeviceSetup.html#a0506caa1460f630b207e1dcf1093f791',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['usehiddenfile',['useHiddenFile',['http://www.rawmaterialsoftware.com/juce/api/classTemporaryFile.html#af04f4ef2ea1bee0b20cdb4c072442e8da5a8f2dba38db83ba22b75362598feaf6',1,'TemporaryFile']]],
   ['userapplicationdatadirectory',['userApplicationDataDirectory',['http://www.rawmaterialsoftware.com/juce/api/classFile.html#a3e19cafabb03c5838160263a6e76313da0c9f89d8dc9f9f32c9eb42428385351d',1,'File']]],
+  ['userarea',['userArea',['http://www.rawmaterialsoftware.com/juce/api/structDesktop_1_1Displays_1_1Display.html#a7b9601b6a4c7de297099ff4e3b8651ec',1,'Desktop::Displays::Display']]],
   ['usercancelledsave',['userCancelledSave',['http://www.rawmaterialsoftware.com/juce/api/classFileBasedDocument.html#a89d417326aed46fb561c599265e426d2a29ad285f4aa606eb17b9f7f0de211f5f',1,'FileBasedDocument']]],
   ['userdata',['userData',['http://www.rawmaterialsoftware.com/juce/api/classImagePixelData.html#a881fd3f8939e4994ca95c052b27221ae',1,'ImagePixelData']]],
   ['userdesktopdirectory',['userDesktopDirectory',['http://www.rawmaterialsoftware.com/juce/api/classFile.html#a3e19cafabb03c5838160263a6e76313da4776bc5e304bf2857ed5ede0fbbc4060',1,'File']]],

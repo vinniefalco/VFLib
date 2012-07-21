@@ -41,6 +41,8 @@ var searchData=
   ['linearhorizontal',['LinearHorizontal',['http://www.rawmaterialsoftware.com/juce/api/classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0fa5cefcd508c8f26ac9a458272844f9',1,'Slider']]],
   ['linearvertical',['LinearVertical',['http://www.rawmaterialsoftware.com/juce/api/classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a31f9134048fa90fbc4a72b69c6f553d5',1,'Slider']]],
   ['linen',['linen',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#ae78b2b6dd2b4f69df9653603310ebf94',1,'Colours']]],
+  ['linenumberbackgroundid',['lineNumberBackgroundId',['http://www.rawmaterialsoftware.com/juce/api/classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596ae61ab632da4a17cbbf39b5ca0c8d38eb',1,'CodeEditorComponent']]],
+  ['linenumbertextid',['lineNumberTextId',['http://www.rawmaterialsoftware.com/juce/api/classCodeEditorComponent.html#a452d8416080619c9b4984bc97e85a596a09a47043a26cf39eb7f56e3f9596c8c2',1,'CodeEditorComponent']]],
   ['lineorigin',['lineOrigin',['http://www.rawmaterialsoftware.com/juce/api/classTextLayout_1_1Line.html#a12a2bd00c15e016262513495600e1a8b',1,'TextLayout::Line']]],
   ['linescolourid',['linesColourId',['http://www.rawmaterialsoftware.com/juce/api/classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aa129ebbdc625406f6dd26047aaa3f082a',1,'TreeView']]],
   ['linestride',['lineStride',['http://www.rawmaterialsoftware.com/juce/api/classImage_1_1BitmapData.html#a0c9d05e29235f0b395fa57b26b13d67a',1,'Image::BitmapData']]],
