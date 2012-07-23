@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['general',['General',['../struct_layer_context_1_1_options_1_1_general.html',1,'LayerContext::Options']]],
   ['genericaudioprocessoreditor',['GenericAudioProcessorEditor',['http://www.rawmaterialsoftware.com/juce/api/classGenericAudioProcessorEditor.html',1,'']]],
   ['genericscopedlock',['GenericScopedLock',['http://www.rawmaterialsoftware.com/juce/api/classGenericScopedLock.html',1,'']]],
   ['genericscopedreadlock',['GenericScopedReadLock',['../struct_generic_scoped_read_lock.html',1,'']]],
@@ -11,7 +10,6 @@ var searchData=
   ['globalfifofreestore',['GlobalFifoFreeStore',['../class_global_fifo_free_store.html',1,'']]],
   ['globalpagedfreestore',['GlobalPagedFreeStore',['../class_global_paged_free_store.html',1,'']]],
   ['globalthreadgroup',['GlobalThreadGroup',['../class_global_thread_group.html',1,'']]],
-  ['glow',['glow',['../struct_pixels_1_1_mode_1_1glow.html',1,'Pixels::Mode']]],
   ['gloweffect',['GlowEffect',['http://www.rawmaterialsoftware.com/juce/api/classGlowEffect.html',1,'']]],
   ['glyph',['Glyph',['http://www.rawmaterialsoftware.com/juce/api/classTextLayout_1_1Glyph.html',1,'TextLayout']]],
   ['glypharrangement',['GlyphArrangement',['http://www.rawmaterialsoftware.com/juce/api/classGlyphArrangement.html',1,'']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['key_5ft',['key_t',['../classbinary__tree.html#a496081e12d65ac1039abdb34baba0577',1,'binary_tree']]],
   ['keyboardfocustraverser',['KeyboardFocusTraverser',['http://www.rawmaterialsoftware.com/juce/api/classKeyboardFocusTraverser.html',1,'KeyboardFocusTraverser'],['http://www.rawmaterialsoftware.com/juce/api/classKeyboardFocusTraverser.html#a275c834346e37c782d74f08365f1a06f',1,'KeyboardFocusTraverser::KeyboardFocusTraverser()']]],
   ['keydownoverlaycolourid',['keyDownOverlayColourId',['http://www.rawmaterialsoftware.com/juce/api/classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
   ['keylistener',['KeyListener',['http://www.rawmaterialsoftware.com/juce/api/classKeyListener.html',1,'']]],
@@ -12,6 +11,5 @@ var searchData=
   ['keystatechanged',['keyStateChanged',['http://www.rawmaterialsoftware.com/juce/api/classButton.html#aa729e40a60e7cd4fb342f0c887eb2cbe',1,'Button::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classComboBox.html#a370f087c80517c4d6dc00af2c0958db6',1,'ComboBox::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classComponent.html#aeff4d2fdbae4d5974e43b62ab3c304f9',1,'Component::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classKeyListener.html#aa3efa1c9c4ebfb754c9d68180a40b6c7',1,'KeyListener::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classKeyPressMappingSet.html#a5a13378496876203f2f13b86a135ad5e',1,'KeyPressMappingSet::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classListBox.html#adec2c4109b1bd0377ff6e30edeff3f78',1,'ListBox::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classMidiKeyboardComponent.html#a5dd8ebe7b03af18e8a4a32e506ea8814',1,'MidiKeyboardComponent::keyStateChanged()'],['http://www.rawmaterialsoftware.com/juce/api/classTextEditor.html#a945d8203649fbe39fd4968c36180ad25',1,'TextEditor::keyStateChanged()']]],
   ['khaki',['khaki',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a3dbd6496fffe6448949acef248ddb3f6',1,'Colours']]],
   ['kill',['kill',['http://www.rawmaterialsoftware.com/juce/api/classChildProcess.html#a524fd75e18a0aa94a8518ce49432413c',1,'ChildProcess']]],
-  ['knockout',['knockout',['../struct_layer_context_1_1_options_1_1_drop_shadow.html#abc0932731a133bebcb86a9288a34613a',1,'LayerContext::Options::DropShadow']]],
   ['knownpluginlist',['KnownPluginList',['http://www.rawmaterialsoftware.com/juce/api/classKnownPluginList.html',1,'KnownPluginList'],['http://www.rawmaterialsoftware.com/juce/api/classKnownPluginList.html#a9e42fc0a1b1819ad21a734f6380fb1a9',1,'KnownPluginList::KnownPluginList()']]]
 ];

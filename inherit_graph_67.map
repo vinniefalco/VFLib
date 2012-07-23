@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_performed_at_exit.html" title="Perform an action at program exit." alt="" coords="8,199,125,225"/>
+<area shape="rect" id="node3" href="$class_ref_counted_singleton.html" title="Thread&#45;safe singleton which comes into existence on first use." alt="" coords="222,151,365,193"/>
+<area shape="rect" id="node5" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalFifoFreeStore\l\&lt; Tag \&gt; \&gt;" alt="" coords="219,71,368,127"/>
+<area shape="rect" id="node9" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalPagedFreeStore \&gt;" alt="" coords="205,217,382,258"/>
+<area shape="rect" id="node13" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalThreadGroup \&gt;" alt="" coords="215,399,372,441"/>
+<area shape="rect" id="node17" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; MidiDevices \&gt;" alt="" coords="222,5,365,46"/>
+<area shape="rect" id="node21" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; OncePerSecond::TimerSingleton \&gt;" alt="" coords="176,465,411,506"/>
+<area shape="rect" id="node23" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; Sqlite3 \&gt;" alt="" coords="222,282,365,323"/>
+<area shape="rect" id="node7" href="$class_global_fifo_free_store.html" title="A FifoFreeStoreType singleton." alt="" coords="467,78,605,119"/>
+<area shape="rect" id="node11" href="$class_global_paged_free_store.html" title="A PagedFreeStore singleton." alt="" coords="459,224,613,251"/>
+<area shape="rect" id="node15" href="$class_global_thread_group.html" title="A ThreadGroup singleton." alt="" coords="469,377,603,404"/>
+<area shape="rect" id="node19" href="$class_midi_devices.html" title="Midi input and output device manager." alt="" coords="491,12,581,39"/>
+<area shape="rect" id="node24" href="$class_singleton_lifetime.html" title="SingletonLifetime" alt="" coords="6,249,127,276"/>
+<area shape="rect" id="node32" href="$class_thread_group.html" title="A group of threads for parallelizing tasks." alt="" coords="245,348,341,375"/>
+</map>

@@ -10,7 +10,7 @@ var searchData=
   ['black',['black',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#aad3910013bf00a80305c082284cd5ee2',1,'Colours']]],
   ['blacknotecolourid',['blackNoteColourId',['http://www.rawmaterialsoftware.com/juce/api/classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eadaf19e83bcd2d13a33a2e84d982b3506',1,'MidiKeyboardComponent']]],
   ['blanchedalmond',['blanchedalmond',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#ade76144d43cca657dac89e21b9a4ff43',1,'Colours']]],
-  ['blue',['blue',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours::blue()'],['../struct_layer_context_1_1_options_1_1_general.html#a9d8bb0e4007201886e67b97682e04c92',1,'LayerContext::Options::General::blue()']]],
+  ['blue',['blue',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours']]],
   ['bluebits',['blueBits',['http://www.rawmaterialsoftware.com/juce/api/classOpenGLPixelFormat.html#a309d74a66aa876591508d76573597a04',1,'OpenGLPixelFormat']]],
   ['blueviolet',['blueviolet',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a1720311a325df81523fac5513a1253a1',1,'Colours']]],
   ['bold',['bold',['http://www.rawmaterialsoftware.com/juce/api/classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa1af8035a650d8a663a3f67b3b6208eed',1,'Font']]],

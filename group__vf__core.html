@@ -65,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#groups">Modules</a> &#124;
 <a href="#files">Files</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">vf_core</div>  </div>
@@ -87,6 +88,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Core classes.  
 <a href="#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for vf_core:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__vf__core.png" border="0" alt="" usemap="#group____vf____core"/>
+<map name="group____vf____core" id="group____vf____core">
+<area shape="rect" id="node2" href="group__intrusive.html" title="Intrusive Containers." alt="" coords="272,43,341,69"/></map>
+</td></tr></table></center>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="groups"></a>
 Modules</h2></td></tr>
@@ -99,8 +108,6 @@ Files</h2></td></tr>
 <tr class="memdesc:vf__core_8cpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this to get the <a class="el" href="group__vf__core.html">vf_core</a> module. <br/></td></tr>
 <tr class="memitem:vf__core_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vf__core_8h.html">vf_core.h</a></td></tr>
 <tr class="memdesc:vf__core_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include this to get the <a class="el" href="group__vf__core.html">vf_core</a> module. <br/></td></tr>
-<tr class="memitem:_app_config_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_app_config_8h.html">AppConfig.h</a></td></tr>
-<tr class="memdesc:_app_config_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional configuration options. <br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -134,14 +141,22 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A thread safe pointer.  <a href="class_atomic_pointer.html#details">More...</a><br/></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_atomic_state.html">AtomicState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A thread safe state variable.  <a href="class_atomic_state.html#details">More...</a><br/></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton_lifetime.html">SingletonLifetime</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction options for <a class="el" href="class_reference_counted_singleton.html" title="Thread-safe singleton which comes into existence on first use.">ReferenceCountedSingleton</a>.  <a href="class_singleton_lifetime.html#details">More...</a><br/></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_reference_counted_singleton.html">ReferenceCountedSingleton&lt; Object &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread-safe singleton which comes into existence on first use.  <a href="class_reference_counted_singleton.html#details">More...</a><br/></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interruptible_thread.html">InterruptibleThread</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A thread with soft interruption support.  <a href="class_interruptible_thread.html#details">More...</a><br/></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_semaphore.html">Semaphore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A semaphore.  <a href="class_semaphore.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_safe_bool.html">SafeBool&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safe evaluation of class as <code>bool</code>.  <a href="class_safe_bool.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_counted_singleton.html">RefCountedSingleton&lt; Object &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread-safe singleton which comes into existence on first use.  <a href="class_ref_counted_singleton.html#details">More...</a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga9b008fe514a5b1eb71a1eb7f439da5a2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vf__core.html#ga9b008fe514a5b1eb71a1eb7f439da5a2">SingletonLifetime::Lifetime</a> { <a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f">SingletonLifetime::createOnDemand</a>, 
+<a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3">SingletonLifetime::createOnDemandOnce</a>, 
+<a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0">SingletonLifetime::persistAfterCreation</a>
+ }</td></tr>
+<tr class="memdesc:ga9b008fe514a5b1eb71a1eb7f439da5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction options for <a class="el" href="class_ref_counted_singleton.html" title="Thread-safe singleton which comes into existence on first use.">RefCountedSingleton</a>.  <a href="group__vf__core.html#ga9b008fe514a5b1eb71a1eb7f439da5a2">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -149,9 +164,38 @@ Functions</h2></td></tr>
 <tr class="memdesc:gadb21dbf93d1e53fa31fbbd5c69ab40f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception catcher.  <a href="#gadb21dbf93d1e53fa31fbbd5c69ab40f8"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<p>Core classes. </p>
 <p>This module provides core required functionality, and classes useful for general development. All other modules require this module.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Discuss the treatment of exceptions versus <a class="el" href="class_error.html" title="A concise error report.">Error</a> objects in the library.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Discuss the additions to <a class="el" href="_app_config_8h.html" title="Additional configuration options.">AppConfig.h</a></dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>Discuss the treatment of exceptions versus <a class="el" href="class_error.html" title="A concise error report.">Error</a> objects in the library.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Discuss the additions to AppConfig.h</dd></dl>
+<hr/><h2>Enumeration Type Documentation</h2>
+<a class="anchor" id="ga9b008fe514a5b1eb71a1eb7f439da5a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vf__core.html#ga9b008fe514a5b1eb71a1eb7f439da5a2">SingletonLifetime::Lifetime</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construction options for <a class="el" href="class_ref_counted_singleton.html" title="Thread-safe singleton which comes into existence on first use.">RefCountedSingleton</a>. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f"></a>createOnDemand</em>&nbsp;</td><td>
+<p>Singleton is created on first use and destroyed when the last reference is removed. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3"></a>createOnDemandOnce</em>&nbsp;</td><td>
+<p>Like createOnDemand, but after the Singleton is destroyed an exception will be thrown if an attempt is made to create it again. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0"></a>persistAfterCreation</em>&nbsp;</td><td>
+<p>The singleton is created on first use and persists until program exit. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="gadb21dbf93d1e53fa31fbbd5c69ab40f8"></a>
 <div class="memitem">
@@ -176,10 +220,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Exception catcher. </p>
 <p>Executes the function and catches any exception. In addition to C++ exceptions, this will also catch any platform-specific exceptions. For example, SEH (Structured Exception Handling) on Windows, or POSIX signals if they are available.</p>
 <p>If returnFromException is false then a framework specific unhandled exception handler will be called. Otherwise, this function will return true if it catches something or else false.</p>
 <p>The return value approach is useful for detecting when outside code fails (for example, a VST plugin), and disabling its future use for example.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>Remove dependence on the <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classJUCEApplication.html">JUCEApplication</a> object and remove juce_gui_basics.h from <a class="el" href="vf__core_8cpp.html" title="Add this to get the vf_core module.">vf_core.cpp</a></dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Remove dependence on the <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classJUCEApplication.html">JUCEApplication</a> object and remove juce_gui_basics.h from <a class="el" href="vf__core_8cpp.html" title="Add this to get the vf_core module.">vf_core.cpp</a></dd></dl>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The function to call.</td></tr>
+    <tr><td class="paramname">returnFromException</td><td><code>false</code> if exceptions should terminate the app.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd><code>true</code> if an exception was caught. </dd></dl>
 
 </div>
 </div>

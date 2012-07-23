@@ -28,7 +28,6 @@ var searchData=
   ['indianred',['indianred',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a5a356968d2d4f49b369afa56c0ec3f43',1,'Colours']]],
   ['indigo',['indigo',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a087ca459fcd267cdda383c5bf5ab0f0e',1,'Colours']]],
   ['infoicon',['InfoIcon',['http://www.rawmaterialsoftware.com/juce/api/classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a3a24dd7ddec3b6ec31d320aaa525e43f',1,'AlertWindow']]],
-  ['innershadow',['innerShadow',['../struct_layer_context_1_1_options.html#ad8e0f4f2a9a6343f551ee5a584916105',1,'LayerContext::Options']]],
   ['input',['input',['http://www.rawmaterialsoftware.com/juce/api/classAudioFormatReader.html#a81797ede6915ec762408d8ed23ec4d10',1,'AudioFormatReader']]],
   ['inputchannels',['inputChannels',['http://www.rawmaterialsoftware.com/juce/api/structAudioDeviceManager_1_1AudioDeviceSetup.html#a9365767334c0819bb45754100c743fae',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['inputdevicename',['inputDeviceName',['http://www.rawmaterialsoftware.com/juce/api/structAudioDeviceManager_1_1AudioDeviceSetup.html#af1c134f5280bec722facace7c9fa0f1d',1,'AudioDeviceManager::AudioDeviceSetup']]],

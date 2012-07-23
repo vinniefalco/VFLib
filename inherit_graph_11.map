@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="juce.tag$classAudioSource.html" title="AudioSource" alt="" coords="5,81,101,108"/>
+<area shape="rect" id="node3" href="$class_metronome.html" title="A metronome." alt="" coords="201,5,287,32"/>
+<area shape="rect" id="node5" href="$class_noise_audio_source.html" title="An AudioSource to produce noise." alt="" coords="179,56,309,83"/>
+<area shape="rect" id="node7" href="juce.tag$classPositionableAudioSource.html" title="PositionableAudioSource" alt="" coords="161,107,327,133"/>
+<area shape="rect" id="node13" href="$class_sample_source_1_1_audio_source_adapter.html" title="Presents a SampleSource as an AudioSource." alt="" coords="149,158,339,199"/>
+<area shape="rect" id="node9" href="$class_seeking_audio_source_1_1_positionable_audio_source_adapter.html" title="Presents a SeekingAudioSource as a PositionableAudioSource." alt="" coords="387,66,607,107"/>
+<area shape="rect" id="node11" href="$class_seeking_sample_source_1_1_positionable_audio_source_adapter.html" title="Presents a SeekingSampleSource as a PositionableAudioSourceAdapter." alt="" coords="387,131,607,173"/>
+</map>

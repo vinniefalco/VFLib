@@ -7,6 +7,7 @@ var searchData=
   ['webbrowsercomponent',['WebBrowserComponent',['http://www.rawmaterialsoftware.com/juce/api/classWebBrowserComponent.html',1,'']]],
   ['wildcardfilefilter',['WildcardFileFilter',['http://www.rawmaterialsoftware.com/juce/api/classWildcardFileFilter.html',1,'']]],
   ['windowsregistry',['WindowsRegistry',['http://www.rawmaterialsoftware.com/juce/api/classWindowsRegistry.html',1,'']]],
+  ['work',['Work',['../class_call_queue_1_1_work.html',1,'CallQueue']]],
   ['writeaccess',['WriteAccess',['../class_concurrent_state_1_1_write_access.html',1,'ConcurrentState']]],
   ['writehelper',['WriteHelper',['http://www.rawmaterialsoftware.com/juce/api/structAudioFormatWriter_1_1WriteHelper.html',1,'AudioFormatWriter']]]
 ];

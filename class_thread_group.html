@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ThreadGroup Class Reference<div class="ingroups"><a class="el" href="group__vf__concurrent.html">vf_concurrent</a></div></div>  </div>
@@ -94,62 +93,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="class_thread_group.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_ThreadGroup.h&quot;</code></p>
-
-<p>Inherited by <a class="el" href="class_global_thread_group.html">GlobalThreadGroup</a>.</p>
+<div class="dynheader">
+Inheritance diagram for ThreadGroup:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_thread_group__inherit__graph.png" border="0" usemap="#_thread_group_inherit__map" alt="Inheritance graph"/></div>
+<map name="_thread_group_inherit__map" id="_thread_group_inherit__map">
+<area shape="rect" id="node3" href="class_global_thread_group.html" title="A ThreadGroup singleton." alt="" coords="5,80,139,107"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_thread_group-members.html">List of all members.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ab63111d121fbb820579cec21e1991647"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="vf___fifo_free_store_8h.html#af194bf7bc4ef456bb50c8606dec856b0">FifoFreeStoreType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#ab63111d121fbb820579cec21e1991647">AllocatorType</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abb0424eda8038912f6eb856a7b04a2fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#abb0424eda8038912f6eb856a7b04a2fb">ThreadGroup</a> (int numberOfThreads=<a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classSystemStats.html#a2fa9257a60a26848174b2b8bd6cbb970">SystemStats::getNumCpus</a>())</td></tr>
 <tr class="memdesc:abb0424eda8038912f6eb856a7b04a2fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the specified number of threads.  <a href="#abb0424eda8038912f6eb856a7b04a2fb"></a><br/></td></tr>
-<tr class="memitem:a98a8c814753cbac4433117c50372a130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a98a8c814753cbac4433117c50372a130">~ThreadGroup</a> ()</td></tr>
+<tr class="memitem:a1d1d157cc5b04a5de1ff8bdebad4e0b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d1d157cc5b04a5de1ff8bdebad4e0b7"></a>
+<a class="el" href="class_fifo_free_store_without_t_l_s.html">AllocatorType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a1d1d157cc5b04a5de1ff8bdebad4e0b7">getAllocator</a> ()</td></tr>
+<tr class="memdesc:a1d1d157cc5b04a5de1ff8bdebad4e0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocator access. <br/></td></tr>
 <tr class="memitem:a651da20c8e21d9dcbace96564517fcba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a651da20c8e21d9dcbace96564517fcba">getNumberOfThreads</a> () const </td></tr>
 <tr class="memdesc:a651da20c8e21d9dcbace96564517fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of threads in the group.  <a href="#a651da20c8e21d9dcbace96564517fcba"></a><br/></td></tr>
-<tr class="memitem:a42ca6e29e074674e5697ab0067aeaedf"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
-<tr class="memitem:a42ca6e29e074674e5697ab0067aeaedf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a42ca6e29e074674e5697ab0067aeaedf">callf</a> (int maxThreads, Functor const &amp;f)</td></tr>
-<tr class="memdesc:a42ca6e29e074674e5697ab0067aeaedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a functor on multiple threads.  <a href="#a42ca6e29e074674e5697ab0067aeaedf"></a><br/></td></tr>
-<tr class="memitem:a1d1d157cc5b04a5de1ff8bdebad4e0b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_thread_group.html#ab63111d121fbb820579cec21e1991647">AllocatorType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a1d1d157cc5b04a5de1ff8bdebad4e0b7">getAllocator</a> ()</td></tr>
-<tr class="memdesc:a1d1d157cc5b04a5de1ff8bdebad4e0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocator access.  <a href="#a1d1d157cc5b04a5de1ff8bdebad4e0b7"></a><br/></td></tr>
-<tr class="memitem:a01702b2ba20bb459700bdc3a9d995e0c"><td class="memTemplParams" colspan="2">template&lt;class Fn &gt; </td></tr>
-<tr class="memitem:a01702b2ba20bb459700bdc3a9d995e0c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a01702b2ba20bb459700bdc3a9d995e0c">call</a> (int maxThreads, Fn f)</td></tr>
-<tr class="memitem:af52633d422075c20dea22f1245f7190b"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 &gt; </td></tr>
-<tr class="memitem:af52633d422075c20dea22f1245f7190b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#af52633d422075c20dea22f1245f7190b">call</a> (int maxThreads, Fn f, const T1 &amp;t1)</td></tr>
-<tr class="memitem:aa6b1c96063dc5f16fd84f879c3c5c06b"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:aa6b1c96063dc5f16fd84f879c3c5c06b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#aa6b1c96063dc5f16fd84f879c3c5c06b">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2)</td></tr>
-<tr class="memitem:a33b42396853886947c64f0aa5c92ce88"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 &gt; </td></tr>
-<tr class="memitem:a33b42396853886947c64f0aa5c92ce88"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a33b42396853886947c64f0aa5c92ce88">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3)</td></tr>
-<tr class="memitem:a1a54e3b63fedb67916c39a8186569ff5"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 &gt; </td></tr>
-<tr class="memitem:a1a54e3b63fedb67916c39a8186569ff5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a1a54e3b63fedb67916c39a8186569ff5">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3, const T4 &amp;t4)</td></tr>
-<tr class="memitem:acc6fb8aa4fcec43cabaf70d92f783646"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 &gt; </td></tr>
-<tr class="memitem:acc6fb8aa4fcec43cabaf70d92f783646"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#acc6fb8aa4fcec43cabaf70d92f783646">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3, const T4 &amp;t4, const T5 &amp;t5)</td></tr>
-<tr class="memitem:a91a4c127c800422d0cd355bceaf5c3c2"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 &gt; </td></tr>
-<tr class="memitem:a91a4c127c800422d0cd355bceaf5c3c2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a91a4c127c800422d0cd355bceaf5c3c2">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3, const T4 &amp;t4, const T5 &amp;t5, const T6 &amp;t6)</td></tr>
-<tr class="memitem:adb5280d8a78bae2d8872cf597106fce7"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 , typename T7 &gt; </td></tr>
-<tr class="memitem:adb5280d8a78bae2d8872cf597106fce7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#adb5280d8a78bae2d8872cf597106fce7">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3, const T4 &amp;t4, const T5 &amp;t5, const T6 &amp;t6, const T7 &amp;t7)</td></tr>
-<tr class="memitem:af33707a0640d9b810434ca23416525e3"><td class="memTemplParams" colspan="2">template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 , typename T7 , typename T8 &gt; </td></tr>
-<tr class="memitem:af33707a0640d9b810434ca23416525e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#af33707a0640d9b810434ca23416525e3">call</a> (int maxThreads, Fn f, const T1 &amp;t1, const T2 &amp;t2, const T3 &amp;t3, const T4 &amp;t4, const T5 &amp;t5, const T6 &amp;t6, const T7 &amp;t7, const T8 &amp;t8)</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a1bc1b4dcd872694c6411e4bd058b9466"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
+<tr class="memitem:a1bc1b4dcd872694c6411e4bd058b9466"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_thread_group.html#a1bc1b4dcd872694c6411e4bd058b9466">callf</a> (int maxThreads, Functor f)</td></tr>
+<tr class="memdesc:a1bc1b4dcd872694c6411e4bd058b9466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a functor on multiple threads.  <a href="#a1bc1b4dcd872694c6411e4bd058b9466"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_parallel_for.html" title="Parallel for loop.">ParallelFor</a> </dd></dl>
-</div><hr/><h2>Member Typedef Documentation</h2>
-<a class="anchor" id="ab63111d121fbb820579cec21e1991647"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="vf___fifo_free_store_8h.html#af194bf7bc4ef456bb50c8606dec856b0">FifoFreeStoreType</a> <a class="el" href="class_thread_group.html#ab63111d121fbb820579cec21e1991647">ThreadGroup::AllocatorType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p>A group of threads for parallelizing tasks. </p>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_parallel_for.html" title="Parallel for loop.">ParallelFor</a> </dd></dl>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abb0424eda8038912f6eb856a7b04a2fb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -171,27 +142,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates the specified number of threads. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">numberOfThreads</td><td>The number of threads in the group. This must be greater than zero. If this parameter is omitted, one thread is created per available CPU. </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="a98a8c814753cbac4433117c50372a130"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ThreadGroup::~ThreadGroup </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -208,11 +166,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determine the number of threads in the group. </p>
 <dl class="section return"><dt>Returns:</dt><dd>The number of threads in the group. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a42ca6e29e074674e5697ab0067aeaedf"></a>
+<a class="anchor" id="a1bc1b4dcd872694c6411e4bd058b9466"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -227,7 +187,7 @@ template&lt;class Functor &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Functor const &amp;&#160;</td>
+          <td class="paramtype">Functor&#160;</td>
           <td class="paramname"><em>f</em>&#160;</td>
         </tr>
         <tr>
@@ -237,502 +197,22 @@ template&lt;class Functor &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Calls a functor on multiple threads. </p>
 <p>The specified functor is executed on some or all available threads at once. A call is always guaranteed to execute.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">maxThreads</td><td>The maximum number of threads to use, or -1 for all. </td></tr>
+    <tr><td class="paramname">maxThreads</td><td>The maximum number of threads to use, or -1 for all.</td></tr>
+    <tr><td class="paramname">f</td><td>The functor to call for each thread. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a1d1d157cc5b04a5de1ff8bdebad4e0b7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_thread_group.html#ab63111d121fbb820579cec21e1991647">AllocatorType</a>&amp; ThreadGroup::getAllocator </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a01702b2ba20bb459700bdc3a9d995e0c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af52633d422075c20dea22f1245f7190b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa6b1c96063dc5f16fd84f879c3c5c06b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a33b42396853886947c64f0aa5c92ce88"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1a54e3b63fedb67916c39a8186569ff5"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T4 &amp;&#160;</td>
-          <td class="paramname"><em>t4</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acc6fb8aa4fcec43cabaf70d92f783646"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T4 &amp;&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T5 &amp;&#160;</td>
-          <td class="paramname"><em>t5</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a91a4c127c800422d0cd355bceaf5c3c2"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T4 &amp;&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T5 &amp;&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T6 &amp;&#160;</td>
-          <td class="paramname"><em>t6</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adb5280d8a78bae2d8872cf597106fce7"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 , typename T7 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T4 &amp;&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T5 &amp;&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T6 &amp;&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T7 &amp;&#160;</td>
-          <td class="paramname"><em>t7</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af33707a0640d9b810434ca23416525e3"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , typename T1 , typename T2 , typename T3 , typename T4 , typename T5 , typename T6 , typename T7 , typename T8 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void ThreadGroup::call </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxThreads</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T2 &amp;&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T3 &amp;&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T4 &amp;&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T5 &amp;&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T6 &amp;&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T7 &amp;&#160;</td>
-          <td class="paramname"><em>t7</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T8 &amp;&#160;</td>
-          <td class="paramname"><em>t8</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="vf___thread_group_8h.html">vf_ThreadGroup.h</a></li>
-<li><a class="el" href="vf___thread_group_8cpp.html">vf_ThreadGroup.cpp</a></li>
+<li>vf_ThreadGroup.h</li>
+<li>vf_ThreadGroup.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

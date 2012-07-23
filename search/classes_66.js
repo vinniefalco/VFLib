@@ -1,7 +1,6 @@
 var searchData=
 [
   ['fakemousemovegenerator',['FakeMouseMoveGenerator',['http://www.rawmaterialsoftware.com/juce/api/structFakeMouseMoveGenerator.html',1,'']]],
-  ['fast_5fpink_5fnoise_5ffilter',['fast_pink_noise_filter',['../structfast__pink__noise__filter.html',1,'']]],
   ['fifofreestorewithouttls',['FifoFreeStoreWithoutTLS',['../class_fifo_free_store_without_t_l_s.html',1,'']]],
   ['fifofreestorewithtls',['FifoFreeStoreWithTLS',['../class_fifo_free_store_with_t_l_s.html',1,'']]],
   ['file',['File',['http://www.rawmaterialsoftware.com/juce/api/classFile.html',1,'']]],
@@ -24,18 +23,12 @@ var searchData=
   ['filesearchpath',['FileSearchPath',['http://www.rawmaterialsoftware.com/juce/api/classFileSearchPath.html',1,'']]],
   ['filesearchpathlistcomponent',['FileSearchPathListComponent',['http://www.rawmaterialsoftware.com/juce/api/classFileSearchPathListComponent.html',1,'']]],
   ['filetreecomponent',['FileTreeComponent',['http://www.rawmaterialsoftware.com/juce/api/classFileTreeComponent.html',1,'']]],
-  ['fill',['Fill',['../struct_layer_context_1_1_options_1_1_fill.html',1,'LayerContext::Options']]],
   ['fillandstrokestate',['FillAndStrokeState',['http://www.rawmaterialsoftware.com/juce/api/classDrawableShape_1_1FillAndStrokeState.html',1,'DrawableShape']]],
-  ['fillmaskrgb',['FillMaskRGB',['../struct_pixels_1_1_fill_mask_r_g_b.html',1,'Pixels']]],
   ['filltype',['FillType',['http://www.rawmaterialsoftware.com/juce/api/classFillType.html',1,'']]],
-  ['fixed_5fpool',['fixed_pool',['../classfixed__pool.html',1,'']]],
-  ['fixed_5fpool_3c_20node_5ft_20_3e',['fixed_pool&lt; node_t &gt;',['../classfixed__pool.html',1,'']]],
   ['flacaudioformat',['FlacAudioFormat',['http://www.rawmaterialsoftware.com/juce/api/classFlacAudioFormat.html',1,'']]],
   ['flag',['Flag',['../struct_f_p_u_flags_1_1_flag.html',1,'FPUFlags']]],
   ['focuschangelistener',['FocusChangeListener',['http://www.rawmaterialsoftware.com/juce/api/classFocusChangeListener.html',1,'']]],
   ['font',['Font',['http://www.rawmaterialsoftware.com/juce/api/classFont.html',1,'']]],
   ['fpuflags',['FPUFlags',['../class_f_p_u_flags.html',1,'']]],
-  ['freetypefaces',['FreeTypeFaces',['../class_free_type_faces.html',1,'']]],
-  ['function_3c_20r_28t1_20t1_29_2c_20bytes_20_3e',['Function&lt; R(T1 t1), Bytes &gt;',['../class_function_3_01_r_07_t1_01t1_08_00_01_bytes_01_4.html',1,'']]],
-  ['function_3c_20r_28void_29_2c_20bytes_20_3e',['Function&lt; R(void), Bytes &gt;',['../class_function_3_01_r_07void_08_00_01_bytes_01_4.html',1,'']]]
+  ['freetypefaces',['FreeTypeFaces',['../class_free_type_faces.html',1,'']]]
 ];

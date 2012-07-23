@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s_5fstorage',['s_storage',['../class_static_1_1_storage.html#a95cfb01ef77b10ce1692e9389574c52e',1,'Static::Storage']]],
   ['saddlebrown',['saddlebrown',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a753a5e165485d3bb8e27db7296627a3d',1,'Colours']]],
   ['salmon',['salmon',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#af378ac76e1537fce6687df4ba4cdf02a',1,'Colours']]],
   ['samplerate',['sampleRate',['http://www.rawmaterialsoftware.com/juce/api/structAudioDeviceManager_1_1AudioDeviceSetup.html#afa56530d7a661131d8891f7b9874fcd1',1,'AudioDeviceManager::AudioDeviceSetup::sampleRate()'],['http://www.rawmaterialsoftware.com/juce/api/classAudioFormatReader.html#aafcd07b3ac08e83c019621cd8cd0c7c5',1,'AudioFormatReader::sampleRate()'],['http://www.rawmaterialsoftware.com/juce/api/classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2',1,'AudioFormatWriter::sampleRate()']]],
@@ -34,7 +33,6 @@ var searchData=
   ['sienna',['sienna',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#aef8c3caf18a816ecc8180ca9d639ab3c',1,'Colours']]],
   ['silver',['silver',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#ac171c2c4d749ed079e56de4fe35ba2a3',1,'Colours']]],
   ['singlechannel',['SingleChannel',['http://www.rawmaterialsoftware.com/juce/api/classImage.html#ab47b5746d2df286ae6f8da6af5463c01ab8bd2ed5df42fd15bd349195d81b64b4',1,'Image']]],
-  ['size',['size',['../struct_layer_context_1_1_options_1_1_drop_shadow.html#acb26376b5bab06abb5bdfacac9bf6887',1,'LayerContext::Options::DropShadow::size()'],['../struct_layer_context_1_1_options_1_1_inner_shadow.html#ac0a008916c518e8b4cc38a2b16e24f40',1,'LayerContext::Options::InnerShadow::size()']]],
   ['skew',['skew',['http://www.rawmaterialsoftware.com/juce/api/structSlider_1_1Ids.html#a49dbf6c5cf39305558bf3d44360fd2f6',1,'Slider::Ids']]],
   ['skyblue',['skyblue',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a1c4ad4071850e2f41643f5754052769b',1,'Colours']]],
   ['slateblue',['slateblue',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#acfce5d955cbea8e623306c40608e4157',1,'Colours']]],
@@ -55,7 +53,6 @@ var searchData=
   ['sourcenodeid',['sourceNodeId',['http://www.rawmaterialsoftware.com/juce/api/structAudioProcessorGraph_1_1Connection.html#aeffe3c3426cd49761f8dbf0e01b8be97',1,'AudioProcessorGraph::Connection']]],
   ['spacekey',['spaceKey',['http://www.rawmaterialsoftware.com/juce/api/classKeyPress.html#a60f802af5aff465d7ff910009608e343',1,'KeyPress']]],
   ['spacerid',['spacerId',['http://www.rawmaterialsoftware.com/juce/api/classToolbarItemFactory.html#a415ffaa38b6306574ad6777ccf6d2ac4ac286d65323d1f29475107f6836416631',1,'ToolbarItemFactory']]],
-  ['spread',['spread',['../struct_layer_context_1_1_options_1_1_drop_shadow.html#af61ac03aba536134374fac342c22a724',1,'LayerContext::Options::DropShadow']]],
   ['springgreen',['springgreen',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a3e179fc221c9922880646454e451562b',1,'Colours']]],
   ['square',['square',['http://www.rawmaterialsoftware.com/juce/api/classPathStrokeType.html#a9050e37133047ab699b44b704e4f96cfabed6afb274b3942d54f510ba65281cc8',1,'PathStrokeType']]],
   ['startnewsubpath',['startNewSubPath',['http://www.rawmaterialsoftware.com/juce/api/classPath_1_1Iterator.html#a62b1a329e3fdbcbdad78bb6c90c7bcfdaebfff5dcac5415d6c7274ad2ef633215',1,'Path::Iterator']]],

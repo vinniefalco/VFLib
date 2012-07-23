@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; MidiDevices \&gt;" alt="" coords="66,81,208,122"/>
+<area shape="rect" id="node4" href="$class_singleton_lifetime.html" title="SingletonLifetime" alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node6" href="$class_performed_at_exit.html" title="Perform an action at program exit." alt="" coords="151,5,268,32"/>
+</map>

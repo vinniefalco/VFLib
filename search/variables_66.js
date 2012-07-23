@@ -27,7 +27,7 @@ var searchData=
   ['files',['files',['http://www.rawmaterialsoftware.com/juce/api/structComponentPeer_1_1DragInfo.html#addae08e58daceff162d5003254f393ed',1,'ComponentPeer::DragInfo']]],
   ['filesize',['fileSize',['http://www.rawmaterialsoftware.com/juce/api/structDirectoryContentsList_1_1FileInfo.html#a0ef892081704ac1b7d4de84854b60a3c',1,'DirectoryContentsList::FileInfo']]],
   ['filetime',['fileTime',['http://www.rawmaterialsoftware.com/juce/api/structZipFile_1_1ZipEntry.html#ae4ba65278656cea2fdf56636fa0c8476',1,'ZipFile::ZipEntry']]],
-  ['fill',['fill',['http://www.rawmaterialsoftware.com/juce/api/classDrawableShape_1_1FillAndStrokeState.html#a1e913c8ccb288008352c13e904e6eca0',1,'DrawableShape::FillAndStrokeState::fill()'],['http://www.rawmaterialsoftware.com/juce/api/classDrawableShape_1_1RelativeFillType.html#a0026d1d9aa93d0ff94371b0d88dfd9e4',1,'DrawableShape::RelativeFillType::fill()'],['../struct_layer_context_1_1_options.html#aeaa9e2396280b78c2d97a26f7168dc05',1,'LayerContext::Options::fill()']]],
+  ['fill',['fill',['http://www.rawmaterialsoftware.com/juce/api/classDrawableShape_1_1FillAndStrokeState.html#a1e913c8ccb288008352c13e904e6eca0',1,'DrawableShape::FillAndStrokeState::fill()'],['http://www.rawmaterialsoftware.com/juce/api/classDrawableShape_1_1RelativeFillType.html#a0026d1d9aa93d0ff94371b0d88dfd9e4',1,'DrawableShape::RelativeFillType::fill()']]],
   ['filldestination',['fillDestination',['http://www.rawmaterialsoftware.com/juce/api/classRectanglePlacement.html#aa57d215a0f6418947d8b45ba039c842caace05e9cfe83bb3dbbef781d3622cd62',1,'RectanglePlacement']]],
   ['filltype',['fillType',['http://www.rawmaterialsoftware.com/juce/api/structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a36435de04c6937319a263ddbf37d3f2c',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
   ['finddirectories',['findDirectories',['http://www.rawmaterialsoftware.com/juce/api/classFile.html#a2e3d1ed8a9022434f3ddb7d34b24198ca35b223e26e0f30ee49e320b60af41965',1,'File']]],
@@ -71,7 +71,7 @@ var searchData=
   ['fuchsia',['fuchsia',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a612e521b7168865f48fc7d1612658a79',1,'Colours']]],
   ['fullheightproportion',['fullHeightProportion',['http://www.rawmaterialsoftware.com/juce/api/classOpenGLTextureFromImage.html#a6ed4364b74838dd77850d37a86aa58b6',1,'OpenGLTextureFromImage']]],
   ['fullwidthproportion',['fullWidthProportion',['http://www.rawmaterialsoftware.com/juce/api/classOpenGLTextureFromImage.html#aa4ed56bf93012c120ed64c2101ab1fe0',1,'OpenGLTextureFromImage']]],
-  ['fullyopaque',['fullyOpaque',['../class_ui_1_1_facade_1_1_base.html#afc35d52c87d9cb8e421bff53570b5290',1,'Ui::Facade::Base::fullyOpaque()'],['../class_transparent_border.html#a569d58c97e3b086ac7e7d49e63c5f347',1,'TransparentBorder::fullyOpaque()']]],
-  ['fullytransparent',['fullyTransparent',['../class_ui_1_1_facade_1_1_base.html#a5c3b33cbcaee14bd0aa3a47af6886361',1,'Ui::Facade::Base::fullyTransparent()'],['../class_transparent_border.html#ad0123f7291253cae5aa2408ad112798c',1,'TransparentBorder::fullyTransparent()']]],
+  ['fullyopaque',['fullyOpaque',['../class_transparent_border.html#a569d58c97e3b086ac7e7d49e63c5f347',1,'TransparentBorder']]],
+  ['fullytransparent',['fullyTransparent',['../class_transparent_border.html#ad0123f7291253cae5aa2408ad112798c',1,'TransparentBorder']]],
   ['functiontype',['functionType',['http://www.rawmaterialsoftware.com/juce/api/classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85ba4af6ecec6a8598073b3f70f7f1c10eb5',1,'Expression']]]
 ];

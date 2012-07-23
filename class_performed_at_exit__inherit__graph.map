@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_ref_counted_singleton.html" title="Thread&#45;safe singleton which comes into existence on first use." alt="" coords="217,5,359,46"/>
+<area shape="rect" id="node5" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalFifoFreeStore\l\&lt; Tag \&gt; \&gt;" alt="" coords="213,71,363,127"/>
+<area shape="rect" id="node9" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalPagedFreeStore \&gt;" alt="" coords="199,151,377,193"/>
+<area shape="rect" id="node13" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalThreadGroup \&gt;" alt="" coords="209,217,367,258"/>
+<area shape="rect" id="node17" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; OncePerSecond::TimerSingleton \&gt;" alt="" coords="171,282,405,323"/>
+<area shape="rect" id="node7" href="$class_global_fifo_free_store.html" title="A FifoFreeStoreType singleton." alt="" coords="462,78,599,119"/>
+<area shape="rect" id="node11" href="$class_global_paged_free_store.html" title="A PagedFreeStore singleton." alt="" coords="454,159,607,185"/>
+<area shape="rect" id="node15" href="$class_global_thread_group.html" title="A ThreadGroup singleton." alt="" coords="464,224,597,251"/>
+</map>

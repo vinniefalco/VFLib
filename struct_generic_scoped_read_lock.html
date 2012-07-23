@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,79 +82,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">GenericScopedReadLock&lt; LockType &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__vf__concurrent.html">vf_concurrent</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Scoped read lock for <a class="el" href="class_read_write_mutex.html" title="Multiple consumer, single producer (MCSP) synchronization primitive.">ReadWriteMutex</a>.  
-</p>
+<p>Scoped read lock for <a class="el" href="class_read_write_mutex.html" title="Multiple consumer, single producer (MCSP) synchronization.">ReadWriteMutex</a>.  
+ <a href="struct_generic_scoped_read_lock.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_ReadWriteMutex.h&quot;</code></p>
 
-<p>Inherits <a class="el" href="class_uncopyable.html">Uncopyable</a>.</p>
+<p>Inherits Uncopyable.</p>
 
 <p><a href="struct_generic_scoped_read_lock-members.html">List of all members.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a73900d384748034b197623d41f398184"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_generic_scoped_read_lock.html#a73900d384748034b197623d41f398184">GenericScopedReadLock</a> (LockType const &amp;lock) noexcept</td></tr>
-<tr class="memitem:ac55662c8e76e2302fd91e3c42d05bcc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_generic_scoped_read_lock.html#ac55662c8e76e2302fd91e3c42d05bcc7">~GenericScopedReadLock</a> () noexcept</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_uncopyable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_uncopyable')"><img src="closed.png" alt="-"/>&nbsp;Protected Member Functions inherited from <a class="el" href="class_uncopyable.html">Uncopyable</a></td></tr>
-<tr class="memitem:a6d493b6c92f001b8f136c2ae07161ff4 inherit pro_methods_class_uncopyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uncopyable.html#a6d493b6c92f001b8f136c2ae07161ff4">Uncopyable</a> ()</td></tr>
-<tr class="memitem:a1d888f1e1e9574d674bddb5a2a648ed1 inherit pro_methods_class_uncopyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uncopyable.html#a1d888f1e1e9574d674bddb5a2a648ed1">~Uncopyable</a> ()</td></tr>
-</table>
-<hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a73900d384748034b197623d41f398184"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class LockType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_generic_scoped_read_lock.html">GenericScopedReadLock</a>&lt; LockType &gt;::<a class="el" href="struct_generic_scoped_read_lock.html">GenericScopedReadLock</a> </td>
-          <td>(</td>
-          <td class="paramtype">LockType const &amp;&#160;</td>
-          <td class="paramname"><em>lock</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class LockType&gt;<br/>
+struct GenericScopedReadLock&lt; LockType &gt;</h3>
 
-</div>
-</div>
-<a class="anchor" id="ac55662c8e76e2302fd91e3c42d05bcc7"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class LockType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_generic_scoped_read_lock.html">GenericScopedReadLock</a>&lt; LockType &gt;::~<a class="el" href="struct_generic_scoped_read_lock.html">GenericScopedReadLock</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="vf___read_write_mutex_8h.html">vf_ReadWriteMutex.h</a></li>
+<p>Scoped read lock for <a class="el" href="class_read_write_mutex.html" title="Multiple consumer, single producer (MCSP) synchronization.">ReadWriteMutex</a>. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>vf_ReadWriteMutex.h</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

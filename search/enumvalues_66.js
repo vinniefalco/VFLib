@@ -6,6 +6,5 @@ var searchData=
   ['filenameinvalid',['fileNameInvalid',['../class_error.html#ab5980e13b879db253df802b0950d1708a7cbc27e963d310800cfd123d0fd94eb3',1,'Error']]],
   ['filenoperm',['fileNoPerm',['../class_error.html#ab5980e13b879db253df802b0950d1708ab1b91ab18d69b092c92dfabb7881b563',1,'Error']]],
   ['filenospace',['fileNoSpace',['../class_error.html#ab5980e13b879db253df802b0950d1708a0cba62188963a3196eb689e1cb313b7a',1,'Error']]],
-  ['filenotfound',['fileNotFound',['../class_error.html#ab5980e13b879db253df802b0950d1708a57839da9bba440e4050e0c69dd9ef89e',1,'Error']]],
-  ['forward',['forward',['../class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204ba331310d00fe7baa0fb15b60b7e38aed6',1,'SeekingSampleSource']]]
+  ['filenotfound',['fileNotFound',['../class_error.html#ab5980e13b879db253df802b0950d1708a57839da9bba440e4050e0c69dd9ef89e',1,'Error']]]
 ];

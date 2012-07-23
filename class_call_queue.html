@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,72 +96,58 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="class_call_queue.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_CallQueue.h&quot;</code></p>
-
-<p>Inherited by <a class="el" href="class_gui_call_queue.html">GuiCallQueue</a>, <a class="el" href="class_manual_call_queue.html">ManualCallQueue</a>, and <a class="el" href="class_thread_with_call_queue.html">ThreadWithCallQueue</a>.</p>
+<div class="dynheader">
+Inheritance diagram for CallQueue:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_call_queue__inherit__graph.png" border="0" usemap="#_call_queue_inherit__map" alt="Inheritance graph"/></div>
+<map name="_call_queue_inherit__map" id="_call_queue_inherit__map">
+<area shape="rect" id="node3" href="class_gui_call_queue.html" title="A CallQueue handled by the JUCE message thread (gui)." alt="" coords="11,80,113,107"/><area shape="rect" id="node7" href="class_manual_call_queue.html" title="A CallQueue that requires periodic manual synchronization." alt="" coords="138,80,261,107"/><area shape="rect" id="node9" href="class_thread_with_call_queue.html" title="An InterruptibleThread with a CallQueue." alt="" coords="286,80,433,107"/><area shape="rect" id="node5" href="class_message_thread.html" title="A GuiCallQueue singleton for the message thread." alt="" coords="5,155,120,181"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_call_queue-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue_1_1_call.html">Call</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue_1_1_work.html">Work</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract nullary functor in a <a class="el" href="class_call_queue.html">CallQueue</a>.  <a href="class_call_queue_1_1_work.html#details">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab9493c093bea81bb7c5d8aae367b7957"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="vf___fifo_free_store_8h.html#af194bf7bc4ef456bb50c8606dec856b0">FifoFreeStoreType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#ab9493c093bea81bb7c5d8aae367b7957">AllocatorType</a></td></tr>
+<tr class="memitem:ab9493c093bea81bb7c5d8aae367b7957"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9493c093bea81bb7c5d8aae367b7957"></a>
+typedef <a class="el" href="group__vf__concurrent.html#gaf194bf7bc4ef456bb50c8606dec856b0">FifoFreeStoreType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#ab9493c093bea81bb7c5d8aae367b7957">AllocatorType</a></td></tr>
+<tr class="memdesc:ab9493c093bea81bb7c5d8aae367b7957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of allocator to use. <br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a89de47524d62877f2198a58d78d1b0ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a89de47524d62877f2198a58d78d1b0ed">CallQueue</a> (<a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classString.html">String</a> name)</td></tr>
+<tr class="memdesc:a89de47524d62877f2198a58d78d1b0ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>.  <a href="#a89de47524d62877f2198a58d78d1b0ed"></a><br/></td></tr>
 <tr class="memitem:a243ab6a2217eb227bf4b6050447ead01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a243ab6a2217eb227bf4b6050447ead01">~CallQueue</a> ()</td></tr>
+<tr class="memdesc:a243ab6a2217eb227bf4b6050447ead01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>.  <a href="#a243ab6a2217eb227bf4b6050447ead01"></a><br/></td></tr>
 <tr class="memitem:aeb35530fa2af19554d407028bdb18621"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:aeb35530fa2af19554d407028bdb18621"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#aeb35530fa2af19554d407028bdb18621">callf</a> (Functor const &amp;f)</td></tr>
 <tr class="memdesc:aeb35530fa2af19554d407028bdb18621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a functor and possibly synchronize.  <a href="#aeb35530fa2af19554d407028bdb18621"></a><br/></td></tr>
-<tr class="memitem:a7cbce7a131504706ba6c36bcab846f87"><td class="memTemplParams" colspan="2">template&lt;class Fn &gt; </td></tr>
-<tr class="memitem:a7cbce7a131504706ba6c36bcab846f87"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87">call</a> (Fn f)</td></tr>
-<tr class="memdesc:a7cbce7a131504706ba6c36bcab846f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function call and possibly synchronize.  <a href="#a7cbce7a131504706ba6c36bcab846f87"></a><br/></td></tr>
-<tr class="memitem:acd08c2bec32932fc8a0030768a8cf7b1"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 &gt; </td></tr>
-<tr class="memitem:acd08c2bec32932fc8a0030768a8cf7b1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#acd08c2bec32932fc8a0030768a8cf7b1">call</a> (Fn f, T1 t1)</td></tr>
-<tr class="memitem:aade02c79605c32a6bd2ca9185cc18a37"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 &gt; </td></tr>
-<tr class="memitem:aade02c79605c32a6bd2ca9185cc18a37"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#aade02c79605c32a6bd2ca9185cc18a37">call</a> (Fn f, T1 t1, T2 t2)</td></tr>
-<tr class="memitem:a05874e60e41283381c9ee1e80b309a9c"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 &gt; </td></tr>
-<tr class="memitem:a05874e60e41283381c9ee1e80b309a9c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a05874e60e41283381c9ee1e80b309a9c">call</a> (Fn f, T1 t1, T2 t2, T3 t3)</td></tr>
-<tr class="memitem:a020a5b82921828a4d4fab42e769d352e"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 &gt; </td></tr>
-<tr class="memitem:a020a5b82921828a4d4fab42e769d352e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a020a5b82921828a4d4fab42e769d352e">call</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4)</td></tr>
-<tr class="memitem:a69465f7eba8cb7da0d602adbdd369b63"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 &gt; </td></tr>
-<tr class="memitem:a69465f7eba8cb7da0d602adbdd369b63"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a69465f7eba8cb7da0d602adbdd369b63">call</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5)</td></tr>
-<tr class="memitem:ab5e2d64b4e462049104ebc6f84701b6d"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 &gt; </td></tr>
-<tr class="memitem:ab5e2d64b4e462049104ebc6f84701b6d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#ab5e2d64b4e462049104ebc6f84701b6d">call</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6)</td></tr>
-<tr class="memitem:afa46dd1c32b6a887e8d278be9fc97baa"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 &gt; </td></tr>
-<tr class="memitem:afa46dd1c32b6a887e8d278be9fc97baa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#afa46dd1c32b6a887e8d278be9fc97baa">call</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6, T7 t7)</td></tr>
-<tr class="memitem:a61968ed9edced2b7bd71c1aad65586a3"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 , class T8 &gt; </td></tr>
-<tr class="memitem:a61968ed9edced2b7bd71c1aad65586a3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a61968ed9edced2b7bd71c1aad65586a3">call</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6, T7 t7, T8 t8)</td></tr>
 <tr class="memitem:a0f8328270c5957864a041e2cfc8045ad"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:a0f8328270c5957864a041e2cfc8045ad"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a0f8328270c5957864a041e2cfc8045ad">queuef</a> (Functor f)</td></tr>
 <tr class="memdesc:a0f8328270c5957864a041e2cfc8045ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a functor without synchronizing.  <a href="#a0f8328270c5957864a041e2cfc8045ad"></a><br/></td></tr>
+<tr class="memitem:a8a0830d21ece4b03d3fec8573127ed9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a0830d21ece4b03d3fec8573127ed9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a8a0830d21ece4b03d3fec8573127ed9a">callp</a> (<a class="el" href="class_call_queue_1_1_work.html">Work</a> *c)</td></tr>
+<tr class="memdesc:a8a0830d21ece4b03d3fec8573127ed9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a raw call. <br/></td></tr>
+<tr class="memitem:a35890339497d3ff7e2b2d5a4c41fea3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a35890339497d3ff7e2b2d5a4c41fea3f">queuep</a> (<a class="el" href="class_call_queue_1_1_work.html">Work</a> *c)</td></tr>
+<tr class="memdesc:a35890339497d3ff7e2b2d5a4c41fea3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue a raw call.  <a href="#a35890339497d3ff7e2b2d5a4c41fea3f"></a><br/></td></tr>
+<tr class="memitem:a35e200b282e06ae17ac052a815195eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_call_queue.html#ab9493c093bea81bb7c5d8aae367b7957">AllocatorType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a35e200b282e06ae17ac052a815195eb7">getAllocator</a> ()</td></tr>
+<tr class="memdesc:a35e200b282e06ae17ac052a815195eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the allocator.  <a href="#a35e200b282e06ae17ac052a815195eb7"></a><br/></td></tr>
+<tr class="memitem:aaa82bf4b31dd6284e07a2103dc8e76f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#aaa82bf4b31dd6284e07a2103dc8e76f3">isAssociatedWithCurrentThread</a> () const </td></tr>
+<tr class="memdesc:aaa82bf4b31dd6284e07a2103dc8e76f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">See if the caller is on the association thread.  <a href="#aaa82bf4b31dd6284e07a2103dc8e76f3"></a><br/></td></tr>
+<tr class="memitem:a2baa26800f8f0edebf428d79cd04352a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a2baa26800f8f0edebf428d79cd04352a">isBeingSynchronized</a> () const </td></tr>
+<tr class="memdesc:a2baa26800f8f0edebf428d79cd04352a"><td class="mdescLeft">&#160;</td><td class="mdescRight">See if the queue is being synchronized.  <a href="#a2baa26800f8f0edebf428d79cd04352a"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a7cbce7a131504706ba6c36bcab846f87"><td class="memTemplParams" colspan="2">template&lt;class Fn &gt; </td></tr>
+<tr class="memitem:a7cbce7a131504706ba6c36bcab846f87"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87">call</a> (Fn f)</td></tr>
+<tr class="memdesc:a7cbce7a131504706ba6c36bcab846f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function call and possibly synchronize.  <a href="#a7cbce7a131504706ba6c36bcab846f87"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a7b7121a53b44c35b82358544a6a7cea0"><td class="memTemplParams" colspan="2">template&lt;class Fn &gt; </td></tr>
 <tr class="memitem:a7b7121a53b44c35b82358544a6a7cea0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a7b7121a53b44c35b82358544a6a7cea0">queue</a> (Fn f)</td></tr>
 <tr class="memdesc:a7b7121a53b44c35b82358544a6a7cea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function call without synchronizing.  <a href="#a7b7121a53b44c35b82358544a6a7cea0"></a><br/></td></tr>
-<tr class="memitem:ab7d9fad5220dc7bb464a67db199c3cbd"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 &gt; </td></tr>
-<tr class="memitem:ab7d9fad5220dc7bb464a67db199c3cbd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#ab7d9fad5220dc7bb464a67db199c3cbd">queue</a> (Fn f, T1 t1)</td></tr>
-<tr class="memitem:adda549258e15de964cacd34954e14405"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 &gt; </td></tr>
-<tr class="memitem:adda549258e15de964cacd34954e14405"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#adda549258e15de964cacd34954e14405">queue</a> (Fn f, T1 t1, T2 t2)</td></tr>
-<tr class="memitem:a6c9614eb7a0b5511fc817890cf39c4ff"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 &gt; </td></tr>
-<tr class="memitem:a6c9614eb7a0b5511fc817890cf39c4ff"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a6c9614eb7a0b5511fc817890cf39c4ff">queue</a> (Fn f, T1 t1, T2 t2, T3 t3)</td></tr>
-<tr class="memitem:a55bc180b8b64281a209ec42890359759"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 &gt; </td></tr>
-<tr class="memitem:a55bc180b8b64281a209ec42890359759"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a55bc180b8b64281a209ec42890359759">queue</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4)</td></tr>
-<tr class="memitem:a122d7b5241e25a1f41fe252b3b7e206c"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 &gt; </td></tr>
-<tr class="memitem:a122d7b5241e25a1f41fe252b3b7e206c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a122d7b5241e25a1f41fe252b3b7e206c">queue</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5)</td></tr>
-<tr class="memitem:a39e54fcf07f6c55a0c0cf0dae3089e06"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 &gt; </td></tr>
-<tr class="memitem:a39e54fcf07f6c55a0c0cf0dae3089e06"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a39e54fcf07f6c55a0c0cf0dae3089e06">queue</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6)</td></tr>
-<tr class="memitem:a2250994bc5bc51c16180a5e0a85217de"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 &gt; </td></tr>
-<tr class="memitem:a2250994bc5bc51c16180a5e0a85217de"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a2250994bc5bc51c16180a5e0a85217de">queue</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6, T7 t7)</td></tr>
-<tr class="memitem:ada6e21c45d96660375255d738182fbd6"><td class="memTemplParams" colspan="2">template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 , class T8 &gt; </td></tr>
-<tr class="memitem:ada6e21c45d96660375255d738182fbd6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_call_queue.html#ada6e21c45d96660375255d738182fbd6">queue</a> (Fn f, T1 t1, T2 t2, T3 t3, T4 t4, T5 t5, T6 t6, T7 t7, T8 t8)</td></tr>
-<tr class="memitem:a6137299396fe8dc15a1889846d1b88e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a6137299396fe8dc15a1889846d1b88e9">callp</a> (<a class="el" href="class_call_queue_1_1_call.html">Call</a> *c)</td></tr>
-<tr class="memitem:a0c9cd7de3ffe1755c0e12ae6c7245f5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a0c9cd7de3ffe1755c0e12ae6c7245f5c">queuep</a> (<a class="el" href="class_call_queue_1_1_call.html">Call</a> *c)</td></tr>
-<tr class="memitem:a35e200b282e06ae17ac052a815195eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_call_queue.html#ab9493c093bea81bb7c5d8aae367b7957">AllocatorType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a35e200b282e06ae17ac052a815195eb7">getAllocator</a> ()</td></tr>
-<tr class="memitem:aaa82bf4b31dd6284e07a2103dc8e76f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#aaa82bf4b31dd6284e07a2103dc8e76f3">isAssociatedWithCurrentThread</a> () const </td></tr>
-<tr class="memitem:a2baa26800f8f0edebf428d79cd04352a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a2baa26800f8f0edebf428d79cd04352a">isBeingSynchronized</a> () const </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -172,45 +158,46 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0b243598ec53b127ac0557a1be058a4c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a0b243598ec53b127ac0557a1be058a4c">signal</a> ()=0</td></tr>
 <tr class="memdesc:a0b243598ec53b127ac0557a1be058a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the queue becomes signaled.  <a href="#a0b243598ec53b127ac0557a1be058a4c"></a><br/></td></tr>
 <tr class="memitem:a171530cbaa7b1b4f4712aa940e7cd64c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_call_queue.html#a171530cbaa7b1b4f4712aa940e7cd64c">reset</a> ()=0</td></tr>
-<tr class="memdesc:a171530cbaa7b1b4f4712aa940e7cd64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the queue becomes non-signaled.  <a href="#a171530cbaa7b1b4f4712aa940e7cd64c"></a><br/></td></tr>
+<tr class="memdesc:a171530cbaa7b1b4f4712aa940e7cd64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the queue is reset.  <a href="#a171530cbaa7b1b4f4712aa940e7cd64c"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>This object is an alternative to traditional locking techniques used to implement concurrent systems. Instead of acquiring a mutex to change shared data, a functor is queued for later execution (usually on another thread). The execution of the functor applies the transformation to the shared state that was formerly performed within a lock (i.e. <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classCriticalSection.html">CriticalSection</a>).</p>
+<div class="textblock"><p>A FIFO for calling functors asynchronously. </p>
+<p>This object is an alternative to traditional locking techniques used to implement concurrent systems. Instead of acquiring a mutex to change shared data, a functor is queued for later execution (usually on another thread). The execution of the functor applies the transformation to the shared state that was formerly performed within a lock (i.e. <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classCriticalSection.html">CriticalSection</a>).</p>
 <p>For read operations on shared data, instead of acquiring a mutex and accessing the data directly, copies are made (one for each thread), and the thread accesses its copy without acquiring a lock. One thread owns the master copy of the shared state. Requests for changing shared state are made by other threads by posting functors to the master thread's <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>. The master thread notifies other threads of changes by posting functors to their respective associated <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>, using the <a class="el" href="class_listeners.html" title="A group of concurrent Listeners.">Listeners</a> interface.</p>
-<p>The purpose of the functor is to encapsulate one mutation of shared state to guarantee progress towards a consensus of the concurrent data among participating threads. Functors should execute quickly, ideally in constant time. Dynamically allocated objects of class type passed as functor parameters should, in general, be reference counted. The <a class="el" href="class_concurrent_object.html" title="A reference counted object, deleted on a separate thread.">ConcurrentObject</a> class is ideal for meeting this requirement, and has the additional benefit that the workload of deletion is performed on a separate, provided thread. This queue is not a replacement for a thread pool or job queue type system.</p>
+<p>The purpose of the functor is to encapsulate one mutation of shared state to guarantee progress towards a consensus of the concurrent data among participating threads. Functors should execute quickly, ideally in constant time. Dynamically allocated objects of class type passed as functor parameters should, in general, be reference counted. The <a class="el" href="class_concurrent_object.html" title="A reference counted object with overridable destroy behavior.">ConcurrentObject</a> class is ideal for meeting this requirement, and has the additional benefit that the workload of deletion is performed on a separate, provided thread. This queue is not a replacement for a thread pool or job queue type system.</p>
 <p>A <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> is considered signaled when one or more functors are present. Functors are executed during a call to <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a>. The operation of executing functors via the call to <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> is called synchronizing the queue. It can more generally be thought of as synchronizing multiple copies of shared data between threads.</p>
 <p>Although there is some extra work required to set up and maintain this system, the benefits are significant. Since shared data is only synchronized at well defined times, the programmer can reason and make strong statements about the correctness of the concurrent system. For example, if an <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioIODeviceCallback.html">AudioIODeviceCallback</a> synchronizes the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> only at the beginning of its execution, it is guaranteed that shared data will remain the same throughout the remainder of the function.</p>
 <p>Because shared data is accessed for reading without a lock, upper bounds on the run time performance can easily be calculated and assured. Compare this with the use of a mutex - the run time performance experiences a combinatorial explosion of possibilities depending on the complex interaction of multiple threads.</p>
 <p>Since a <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> is almost always used to invoke parameterized member functions of objects, the <a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87" title="Add a function call and possibly synchronize.">call()</a> function comes in a variety of convenient forms to make usage easy:</p>
-<div class="fragment"><div class="line">    <span class="keywordtype">void</span> func1 (<span class="keywordtype">int</span>);</div>
+<div class="fragment"><div class="line">  <span class="keywordtype">void</span> func1 (<span class="keywordtype">int</span>);</div>
 <div class="line"></div>
-<div class="line">    <span class="keyword">struct </span>Object</div>
-<div class="line">    {</div>
-<div class="line">      <span class="keywordtype">void</span> func2 (<span class="keywordtype">void</span>);</div>
-<div class="line">      <span class="keywordtype">void</span> func3 (<a class="codeRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classString.html">String</a> name);</div>
+<div class="line">  <span class="keyword">struct </span>Object</div>
+<div class="line">  {</div>
+<div class="line">    <span class="keywordtype">void</span> func2 (<span class="keywordtype">void</span>);</div>
+<div class="line">    <span class="keywordtype">void</span> func3 (<a class="codeRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classString.html">String</a> name);</div>
 <div class="line"></div>
-<div class="line">      <span class="keyword">static</span> <span class="keywordtype">void</span> func4 ();</div>
-<div class="line">    };</div>
+<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> func4 ();</div>
+<div class="line">  };</div>
 <div class="line"></div>
-<div class="line">    <a class="code" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> fifo (<span class="stringliteral">&quot;Example&quot;</span>);</div>
+<div class="line">  <a class="code" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> fifo (<span class="stringliteral">&quot;Example&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordtype">void</span> example ()</div>
-<div class="line">    {</div>
-<div class="line">      fifo.call (func1, 42);               <span class="comment">// same as: func1 (42)</span></div>
+<div class="line">  <span class="keywordtype">void</span> example ()</div>
+<div class="line">  {</div>
+<div class="line">    fifo.call (func1, 42);               <span class="comment">// same as: func1 (42)</span></div>
 <div class="line"></div>
-<div class="line">      Object* <span class="keywordtype">object</span> = <span class="keyword">new</span> Object;</div>
+<div class="line">    Object* <span class="keywordtype">object</span> = <span class="keyword">new</span> Object;</div>
 <div class="line"></div>
-<div class="line">      fifo.call (&amp;Object::func2, <span class="keywordtype">object</span>);  <span class="comment">// same as: object-&gt;func2 ()</span></div>
+<div class="line">    fifo.call (&amp;Object::func2, <span class="keywordtype">object</span>);  <span class="comment">// same as: object-&gt;func2 ()</span></div>
 <div class="line"></div>
-<div class="line">      fifo.call (&amp;Object::func3,           <span class="comment">// same as: object-&gt;funcf (&quot;Label&quot;)</span></div>
-<div class="line">                  <span class="keywordtype">object</span>,</div>
-<div class="line">                  <span class="stringliteral">&quot;Label&quot;</span>);</div>
+<div class="line">    fifo.call (&amp;Object::func3,           <span class="comment">// same as: object-&gt;funcf (&quot;Label&quot;)</span></div>
+<div class="line">                <span class="keywordtype">object</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;Label&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">      fifo.call (&amp;Object::func4);          <span class="comment">// even static members can be called.</span></div>
+<div class="line">    fifo.call (&amp;Object::func4);          <span class="comment">// even static members can be called.</span></div>
 <div class="line"></div>
-<div class="line">      fifo.callf (bind (&amp;Object::func2,    <span class="comment">// same as: object-&gt;func2 ()</span></div>
-<div class="line">                        <span class="keywordtype">object</span>));</div>
-<div class="line">    }</div>
+<div class="line">    fifo.callf (bind (&amp;Object::func2,    <span class="comment">// same as: object-&gt;func2 ()</span></div>
+<div class="line">                      <span class="keywordtype">object</span>));</div>
+<div class="line">  }</div>
 </div><!-- fragment --><dl class="section invariant"><dt>Invariant:</dt><dd>Functors can be added from any thread at any time, to any queue which is not closed.</dd>
 <dd>
 When <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> is called, functors are called and deleted.</dd>
@@ -222,22 +209,8 @@ Functors queued by the same thread always execute in the same order they were qu
 Functors are guaranteed to execute. It is an error if the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> is deleted while there are functors in it.</dd></dl>
 <p>Normally, you will not use <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> directly, but one of its subclasses instead. The <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> is one of a handful of objects that work together to implement this system of concurrent data access.</p>
 <p>For performance considerations, this implementation is wait-free for producers and mostly wait-free for consumers. It also uses a lock-free and wait-free (in the fast path) custom memory allocator.</p>
-<dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_gui_call_queue.html" title="A CallQueue handled by the Juce message thread (gui).">GuiCallQueue</a>, <a class="el" href="class_manual_call_queue.html" title="A CallQueue that requires periodic manual synchronization.">ManualCallQueue</a>, <a class="el" href="class_message_thread.html" title="A GuiCallQueue singleton for the message thread.">MessageThread</a></dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Standardize terminology: "functor" to represent the stored item. </dd></dl>
-</div><hr/><h2>Member Typedef Documentation</h2>
-<a class="anchor" id="ab9493c093bea81bb7c5d8aae367b7957"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="vf___fifo_free_store_8h.html#af194bf7bc4ef456bb50c8606dec856b0">FifoFreeStoreType</a> <a class="el" href="class_call_queue.html#ab9493c093bea81bb7c5d8aae367b7957">CallQueue::AllocatorType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_gui_call_queue.html" title="A CallQueue handled by the JUCE message thread (gui).">GuiCallQueue</a>, <a class="el" href="class_manual_call_queue.html" title="A CallQueue that requires periodic manual synchronization.">ManualCallQueue</a>, <a class="el" href="class_message_thread.html" title="A GuiCallQueue singleton for the message thread.">MessageThread</a>, <a class="el" href="class_thread_with_call_queue.html" title="An InterruptibleThread with a CallQueue.">ThreadWithCallQueue</a> </dd></dl>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a89de47524d62877f2198a58d78d1b0ed"></a>
 <div class="memitem">
 <div class="memproto">
@@ -259,6 +232,9 @@ Functors are guaranteed to execute. It is an error if the <a class="el" href="cl
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Create the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>. </p>
+<p>The queue starts out open and empty.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>A string to identify the queue during debugging. </td></tr>
@@ -280,7 +256,10 @@ Functors are guaranteed to execute. It is an error if the <a class="el" href="cl
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section invariant"><dt>Invariant:</dt><dd>Destroying a queue that contains functors is undefined. </dd></dl>
+
+<p>Destroy the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>. </p>
+<dl class="section invariant"><dt>Invariant:</dt><dd>Destroying a queue that contains functors results in undefined behavior.</dd></dl>
+<dl class="section note"><dt>Note:</dt><dd>It is customary to call <a class="el" href="class_call_queue.html#ace99f6efb1cd9e6b3e0dac80fbb15690" title="Close the queue.">close()</a> on the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a> early in the shutdown process to catch functors going into the queue late. </dd></dl>
 
 </div>
 </div>
@@ -300,6 +279,8 @@ template&lt;class Functor &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a functor and possibly synchronize. </p>
 <p>Use this when you want to perform the bind yourself.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
@@ -326,6 +307,8 @@ template&lt;class Fn &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a function call and possibly synchronize. </p>
 <p>Parameters are evaluated immediately and added to the queue as a packaged functor. If the current thread of execution is the same as the thread associated with the <a class="el" href="class_call_queue.html" title="A FIFO for calling functors asynchronously.">CallQueue</a>, <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> is called automatically. This behavior can be avoided by using <a class="el" href="class_call_queue.html#a7b7121a53b44c35b82358544a6a7cea0" title="Add a function call without synchronizing.">queue()</a> instead.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
@@ -334,399 +317,7 @@ template&lt;class Fn &gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_call_queue.html#a7b7121a53b44c35b82358544a6a7cea0" title="Add a function call without synchronizing.">queue</a></dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Provide an example of when <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> is needed in <a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87" title="Add a function call and possibly synchronize.">call()</a>. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="acd08c2bec32932fc8a0030768a8cf7b1"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aade02c79605c32a6bd2ca9185cc18a37"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a05874e60e41283381c9ee1e80b309a9c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a020a5b82921828a4d4fab42e769d352e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a69465f7eba8cb7da0d602adbdd369b63"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab5e2d64b4e462049104ebc6f84701b6d"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afa46dd1c32b6a887e8d278be9fc97baa"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T7&#160;</td>
-          <td class="paramname"><em>t7</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a61968ed9edced2b7bd71c1aad65586a3"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 , class T8 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::call </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T7&#160;</td>
-          <td class="paramname"><em>t7</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T8&#160;</td>
-          <td class="paramname"><em>t8</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Provide an example of when <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> is needed in <a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87" title="Add a function call and possibly synchronize.">call()</a>. </dd></dl>
 
 </div>
 </div>
@@ -745,6 +336,8 @@ template&lt;class Functor &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a functor without synchronizing. </p>
 <p>Use this when you want to perform the bind yourself.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
@@ -771,6 +364,8 @@ template&lt;class Fn &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a function call without synchronizing. </p>
 <p>Parameters are evaluated immediately, then the resulting functor is added to the queue. This is used to postpone the call to <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> when there would be adverse side effects to executing the function immediately. In this example, we use <a class="el" href="class_call_queue.html#a7b7121a53b44c35b82358544a6a7cea0" title="Add a function call without synchronizing.">queue()</a> instead of <a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87" title="Add a function call and possibly synchronize.">call()</a> to avoid a deadlock:</p>
 <div class="fragment"><div class="line">      <span class="keyword">struct </span>SharedState;           <span class="comment">// contains data shared between threads</span></div>
 <div class="line"></div>
@@ -787,7 +382,7 @@ template&lt;class Fn &gt; </div>
 <div class="line"></div>
 <div class="line">      <span class="keywordtype">void</span> changeState ()</div>
 <div class="line">      {</div>
-<div class="line">        <a class="code" href="class_concurrent_state.html" title="Structured access to a shared state.">ConcurrentState &lt;State&gt;::WriteAccess</a> state (sharedState);</div>
+<div class="line">        <a class="code" href="class_concurrent_state_1_1_write_access.html" title="Read/write access to a ConcurrentState.">ConcurrentState &lt;State&gt;::WriteAccess</a> state (sharedState);</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">// (read and write state)</span></div>
 <div class="line"></div>
@@ -803,398 +398,6 @@ template&lt;class Fn &gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See also:</dt><dd><a class="el" href="class_call_queue.html#a7cbce7a131504706ba6c36bcab846f87" title="Add a function call and possibly synchronize.">call</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ab7d9fad5220dc7bb464a67db199c3cbd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adda549258e15de964cacd34954e14405"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6c9614eb7a0b5511fc817890cf39c4ff"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a55bc180b8b64281a209ec42890359759"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a122d7b5241e25a1f41fe252b3b7e206c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a39e54fcf07f6c55a0c0cf0dae3089e06"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2250994bc5bc51c16180a5e0a85217de"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T7&#160;</td>
-          <td class="paramname"><em>t7</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ada6e21c45d96660375255d738182fbd6"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , class T6 , class T7 , class T8 &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::queue </td>
-          <td>(</td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T1&#160;</td>
-          <td class="paramname"><em>t1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T2&#160;</td>
-          <td class="paramname"><em>t2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T3&#160;</td>
-          <td class="paramname"><em>t3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T4&#160;</td>
-          <td class="paramname"><em>t4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T5&#160;</td>
-          <td class="paramname"><em>t5</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T6&#160;</td>
-          <td class="paramname"><em>t6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T7&#160;</td>
-          <td class="paramname"><em>t7</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T8&#160;</td>
-          <td class="paramname"><em>t8</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1218,6 +421,8 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Synchronize the queue. </p>
 <p>A synchronize operation calls all functors in the queue. If a functor causes additional functors to be added, they are eventually executed before <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> returns. Derived class call this when the queue is signaled, and optionally at any other time. Calling this function from more than one thread simultaneously is undefined.</p>
 <dl class="section return"><dt>Returns:</dt><dd>true if any functors were executed. </dd></dl>
 
@@ -1245,6 +450,8 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Close the queue. </p>
 <p>Functors may not be added after this routine is called. This is used for diagnostics, to track down spurious calls during application shutdown or exit. Derived classes may call this if the appropriate time is known.</p>
 <p>The queue is synchronized after it is closed. </p>
 
@@ -1272,6 +479,8 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called when the queue becomes signaled. </p>
 <p>A queue is signaled on the transition from empty to non-empty. Derived classes implement this function to perform a notification so that <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> will be called. For example, by triggering a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classWaitableEvent.html">WaitableEvent</a>.</p>
 <dl class="section note"><dt>Note:</dt><dd>Due to the implementation the queue can remain signaled for one extra cycle. This does not happen under load and is not an issue in practice. </dd></dl>
 
@@ -1298,37 +507,33 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a6137299396fe8dc15a1889846d1b88e9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CallQueue::callp </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_call_queue_1_1_call.html">Call</a> *&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Called when the queue is reset. </p>
+<p>A queue is reset when it was previously signaled and then becomes empty as a result of a call to synchronize. </p>
 
 </div>
 </div>
-<a class="anchor" id="a0c9cd7de3ffe1755c0e12ae6c7245f5c"></a>
+<a class="anchor" id="a35890339497d3ff7e2b2d5a4c41fea3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void CallQueue::queuep </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_call_queue_1_1_call.html">Call</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_call_queue_1_1_work.html">Work</a> *&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Queue a raw call. </p>
+<p>Custom implementations use this to control the allocation.</p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>The call to add. The memory must come from the allocator. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1345,6 +550,9 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
       </table>
 </div><div class="memdoc">
 
+<p>Retrieve the allocator. </p>
+<dl class="section return"><dt>Returns:</dt><dd>The allocator to use when allocating a raw <a class="el" href="class_call_queue_1_1_work.html" title="Abstract nullary functor in a CallQueue.">Work</a> object. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="aaa82bf4b31dd6284e07a2103dc8e76f3"></a>
@@ -1359,6 +567,9 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>See if the caller is on the association thread. </p>
+<dl class="section return"><dt>Returns:</dt><dd><code>true</code> if the calling thread of execution is associated with the queue. </dd></dl>
 
 </div>
 </div>
@@ -1375,11 +586,16 @@ template&lt;class Fn , class T1 , class T2 , class T3 , class T4 , class T5 , cl
       </table>
 </div><div class="memdoc">
 
+<p>See if the queue is being synchronized. </p>
+<p>This is used for diagnostics.</p>
+<dl class="section note"><dt>Note:</dt><dd>This must be called from the associated thread or else the return value is undefined.</dd></dl>
+<dl class="section return"><dt>Returns:</dt><dd><code>true</code> if the call stack contains <a class="el" href="class_call_queue.html#a7b4ecb95445c00c815bc2407c9e008b7" title="Synchronize the queue.">synchronize()</a> for this queue. </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="vf___call_queue_8h.html">vf_CallQueue.h</a></li>
-<li><a class="el" href="vf___call_queue_8cpp.html">vf_CallQueue.cpp</a></li>
+<li>vf_CallQueue.h</li>
+<li>vf_CallQueue.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

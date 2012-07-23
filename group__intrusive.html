@@ -65,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,6 +84,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Intrusive Containers.  
 <a href="#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for intrusive:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__intrusive.png" border="0" alt="" usemap="#group____intrusive"/>
+<map name="group____intrusive" id="group____intrusive">
+<area shape="rect" id="node1" href="group__vf__core.html" title="Core classes." alt="" coords="6,43,69,69"/></map>
+</td></tr></table></center>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -101,8 +109,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default tag for <a class="el" href="class_lock_free_stack.html" title="Multiple Producer, Multiple Consumer (MPMC) intrusive stack.">LockFreeStack</a>.  <a href="struct_lock_free_stack_default_tag.html#details">More...</a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<p>Intrusive Containers. </p>
 <h1>Introduction</h1>
-<p>Intrusive containers are special containers that offer better performance and exception safety guarantees than non-intrusive containers (like the STL containers). They are useful building blocks for high performance concurrent systems or other purposes where allocations are restricted (such as the AudioDeviceIOCallback object), because intrusive list operations do not allocate or free memory.</p>
+<p>Intrusive containers are special containers that offer better performance and exception safety guarantees than non-intrusive containers (like the STL containers). They are useful building blocks for high performance concurrent systems or other purposes where allocations are restricted (such as the <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioIODeviceCallback.html">AudioIODeviceCallback</a> object), because intrusive list operations do not allocate or free memory.</p>
 <p>While intrusive containers were and are widely used in C, they became more and more forgotten in C++ due to the presence of the standard containers which don't support intrusive techniques. VFLib not only reintroduces this technique to C++ for lists, it also encapsulates the implementation in a mostly compliant STL interface. Hence anyone familiar with standard containers can easily use them.</p>
 <h1>Interface</h1>
 <p>The interface for intrusive elements in this library is unified for all containers. Unlike STL containers, objects placed into intrusive containers are not copied. Instead, a pointer to the object is stored. All responsibility for object lifetime is the responsibility of the caller; the intrusive container just keeps track of what is in it.</p>
@@ -124,7 +133,7 @@ Classes</h2></td></tr>
 <div class="fragment"><div class="line">  <span class="keyword">class </span>Object; <span class="comment">// Forward declaration</span></div>
 <div class="line"></div>
 <div class="line">  <a class="code" href="class_list.html" title="Intrusive doubly linked list.">List &lt;Object&gt;</a> list; <span class="comment">// Doubly-linked list of Object</span></div>
-</div><!-- fragment --><p>Because intrusive containers allocate no memory, allowing objects to be placed inside requires a modification to their cless declaration. Each intrusive container declares a nested class Node which elements must be derived from, using the Curiously Recurring Template Pattern (CRTP). We will continue to fully declare the Object type from the previous example to support emplacement into an intrusive container:</p>
+</div><!-- fragment --><p>Because intrusive containers allocate no memory, allowing objects to be placed inside requires a modification to their class declaration. Each intrusive container declares a nested class <code>Node</code> which elements must be derived from, using the Curiously Recurring Template Pattern (CRTP). We will continue to fully declare the Object type from the previous example to support emplacement into an intrusive container:</p>
 <div class="fragment"><div class="line">  <span class="keyword">class </span>Object : <span class="keyword">public</span> <a class="code" href="class_list.html" title="Intrusive doubly linked list.">List</a> &lt;Object&gt;::Node <span class="comment">// Required for List</span></div>
 <div class="line">  {</div>
 <div class="line">  <span class="keyword">public</span>:</div>
@@ -148,7 +157,7 @@ Classes</h2></td></tr>
 <div class="line">    list.push_back (*<span class="keyword">new</span> Object);</div>
 <div class="line"></div>
 <div class="line">  <span class="comment">// Call a method on each list</span></div>
-<div class="line">  <span class="keywordflow">for</span> (ListType::iterator iter = list.begin(); iter != list.end; ++iter)</div>
+<div class="line">  <span class="keywordflow">for</span> (ListType::iterator iter = list.begin(); iter != list.end (); ++iter)</div>
 <div class="line">    iter-&gt;performAction ();</div>
 </div><!-- fragment --><p>Unlike regular STL containers, an object derived from an intrusive container node cannot exist in more than one instance of that list at a time. This is because the bookkeeping information for maintaining the list is kept in the object rather than the list.</p>
 <p>To support objects existing in multiple containers, templates variations are instantiated by distinguishing them with an empty structure, called a tag. The object is derived from multiple instances of Node, where each instance specifies a unique tag. The tag is passed as the second template argument. When the second argument is unspecified, the default tag is used.</p>

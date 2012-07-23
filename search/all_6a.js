@@ -86,7 +86,6 @@ var searchData=
   ['juce_5fcharpointer_5futf16_2eh',['juce_CharPointer_UTF16.h',['http://www.rawmaterialsoftware.com/juce/api/juce__CharPointer__UTF16_8h.html',1,'']]],
   ['juce_5fcharpointer_5futf32_2eh',['juce_CharPointer_UTF32.h',['http://www.rawmaterialsoftware.com/juce/api/juce__CharPointer__UTF32_8h.html',1,'']]],
   ['juce_5fcharpointer_5futf8_2eh',['juce_CharPointer_UTF8.h',['http://www.rawmaterialsoftware.com/juce/api/juce__CharPointer__UTF8_8h.html',1,'']]],
-  ['juce_5fcheck_5fmemory_5fleaks',['JUCE_CHECK_MEMORY_LEAKS',['../_app_config_8h.html#ab4a343d1bf8e5d6beb03cf3b198a0f55',1,'AppConfig.h']]],
   ['juce_5fchecksettingmacros_2eh',['juce_CheckSettingMacros.h',['http://www.rawmaterialsoftware.com/juce/api/juce__CheckSettingMacros_8h.html',1,'']]],
   ['juce_5fchildprocess_2eh',['juce_ChildProcess.h',['http://www.rawmaterialsoftware.com/juce/api/juce__ChildProcess_8h.html',1,'']]],
   ['juce_5fchoicepropertycomponent_2eh',['juce_ChoicePropertyComponent.h',['http://www.rawmaterialsoftware.com/juce/api/juce__ChoicePropertyComponent_8h.html',1,'']]],

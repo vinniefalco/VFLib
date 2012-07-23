@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -89,12 +89,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Template for <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers for intermediate calculations.">AudioBufferPool</a> with a specified lock type.  
+<p>Template for <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers.">AudioBufferPool</a> with a specified lock type.  
  <a href="class_audio_buffer_pool_type.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_AudioBufferPool.h&quot;</code></p>
-
-<p>Inherits <a class="el" href="class_audio_buffer_pool.html">AudioBufferPool</a>, and <a class="el" href="struct_leak_checked.html">LeakChecked&lt; AudioBufferPoolType&lt; TypeOfCriticalSectionToUse &gt; &gt;</a>.</p>
+<div class="dynheader">
+Inheritance diagram for AudioBufferPoolType&lt; TypeOfCriticalSectionToUse &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_buffer_pool_type__inherit__graph.png" border="0" usemap="#_audio_buffer_pool_type_3_01_type_of_critical_section_to_use_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="_audio_buffer_pool_type_3_01_type_of_critical_section_to_use_01_4_inherit__map" id="_audio_buffer_pool_type_3_01_type_of_critical_section_to_use_01_4_inherit__map">
+<area shape="rect" id="node2" href="class_audio_buffer_pool.html" title="Temporary audio buffers." alt="" coords="52,5,167,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_audio_buffer_pool_type-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -105,20 +110,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a93183ea809aa45d97880de2282231de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_buffer_pool_type.html#a93183ea809aa45d97880de2282231de4">releaseBuffer</a> (<a class="el" href="class_audio_buffer_pool_1_1_buffer.html">Buffer</a> *buffer)</td></tr>
 <tr class="memdesc:a93183ea809aa45d97880de2282231de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases a previously requested buffer back into the pool.  <a href="#a93183ea809aa45d97880de2282231de4"></a><br/></td></tr>
 <tr class="inherit_header pub_methods_class_audio_buffer_pool"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_audio_buffer_pool')"><img src="closed.png" alt="-"/>&nbsp;Public Member Functions inherited from <a class="el" href="class_audio_buffer_pool.html">AudioBufferPool</a></td></tr>
-<tr class="memitem:abb24b39a063a623cc148dc96a8680c8c inherit pub_methods_class_audio_buffer_pool"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_buffer_pool.html#abb24b39a063a623cc148dc96a8680c8c">AudioBufferPool</a> ()</td></tr>
 <tr class="memitem:ad88ca8fb2127105e6c3a95bff0764923 inherit pub_methods_class_audio_buffer_pool"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_buffer_pool.html#ad88ca8fb2127105e6c3a95bff0764923">~AudioBufferPool</a> ()</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_audio_buffer_pool"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_audio_buffer_pool')"><img src="closed.png" alt="-"/>&nbsp;Protected Member Functions inherited from <a class="el" href="class_audio_buffer_pool.html">AudioBufferPool</a></td></tr>
-<tr class="memitem:a48e6326df95ff53d030fd3289133a7fb inherit pro_methods_class_audio_buffer_pool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_audio_buffer_pool_1_1_buffer.html">Buffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_buffer_pool.html#a48e6326df95ff53d030fd3289133a7fb">requestBufferInternal</a> (int numChannels, int numSamples)</td></tr>
-<tr class="memitem:ade6245a8135f5fe419e705231b6cb827 inherit pro_methods_class_audio_buffer_pool"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_buffer_pool.html#ade6245a8135f5fe419e705231b6cb827">releaseBufferInternal</a> (<a class="el" href="class_audio_buffer_pool_1_1_buffer.html">Buffer</a> *buffer)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class TypeOfCriticalSectionToUse = CriticalSection&gt;<br/>
 class AudioBufferPoolType&lt; TypeOfCriticalSectionToUse &gt;</h3>
 
-<p>This provides an instance of <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers for intermediate calculations.">AudioBufferPool</a> using the specified type as the lock. The default is to use a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classCriticalSection.html">CriticalSection</a>. Alternatively, a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classDummyCriticalSection.html">DummyCriticalSection</a> may be used when the caller is responsible for synchronization. </p>
+<p>Template for <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers.">AudioBufferPool</a> with a specified lock type. </p>
+<p>This provides an instance of <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers.">AudioBufferPool</a> using the specified type as the lock. The default is to use a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classCriticalSection.html">CriticalSection</a>. Alternatively, a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classDummyCriticalSection.html">DummyCriticalSection</a> may be used when the caller is responsible for synchronization. </p>
 </div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a71b4169d98676c573e4ef615d4c9d626"></a>
 <div class="memitem">
@@ -153,6 +152,8 @@ template&lt;class TypeOfCriticalSectionToUse = CriticalSection&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Request a temporary buffer. </p>
 <p>The pool returns a buffer with the specified number of channels and enough room for at least numSamples. The caller owns the buffer until it is released with a matching call to <a class="el" href="class_audio_buffer_pool_type.html#a93183ea809aa45d97880de2282231de4" title="Releases a previously requested buffer back into the pool.">releaseBuffer()</a>.</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
@@ -190,6 +191,8 @@ template&lt;class TypeOfCriticalSectionToUse = CriticalSection&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Releases a previously requested buffer back into the pool. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td>The buffer to release. This must have been provided by an earlier call to <a class="el" href="class_audio_buffer_pool_type.html#a71b4169d98676c573e4ef615d4c9d626" title="Request a temporary buffer.">requestBuffer()</a> </td></tr>
@@ -202,7 +205,7 @@ template&lt;class TypeOfCriticalSectionToUse = CriticalSection&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="vf___audio_buffer_pool_8h.html">vf_AudioBufferPool.h</a></li>
+<li>vf_AudioBufferPool.h</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

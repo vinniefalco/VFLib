@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,28 +100,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a09bbd7b9e6604907caaf339b8e3b3d0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a09bbd7b9e6604907caaf339b8e3b3d0a">ScopedAudioSampleBuffer</a> (<a class="el" href="class_audio_buffer_pool.html">AudioBufferPool</a> &amp;pool, int numChannels, int numSamples)</td></tr>
 <tr class="memdesc:a09bbd7b9e6604907caaf339b8e3b3d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> from a pool.  <a href="#a09bbd7b9e6604907caaf339b8e3b3d0a"></a><br/></td></tr>
-<tr class="memitem:a35f35b73fa0a5f735a687cffd859dbae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a35f35b73fa0a5f735a687cffd859dbae">~ScopedAudioSampleBuffer</a> ()</td></tr>
-<tr class="memdesc:a35f35b73fa0a5f735a687cffd859dbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a>, releasing the buffer.  <a href="#a35f35b73fa0a5f735a687cffd859dbae"></a><br/></td></tr>
+<tr class="memitem:a35f35b73fa0a5f735a687cffd859dbae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35f35b73fa0a5f735a687cffd859dbae"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a35f35b73fa0a5f735a687cffd859dbae">~ScopedAudioSampleBuffer</a> ()</td></tr>
+<tr class="memdesc:a35f35b73fa0a5f735a687cffd859dbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a>, releasing the buffer. <br/></td></tr>
 <tr class="memitem:a903e8feb86663ed76c05a23850261274"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html">AudioSampleBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a903e8feb86663ed76c05a23850261274">operator-&gt;</a> ()</td></tr>
 <tr class="memitem:aa33ce3fbc93702416c21865fda372b9b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html">AudioSampleBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#aa33ce3fbc93702416c21865fda372b9b">operator*</a> ()</td></tr>
 <tr class="memitem:a438e638656fff42aa16ab96654af0691"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a438e638656fff42aa16ab96654af0691">operator AudioSampleBuffer *</a> ()</td></tr>
 <tr class="memitem:a0a96fbf12a44d9ff7e8f030e48320f7e"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html">AudioSampleBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scoped_audio_sample_buffer.html#a0a96fbf12a44d9ff7e8f030e48320f7e">getBuffer</a> ()</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>This utility class allows scoped lifetime management for acquiring temporary audio buffers from the <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers for intermediate calculations.">AudioBufferPool</a>. It is easy to use:</p>
-<div class="fragment"><div class="line">    <a class="code" href="class_audio_buffer_pool_type.html" title="Template for AudioBufferPool with a specified lock type.">AudioBufferPoolType &lt;CriticalSection&gt;</a> pool;</div>
+<div class="textblock"><p>A temporary audio buffer with scoped lifetime. </p>
+<p>This utility class allows scoped lifetime management for acquiring temporary audio buffers from the <a class="el" href="class_audio_buffer_pool.html" title="Temporary audio buffers.">AudioBufferPool</a>. It is easy to use:</p>
+<div class="fragment"><div class="line">  <a class="code" href="class_audio_buffer_pool_type.html" title="Template for AudioBufferPool with a specified lock type.">AudioBufferPoolType &lt;CriticalSection&gt;</a> pool;</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// Request a stereo buffer with room for 1024 samples.</span></div>
-<div class="line">    <a class="code" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> buffer (pool, 2, 1024);</div>
+<div class="line">  <span class="comment">// Request a stereo buffer with room for 1024 samples.</span></div>
+<div class="line">  <a class="code" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> buffer (pool, 2, 1024);</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// &#39;buffer&#39; is released when it goes out of scope.</span></div>
+<div class="line">  <span class="comment">// &#39;buffer&#39; is released when it goes out of scope.</span></div>
 </div><!-- fragment --><p><a class="el" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> is freely convertible to AudioSampleBuffer* so it can be used anywhere a pointer to <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html">AudioSampleBuffer</a> is expected. The dereference and pointer to member operators are similarly overloaded to support transparent usage of the underlying <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html">AudioSampleBuffer</a>:</p>
-<div class="fragment"><div class="line">    <a class="code" href="class_audio_buffer_pool_type.html" title="Template for AudioBufferPool with a specified lock type.">AudioBufferPoolType &lt;CriticalSection&gt;</a> pool;</div>
+<div class="fragment"><div class="line">  <a class="code" href="class_audio_buffer_pool_type.html" title="Template for AudioBufferPool with a specified lock type.">AudioBufferPoolType &lt;CriticalSection&gt;</a> pool;</div>
 <div class="line"></div>
-<div class="line">    <a class="code" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> buffer (pool, 2, 1024);</div>
+<div class="line">  <a class="code" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> buffer (pool, 2, 1024);</div>
 <div class="line"></div>
-<div class="line">    <span class="comment">// Call a member of AudioSampleBuffer</span></div>
-<div class="line">    buffer-&gt;<a class="codeRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html#a327771026de9ef6f92a0b213d0322e4e">clear</a> ();</div>
+<div class="line">  <span class="comment">// Call a member of AudioSampleBuffer</span></div>
+<div class="line">  buffer-&gt;<a class="codeRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSampleBuffer.html#a327771026de9ef6f92a0b213d0322e4e">clear</a> ();</div>
 </div><!-- fragment --><p>Note that changing the size of a buffer is undefined. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a09bbd7b9e6604907caaf339b8e3b3d0a"></a>
@@ -153,6 +155,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create a <a class="el" href="class_scoped_audio_sample_buffer.html" title="A temporary audio buffer with scoped lifetime.">ScopedAudioSampleBuffer</a> from a pool. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">pool</td><td>The pool to acquire a buffer from.</td></tr>
@@ -161,21 +165,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="a35f35b73fa0a5f735a687cffd859dbae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScopedAudioSampleBuffer::~ScopedAudioSampleBuffer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -246,7 +235,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="vf___scoped_audio_sample_buffer_8h.html">vf_ScopedAudioSampleBuffer.h</a></li>
+<li>vf_ScopedAudioSampleBuffer.h</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

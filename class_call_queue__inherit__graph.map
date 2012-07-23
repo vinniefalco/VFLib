@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_gui_call_queue.html" title="A CallQueue handled by the JUCE message thread (gui)." alt="" coords="11,80,113,107"/>
+<area shape="rect" id="node7" href="$class_manual_call_queue.html" title="A CallQueue that requires periodic manual synchronization." alt="" coords="138,80,261,107"/>
+<area shape="rect" id="node9" href="$class_thread_with_call_queue.html" title="An InterruptibleThread with a CallQueue." alt="" coords="286,80,433,107"/>
+<area shape="rect" id="node5" href="$class_message_thread.html" title="A GuiCallQueue singleton for the message thread." alt="" coords="5,155,120,181"/>
+</map>

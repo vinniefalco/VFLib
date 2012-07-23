@@ -40,7 +40,6 @@ var searchData=
   ['ppqposition',['ppqPosition',['http://www.rawmaterialsoftware.com/juce/api/structAudioPlayHead_1_1CurrentPositionInfo.html#aae819730a8f2918f97b9869970ff8c3d',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['ppqpositionoflastbarstart',['ppqPositionOfLastBarStart',['http://www.rawmaterialsoftware.com/juce/api/structAudioPlayHead_1_1CurrentPositionInfo.html#ad7967e1315115628cb35f93f389a3448',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['preferredheight',['preferredHeight',['http://www.rawmaterialsoftware.com/juce/api/classPropertyComponent.html#ae912e7f6c12e76cf3dc2a9f0d210e4ed',1,'PropertyComponent']]],
-  ['prepare',['prepare',['../classdb_1_1session.html#af9b964586e2499247b1bb92479320258',1,'db::session']]],
   ['processlock',['processLock',['http://www.rawmaterialsoftware.com/juce/api/classIIRFilter.html#ab00b0f82d8811523cd31398a3cffae46',1,'IIRFilter::processLock()'],['http://www.rawmaterialsoftware.com/juce/api/structPropertiesFile_1_1Options.html#a65881e8a7c6e90fbaca03dd2f00a34a7',1,'PropertiesFile::Options::processLock()']]],
   ['programid',['programID',['http://www.rawmaterialsoftware.com/juce/api/classOpenGLShaderProgram.html#a38ef3b4dabb242d53c470fe5464895c9',1,'OpenGLShaderProgram']]],
   ['properties',['properties',['http://www.rawmaterialsoftware.com/juce/api/classAudioProcessorGraph_1_1Node.html#afc706ebfb3beddad1c5bc16bc7fa2a2e',1,'AudioProcessorGraph::Node']]],

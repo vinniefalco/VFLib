@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -91,37 +91,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p>A metronome.  
-</p>
+ <a href="class_metronome.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_Metronome.h&quot;</code></p>
-
-<p>Inherits <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html">AudioSource</a>.</p>
-
-<p>Inherited by MetronomeImp.</p>
+<div class="dynheader">
+Inheritance diagram for Metronome:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_metronome__inherit__graph.png" border="0" usemap="#_metronome_inherit__map" alt="Inheritance graph"/></div>
+<map name="_metronome_inherit__map" id="_metronome_inherit__map">
+<area shape="rect" id="node2" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html" title="AudioSource" alt="" coords="5,5,101,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_metronome-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7a3ed39ea9e01fc6c7241df82ba1ed95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metronome.html#a7a3ed39ea9e01fc6c7241df82ba1ed95">updateClock</a> (double tempo, double phase, bool active)=0</td></tr>
-<tr class="memdesc:a7a3ed39ea9e01fc6c7241df82ba1ed95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the tempo parameters.  <a href="#a7a3ed39ea9e01fc6c7241df82ba1ed95"></a><br/></td></tr>
-<tr class="inherit_header pub_methods_classAudioSource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioSource')"><img src="closed.png" alt="-"/>&nbsp;Public Member Functions inherited from <a class="el" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html">AudioSource</a></td></tr>
-<tr class="memitem:a38b04f6bf7ea63b6cf465213c164623b inherit pub_methods_classAudioSource"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html#a38b04f6bf7ea63b6cf465213c164623b">~AudioSource</a> ()</td></tr>
-<tr class="memitem:a653279dbd167f70e318fd280681dbddf inherit pub_methods_classAudioSource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html#a653279dbd167f70e318fd280681dbddf">prepareToPlay</a> (int samplesPerBlockExpected, double sampleRate)=0</td></tr>
-<tr class="memitem:a7823bf0f1c43333eed41664c7994f290 inherit pub_methods_classAudioSource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html#a7823bf0f1c43333eed41664c7994f290">releaseResources</a> ()=0</td></tr>
-<tr class="memitem:a36fc2484ead8fb8dc03be57d09dd5735 inherit pub_methods_classAudioSource"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html#a36fc2484ead8fb8dc03be57d09dd5735">getNextAudioBlock</a> (const <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/structAudioSourceChannelInfo.html">AudioSourceChannelInfo</a> &amp;bufferToFill)=0</td></tr>
+<tr class="memitem:a7a3ed39ea9e01fc6c7241df82ba1ed95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a3ed39ea9e01fc6c7241df82ba1ed95"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metronome.html#a7a3ed39ea9e01fc6c7241df82ba1ed95">updateClock</a> (double tempo, double phase, bool active)=0</td></tr>
+<tr class="memdesc:a7a3ed39ea9e01fc6c7241df82ba1ed95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the tempo parameters. <br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab919917fb3c8aeea05bde389921d1e21"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_metronome.html">Metronome</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metronome.html#ab919917fb3c8aeea05bde389921d1e21">New</a> (void const *audioData, int dataBytes)</td></tr>
 <tr class="memdesc:ab919917fb3c8aeea05bde389921d1e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new metronome.  <a href="#ab919917fb3c8aeea05bde389921d1e21"></a><br/></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classAudioSource"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classAudioSource')"><img src="closed.png" alt="-"/>&nbsp;Protected Member Functions inherited from <a class="el" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html">AudioSource</a></td></tr>
-<tr class="memitem:a5b8ec7dc3b76d7f219d8f77d5ccfbcef inherit pro_methods_classAudioSource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classAudioSource.html#a5b8ec7dc3b76d7f219d8f77d5ccfbcef">AudioSource</a> () noexcept</td></tr>
 </table>
-<hr/><h2>Member Function Documentation</h2>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>A metronome. </p>
+<p>The metronome plays a segment of audio at each tick, defined by the tempo and phase parameters. </p>
+</div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="ab919917fb3c8aeea05bde389921d1e21"></a>
 <div class="memitem">
 <div class="memproto">
@@ -154,51 +151,22 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a7a3ed39ea9e01fc6c7241df82ba1ed95"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Metronome::updateClock </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>tempo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>phase</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>active</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Create a new metronome. </p>
+<p>The sound is determined by the audio data.</p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">audioData</td><td>A binary audio file loaded into memory.</td></tr>
+    <tr><td class="paramname">dataBytes</td><td>The number of bytes in <code>audioData</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>A pointer to the created metronome object. </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="vf___metronome_8h.html">vf_Metronome.h</a></li>
-<li><a class="el" href="vf___metronome_8cpp.html">vf_Metronome.cpp</a></li>
+<li>vf_Metronome.h</li>
+<li>vf_Metronome.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -90,123 +90,59 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="namespace_facade.html">Facade</a> for <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a>.  
+<p>A <a class="el" href="class_seeking_sample_source.html" title="Abstract positionable source of audio samples.">SeekingSampleSource</a> with sample rate conversion information.  
  <a href="class_seeking_audio_source.html#details">More...</a></p>
 
 <p><code>#include &quot;vf_SeekingAudioSource.h&quot;</code></p>
-
-<p>Inherits <a class="el" href="class_seeking_sample_source.html">SeekingSampleSource</a>.</p>
-
-<p>Inherited by <a class="el" href="class_seeking_audio_source_1_1_adapter.html">SeekingAudioSource::Adapter</a>.</p>
+<div class="dynheader">
+Inheritance diagram for SeekingAudioSource:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_seeking_audio_source__inherit__graph.png" border="0" usemap="#_seeking_audio_source_inherit__map" alt="Inheritance graph"/></div>
+<map name="_seeking_audio_source_inherit__map" id="_seeking_audio_source_inherit__map">
+<area shape="rect" id="node7" href="class_seeking_audio_source_1_1_seeking_audio_source_adapter.html" title="Adapter to wrap a PositionableAudioSource." alt="" coords="5,230,200,271"/><area shape="rect" id="node2" href="class_seeking_sample_source.html" title="Abstract positionable source of audio samples." alt="" coords="25,80,180,107"/><area shape="rect" id="node4" href="class_sample_source.html" title="Abstract source of audio samples." alt="" coords="49,5,156,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_seeking_audio_source-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source_1_1_adapter.html">Adapter</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_seeking_audio_source_1_1_adapter.html" title="Adapter to wrap a PositionableAudioSource.">Adapter</a> to wrap a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a>.  <a href="class_seeking_audio_source_1_1_adapter.html#details">More...</a><br/></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source_1_1_positionable_adapter.html">PositionableAdapter</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_seeking_audio_source_1_1_adapter.html" title="Adapter to wrap a PositionableAudioSource.">Adapter</a> to appear as a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a>.  <a href="class_seeking_audio_source_1_1_positionable_adapter.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source_1_1_positionable_audio_source_adapter.html">PositionableAudioSourceAdapter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents a <a class="el" href="class_seeking_audio_source.html" title="A SeekingSampleSource with sample rate conversion information.">SeekingAudioSource</a> as a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a>.  <a href="class_seeking_audio_source_1_1_positionable_audio_source_adapter.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source_1_1_seeking_audio_source_adapter.html">SeekingAudioSourceAdapter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adapter to wrap a <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a>.  <a href="class_seeking_audio_source_1_1_seeking_audio_source_adapter.html#details">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afbd2eeff495cebcf25a049bec3e74c49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source.html#afbd2eeff495cebcf25a049bec3e74c49">prepareToPlay</a> (int samplesPerBlockExpected, double sampleRate)=0</td></tr>
-<tr class="memdesc:afbd2eeff495cebcf25a049bec3e74c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the source to prepare for playing.  <a href="#afbd2eeff495cebcf25a049bec3e74c49"></a><br/></td></tr>
-<tr class="memitem:add345cab2b4735594835383f08443825"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source.html#add345cab2b4735594835383f08443825">releaseResources</a> ()=0</td></tr>
-<tr class="memdesc:add345cab2b4735594835383f08443825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the source to release anything it no longer needs after playback has stopped.  <a href="#add345cab2b4735594835383f08443825"></a><br/></td></tr>
+<tr class="memitem:afbd2eeff495cebcf25a049bec3e74c49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbd2eeff495cebcf25a049bec3e74c49"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source.html#afbd2eeff495cebcf25a049bec3e74c49">prepareToPlay</a> (int samplesPerBlockExpected, double sampleRate)=0</td></tr>
+<tr class="memdesc:afbd2eeff495cebcf25a049bec3e74c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the source to prepare for playing. <br/></td></tr>
+<tr class="memitem:add345cab2b4735594835383f08443825"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add345cab2b4735594835383f08443825"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_audio_source.html#add345cab2b4735594835383f08443825">releaseResources</a> ()=0</td></tr>
+<tr class="memdesc:add345cab2b4735594835383f08443825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the source to release anything it no longer needs after playback has stopped. <br/></td></tr>
 <tr class="inherit_header pub_methods_class_seeking_sample_source"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_seeking_sample_source')"><img src="closed.png" alt="-"/>&nbsp;Public Member Functions inherited from <a class="el" href="class_seeking_sample_source.html">SeekingSampleSource</a></td></tr>
-<tr class="memitem:afa817e77074583f88bfc003f1c6dfb1c inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204b">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#afa817e77074583f88bfc003f1c6dfb1c">getNextReadDirection</a> () const =0</td></tr>
+<tr class="memitem:afa817e77074583f88bfc003f1c6dfb1c inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual Direction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#afa817e77074583f88bfc003f1c6dfb1c">getNextReadDirection</a> () const =0</td></tr>
 <tr class="memdesc:afa817e77074583f88bfc003f1c6dfb1c inherit pub_methods_class_seeking_sample_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the direction for the retrieval of samples.  <a href="#afa817e77074583f88bfc003f1c6dfb1c"></a><br/></td></tr>
-<tr class="memitem:a4ad617a2c53a3284cf1ef4a283c8ee43 inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#a4ad617a2c53a3284cf1ef4a283c8ee43">setNextReadDirection</a> (<a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204b">Direction</a> direction)=0</td></tr>
+<tr class="memitem:a4ad617a2c53a3284cf1ef4a283c8ee43 inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#a4ad617a2c53a3284cf1ef4a283c8ee43">setNextReadDirection</a> (Direction direction)=0</td></tr>
 <tr class="memdesc:a4ad617a2c53a3284cf1ef4a283c8ee43 inherit pub_methods_class_seeking_sample_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the direction for the retrieval of samples.  <a href="#a4ad617a2c53a3284cf1ef4a283c8ee43"></a><br/></td></tr>
 <tr class="memitem:a782add7aba443ad6e93c2addde8b11d2 inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#a782add7aba443ad6e93c2addde8b11d2">getNextReadPosition</a> () const =0</td></tr>
 <tr class="memdesc:a782add7aba443ad6e93c2addde8b11d2 inherit pub_methods_class_seeking_sample_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the next returned sample.  <a href="#a782add7aba443ad6e93c2addde8b11d2"></a><br/></td></tr>
 <tr class="memitem:a729a9f29191540c35690e4b1c9d1f267 inherit pub_methods_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#a729a9f29191540c35690e4b1c9d1f267">setNextReadPosition</a> (<a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/juce__MathsFunctions_8h.html#aecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> newPosition)=0</td></tr>
 <tr class="memdesc:a729a9f29191540c35690e4b1c9d1f267 inherit pub_methods_class_seeking_sample_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the read position.  <a href="#a729a9f29191540c35690e4b1c9d1f267"></a><br/></td></tr>
 <tr class="inherit_header pub_methods_class_sample_source"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_sample_source')"><img src="closed.png" alt="-"/>&nbsp;Public Member Functions inherited from <a class="el" href="class_sample_source.html">SampleSource</a></td></tr>
-<tr class="memitem:aa7ac7566c1bc3fa3915a7a28565919d7 inherit pub_methods_class_sample_source"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample_source.html#aa7ac7566c1bc3fa3915a7a28565919d7">~SampleSource</a> ()</td></tr>
 <tr class="memitem:a6e2492c3750bd622d3ab2c568edfe723 inherit pub_methods_class_sample_source"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample_source.html#a6e2492c3750bd622d3ab2c568edfe723">getNextAudioBlock</a> (<a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/structAudioSourceChannelInfo.html">AudioSourceChannelInfo</a> const &amp;bufferToFill)=0</td></tr>
 <tr class="memdesc:a6e2492c3750bd622d3ab2c568edfe723 inherit pub_methods_class_sample_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the next block of samples.  <a href="#a6e2492c3750bd622d3ab2c568edfe723"></a><br/></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_class_seeking_sample_source"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_seeking_sample_source')"><img src="closed.png" alt="-"/>&nbsp;Public Types inherited from <a class="el" href="class_seeking_sample_source.html">SeekingSampleSource</a></td></tr>
-<tr class="memitem:a12394a7f3082d69980aab918b260204b inherit pub_types_class_seeking_sample_source"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204b">Direction</a> { <a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204ba331310d00fe7baa0fb15b60b7e38aed6">forward</a>, 
-<a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204ba0b1bd93a78631186a83dbe2ee18da61f">reverse</a>
- }</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>This <a class="el" href="namespace_facade.html">Facade</a> provides an alternative interface to <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a> with the following features:</p>
+<div class="textblock"><p>A <a class="el" href="class_seeking_sample_source.html" title="Abstract positionable source of audio samples.">SeekingSampleSource</a> with sample rate conversion information. </p>
+<p>This Facade provides an alternative interface to <a class="elRef" doxygen="juce.tag:http://www.rawmaterialsoftware.com/juce/api//" href="http://www.rawmaterialsoftware.com/juce/api/classPositionableAudioSource.html">PositionableAudioSource</a> with the following features:</p>
 <ul>
 <li>No thread safety; the caller is responsible for all synchronization.</li>
 </ul>
 <ul>
 <li>The looping and total length features have been removed. </li>
 </ul>
-</div><hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="afbd2eeff495cebcf25a049bec3e74c49"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void SeekingAudioSource::prepareToPlay </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>samplesPerBlockExpected</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sampleRate</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="class_seeking_audio_source_1_1_adapter.html#acb03bc4ad05222fa8d833dcc692fec24">SeekingAudioSource::Adapter</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="add345cab2b4735594835383f08443825"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void SeekingAudioSource::releaseResources </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="class_seeking_audio_source_1_1_adapter.html#a577ca0c9dcbed6db9397a8ce206a3226">SeekingAudioSource::Adapter</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="vf___seeking_audio_source_8h.html">vf_SeekingAudioSource.h</a></li>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>vf_SeekingAudioSource.h</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

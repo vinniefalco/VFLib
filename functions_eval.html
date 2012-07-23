@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -74,28 +74,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
       <li class="current"><a href="functions_eval.html"><span>Enumerator</span></a></li>
-      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="#index_a"><span>a</span></a></li>
-      <li><a href="#index_b"><span>b</span></a></li>
-      <li><a href="#index_c"><span>c</span></a></li>
-      <li><a href="#index_d"><span>d</span></a></li>
-      <li><a href="#index_e"><span>e</span></a></li>
-      <li><a href="#index_f"><span>f</span></a></li>
-      <li><a href="#index_g"><span>g</span></a></li>
-      <li><a href="#index_i"><span>i</span></a></li>
-      <li><a href="#index_l"><span>l</span></a></li>
-      <li><a href="#index_m"><span>m</span></a></li>
-      <li><a href="#index_n"><span>n</span></a></li>
-      <li><a href="#index_p"><span>p</span></a></li>
-      <li><a href="#index_r"><span>r</span></a></li>
-      <li><a href="#index_s"><span>s</span></a></li>
-      <li><a href="#index_t"><span>t</span></a></li>
-      <li><a href="#index_u"><span>u</span></a></li>
-      <li><a href="#index_x"><span>x</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,68 +92,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="contents">
-&#160;
-
-<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>anchorUnit
-: <a class="el" href="class_resizable_layout.html#a3a0725ed15df44be369977355e5eb924a56f7262c53d2605e4af4f12c02b323d4">ResizableLayout</a>
-</li>
+&#160;<ul>
 <li>assertFailed
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708ae0438dc322798834a3d4fc5048e91188">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>badParameter
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a7a07328bd9fa30e6b0524cefcd67c27c">Error</a>
-</li>
-<li>bits24
-: <a class="el" href="class_f_p_u_flags.html#a089b2f1d2e5dbd4eeb966ed41d025e8cabf6c478d2d644cdfbe7bcabacc18a400">FPUFlags</a>
-</li>
-<li>bits53
-: <a class="el" href="class_f_p_u_flags.html#a089b2f1d2e5dbd4eeb966ed41d025e8ca613128639283017e2037941f79c60351">FPUFlags</a>
-</li>
-<li>bits64
-: <a class="el" href="class_f_p_u_flags.html#a089b2f1d2e5dbd4eeb966ed41d025e8cadf5344061deca2d9a26c2ea620700bea">FPUFlags</a>
-</li>
-<li>bottomToTop
-: <a class="el" href="class_ui_1_1_facade_1_1_slider.html#abd514d421c6b319507083de65fc985b9a6f76ed6083e1ebfd7ff70a969b33257c">Ui::Facade::Slider</a>
 </li>
 <li>bufferSpace
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708aa9e3d138320989a2e828ad20aa878134">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>canceled
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708aa8a3632d7b35e3c7ef08e81a30853986">Error</a>
 </li>
 <li>createOnDemand
-: <a class="el" href="class_singleton_lifetime.html#a9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f">SingletonLifetime</a>
+: <a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f">SingletonLifetime</a>
 </li>
 <li>createOnDemandOnce
-: <a class="el" href="class_singleton_lifetime.html#a9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3">SingletonLifetime</a>
+: <a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3">SingletonLifetime</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>dividerThickness
-: <a class="el" href="class_ui_1_1_control_1_1_resizing_panes.html#aaaeb5078d31454b0ff16c470d5940bc4ad970bd8b72c836863f858677c716c4d6">Ui::Control::ResizingPanes</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
 <li>exception
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708aea9351866a48a3c073b07efd6e3b8c33">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
 <li>fileExists
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708aa31de129a85f7e6df5b4327453a73ec9">Error</a>
 </li>
@@ -197,137 +135,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>fileNotFound
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a57839da9bba440e4050e0c69dd9ef89e">Error</a>
 </li>
-<li>forward
-: <a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204ba331310d00fe7baa0fb15b60b7e38aed6">SeekingSampleSource</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
 <li>general
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a30db508fbaa6eaa63263d23ba175027c">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>invalidData
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a10bc4dc5f37499f02a549dcb373b2d38">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
-<li>leftToRight
-: <a class="el" href="class_ui_1_1_facade_1_1_slider.html#abd514d421c6b319507083de65fc985b9a707435d8988b7f7c46a76e61a4f0b4a2">Ui::Facade::Slider</a>
-</li>
-<li>lingerMilliseconds
-: <a class="el" href="class_mouse_enter_editable_1_1_container.html#ae3958128842f74c970e100fb98f2c901ac168679083b9b04f1a4a087bc0233055">MouseEnterEditable::Container</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
-<li>maxBorderSize
-: <a class="el" href="class_transparent_border.html#a126e7b113a5b618d201a1c5e3eca497cac91d106ad426dd00786c6edade76924c">TransparentBorder</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>noMemory
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708ada6fc09ed88ace56ac044cf1c89b6d11">Error</a>
 </li>
 <li>noMoreData
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a5cda5141cb69f01aeafab9a58498baf8">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>persistAfterCreation
-: <a class="el" href="class_singleton_lifetime.html#a9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0">SingletonLifetime</a>
+: <a class="el" href="group__vf__core.html#gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0">SingletonLifetime</a>
 </li>
 <li>platform
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a2d6554ede0ade5cc199afd5d2e2452d3">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>reverse
-: <a class="el" href="class_seeking_sample_source.html#a12394a7f3082d69980aab918b260204ba0b1bd93a78631186a83dbe2ee18da61f">SeekingSampleSource</a>
-</li>
-<li>rotary
-: <a class="el" href="class_ui_1_1_facade_1_1_slider.html#abd514d421c6b319507083de65fc985b9a13323699f75a529dedc76422382383be">Ui::Facade::Slider</a>
-</li>
-<li>roundChop
-: <a class="el" href="class_f_p_u_flags.html#a8d93cfbad04fc8062a8cb9e8de8e6b75a845e3075ac93bb70ce82283d0fcb371f">FPUFlags</a>
-</li>
-<li>roundDown
-: <a class="el" href="class_f_p_u_flags.html#a8d93cfbad04fc8062a8cb9e8de8e6b75ad774593083814e6ba7721c7ec37d1f3f">FPUFlags</a>
-</li>
-<li>roundNear
-: <a class="el" href="class_f_p_u_flags.html#a8d93cfbad04fc8062a8cb9e8de8e6b75a6e2e7386f16ae9caa05cb8d7e8b85d98">FPUFlags</a>
-</li>
-<li>roundUp
-: <a class="el" href="class_f_p_u_flags.html#a8d93cfbad04fc8062a8cb9e8de8e6b75a48c4b7908c43df54f229fc9b68fdce8c">FPUFlags</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>styleFixedAspect
-: <a class="el" href="class_resizable_layout.html#aff762c8fee36d1ee99283fac47eaf9a8af8fff0fce0d91bee082bb2d92a77e73b">ResizableLayout</a>
-</li>
-<li>styleStretch
-: <a class="el" href="class_resizable_layout.html#aff762c8fee36d1ee99283fac47eaf9a8ad35e38ccc74459872aed05f81185ef70">ResizableLayout</a>
-</li>
 <li>success
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708a02d469ce6bde966e5f4823a7c9d469d1">Error</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
-<li>topToBottom
-: <a class="el" href="class_ui_1_1_facade_1_1_slider.html#abd514d421c6b319507083de65fc985b9a8ee77f21ff97a7cc654bd0a6eb82b59b">Ui::Facade::Slider</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>unexpected
 : <a class="el" href="class_error.html#ab5980e13b879db253df802b0950d1708abf7f45cb28d40e51f5266ea08c68da7d">Error</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_x"></a>- x -</h3><ul>
-<li>x_type
-: <a class="el" href="structdb_1_1detail_1_1exchange__traits.html#a6a9582a3215d8d0ee0e0d454eb65aaaeac2c3bf67c2a9c49aa5a8603999a1307c">db::detail::exchange_traits&lt; T &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01blob_01_4.html#a179955816cd83c0aa33661a302bd0255a07ee5ec27a10c48483114c713aa19e05">db::detail::exchange_traits&lt; blob &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01std_1_1tm_01_4.html#a378765597f3522c78ae643ce541f8b9fa3c3acdfbc405dbb4ee06a403b050cc8e">db::detail::exchange_traits&lt; std::tm &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01_string_01_4.html#a577d9ffd064815db9c7d31e1a6657329a9e07ebf23f912f7d3a413a2eccc8f8fa">db::detail::exchange_traits&lt; String &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01std_1_1wstring_01_4.html#afcd99140f3a8fa3d734ae54f62d16137acb8a032dadc6d20b43b42980518fe251">db::detail::exchange_traits&lt; std::wstring &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01std_1_1string_01_4.html#a3371e42ea8912c8666c29c7547eb9c11a84beaa4ea162e804a43a7587f89ef3c4">db::detail::exchange_traits&lt; std::string &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01wchar__t_01const_01_5_01_4.html#a9e35349d244c1acf07dd7d05222fd573a4e0a78337c83e9607c1300ffe4cba71e">db::detail::exchange_traits&lt; wchar_t const * &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01wchar__t_01_5_01_4.html#a63b90be5a51fe75f3fcc64324e0136dfaea8141a519e9577a328abf54ff64160c">db::detail::exchange_traits&lt; wchar_t * &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01char_01const_01_5_01_4.html#aa7bd3f519db83fb5f6d606d0e6538ac7a14a3e3270d1f6fcd474f519937747d97">db::detail::exchange_traits&lt; char const * &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01char_01_5_01_4.html#a6f41bfc63c5c1ef57793aa35e455348da4d65e29742dd19df3258d4939acf6b78">db::detail::exchange_traits&lt; char * &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01double_01_4.html#acc1ad1ae1623465d2e548bbb69c875ecaa8abf397348734291703c84d0d73d27a">db::detail::exchange_traits&lt; double &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01float_01_4.html#ad655326941946b20206c4e3b38b8e36cae81ddbd708b58742facb9db7c9d7ffab">db::detail::exchange_traits&lt; float &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01uint64_01_4.html#acf79b5c50ed9308aa66b85ab48897078af8f31268e18cf6532a6955cf6d5d9045">db::detail::exchange_traits&lt; uint64 &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01unsigned_01long_01_4.html#a9e9089be0c5cd1fdebaddd734fbe58e7a7009082e30b867f27bbebfbed1253d8e">db::detail::exchange_traits&lt; unsigned long &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01unsigned_01int_01_4.html#a77a16b5ee67ac51c7ca24d13a3172104a2844dae90ea6c2e05e7a8e8753c41c31">db::detail::exchange_traits&lt; unsigned int &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01unsigned_01short_01_4.html#a37dd362121ac48c7f6c10e8475ca88bfac8f59f45b303d27c1fa007a7d0dda1bb">db::detail::exchange_traits&lt; unsigned short &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01unsigned_01char_01_4.html#a533e0459359249c69dbe04bb64b38721a42928ebef7dab438cad773a3a895c071">db::detail::exchange_traits&lt; unsigned char &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01int64_01_4.html#acdb27ca1448a67854cd8de2856031ff1ac8bc0005ddd7ec8bfe7e4c1bc166eb0a">db::detail::exchange_traits&lt; int64 &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01long_01_4.html#a429ad7c086905054336e2fda678dae99ab92f75548c9a2e9de877ae2e546f776d">db::detail::exchange_traits&lt; long &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01int_01_4.html#a586c09c8e8be3d33a255a8773b99b9f1ab6bf8dcd888a0abe261c165b5108b47c">db::detail::exchange_traits&lt; int &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01short_01_4.html#a47f14de0d48cf7ec722a5a4988bfc78baf5bd4c78b73aa0d28111826afedac7f8">db::detail::exchange_traits&lt; short &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01char_01_4.html#a1fe36ab4bf77498d4b875eaaa06b1b30a525b57ae6cbde4d319748a59b2668395">db::detail::exchange_traits&lt; char &gt;</a>
-, <a class="el" href="structdb_1_1detail_1_1exchange__traits_3_01bool_01_4.html#a05afcc90fa68142070f0c19bbcf812daaaceee8b0aa5b50b0d02187d40a1e4c0b">db::detail::exchange_traits&lt; bool &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

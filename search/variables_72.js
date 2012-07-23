@@ -9,7 +9,7 @@ var searchData=
   ['readwrite',['readWrite',['http://www.rawmaterialsoftware.com/juce/api/classImage_1_1BitmapData.html#aef68f9fb2440dd6a56a3c0b8c8b6fc13ad55b50039ed1f7483753714d5a92e7df',1,'Image::BitmapData::readWrite()'],['http://www.rawmaterialsoftware.com/juce/api/classMemoryMappedFile.html#a1fb6563237aaf7bd02f4b30f13b0e2d0a600bfb19741145c6c13280a687797041',1,'MemoryMappedFile::readWrite()']]],
   ['realtimepriority',['RealtimePriority',['http://www.rawmaterialsoftware.com/juce/api/classProcess.html#ad7b18ceb7a8c0a2b6b71856894feb6efa1ab071c1d49e25fc1df3c9663177927e',1,'Process']]],
   ['reaper',['Reaper',['http://www.rawmaterialsoftware.com/juce/api/classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8aec2843d65058124f4d29e70027f06e83',1,'PluginHostType']]],
-  ['red',['red',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours::red()'],['../struct_layer_context_1_1_options_1_1_general.html#ad3b71cabef3473412fa47584a759893c',1,'LayerContext::Options::General::red()']]],
+  ['red',['red',['http://www.rawmaterialsoftware.com/juce/api/classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours']]],
   ['redbits',['redBits',['http://www.rawmaterialsoftware.com/juce/api/classOpenGLPixelFormat.html#ae35395197ac66ebfed1a94d1748a20b8',1,'OpenGLPixelFormat']]],
   ['resizable',['resizable',['http://www.rawmaterialsoftware.com/juce/api/classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831ae21b31a36ae1a8a25aed0c8cc5301720',1,'TableHeaderComponent']]],
   ['resizableborder',['resizableBorder',['http://www.rawmaterialsoftware.com/juce/api/classResizableWindow.html#a4d0b53ec83fe41125b1223bb92171543',1,'ResizableWindow']]],
