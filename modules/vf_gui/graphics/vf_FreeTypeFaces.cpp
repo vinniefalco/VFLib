@@ -489,6 +489,7 @@ private:
     addKerningPairs ();
   }
 
+#if 0
   void addKerningPairs()
   {
     FT_Error error = 0;
@@ -503,9 +504,76 @@ private:
     }
   }
 
-  FT_Error addKerningPairsForGlyph (FT_UInt leftGlyphIndex, FT_ULong leftCharCode)
+#else
+
+    // use new interface
+  void addKerningPairs()
   {
-    FT_Error error = 0;
+      FT_UInt pairCount;
+      FT_Short* pairs;
+
+      // make index map
+      int ng = m_face->num_glyphs;
+      if (ng <= 0 || ng > 65535)
+          return; // bail
+
+      FT_ULong* gmap = new FT_ULong[ng];
+
+      // the count will be less 
+      int cc = 0;
+      FT_UInt leftGlyphIndex;
+      FT_ULong leftCharCode = FT_Get_First_Char (m_face, &leftGlyphIndex);
+      while (leftGlyphIndex)
+      {
+          gmap[leftGlyphIndex] = leftCharCode;
+          ++cc;
+          leftCharCode = FT_Get_Next_Char (m_face,
+                                           leftCharCode, &leftGlyphIndex);
+
+          if (cc >= ng)
+              break; // exceeded claimed glyph count!
+      }
+
+
+#define IDX2CHAR(_x)  (_x < cc ? gmap[_x] : 0)
+      
+      if (!FT_Get_Kerning_Pairs(m_face,
+                                m_kerningMode,
+                                &pairCount,
+                                &pairs))
+      {
+
+          unsigned int i;
+          FT_Short* pp = pairs;
+          for (i = 0; i < pairCount; ++i)
+          {
+              FT_Long left = IDX2CHAR(pp[0]);
+              FT_Long right = IDX2CHAR(pp[1]);
+              FT_Short v = pp[2];
+              
+              if (left && right && v)
+              {
+                  float extraAmount = m_kerningScale * v;
+                  addKerningPair (left, right, extraAmount);
+              }
+              pp += 3;
+          }
+          
+          // remember to free the pairs
+          if (pairs) free(pairs);
+      }
+
+      // clean up
+      delete gmap;
+  }
+
+#endif
+
+
+    FT_Error addKerningPairsForGlyph (FT_UInt leftGlyphIndex,
+                                      FT_ULong leftCharCode)
+    {
+        FT_Error error = 0;
 
     if ((m_face->face_flags & FT_FACE_FLAG_KERNING) != 0)
     {
