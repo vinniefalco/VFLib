@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="SampleSource" name="SampleSource">
 <area shape="rect" id="node3" href="$class_sample_source_1_1_sample_source_adapter.html" title="Presents an AudioSource as a SampleSource." alt="" coords="5,81,205,122"/>
 <area shape="rect" id="node5" href="$class_seeking_sample_source.html" title="Abstract positionable source of audio samples." alt="" coords="229,88,384,115"/>
 <area shape="rect" id="node7" href="$class_seeking_audio_source.html" title="A SeekingSampleSource with sample rate conversion information." alt="" coords="235,171,377,197"/>

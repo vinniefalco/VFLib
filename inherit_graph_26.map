@@ -1,3 +1,4 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$class_fifo_free_store_with_t_l_s.html" title="Lock&#45;free and mostly wait&#45;free FIFO memory allocator." alt="" coords="6,5,157,32"/>
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="juce.tag$classDragAndDropTarget.html" title="DragAndDropTarget" alt="" coords="6,5,141,32"/>
+<area shape="rect" id="node3" href="$class_drag_and_drop_data_1_1_target.html" title="DragAndDropTarget wrapper supporting the DragAndDropData container." alt="" coords="189,5,360,32"/>
 </map>

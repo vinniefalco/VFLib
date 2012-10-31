@@ -23,6 +23,7 @@ var searchData=
   ['referencecountedobject',['ReferenceCountedObject',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObject.html',1,'']]],
   ['referencecountedobjectptr',['ReferenceCountedObjectPtr',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20call_20_3e',['ReferenceCountedObjectPtr&lt; Call &gt;',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],
+  ['referencecountedobjectptr_3c_20data_20_3e',['ReferenceCountedObjectPtr&lt; Data &gt;',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20entry_20_3e',['ReferenceCountedObjectPtr&lt; Entry &gt;',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20freetypelibrary_20_3e',['ReferenceCountedObjectPtr&lt; FreeTypeLibrary &gt;',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20group_20_3e',['ReferenceCountedObjectPtr&lt; Group &gt;',['http://www.rawmaterialsoftware.com/juce/api/classReferenceCountedObjectPtr.html',1,'']]],

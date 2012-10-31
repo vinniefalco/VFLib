@@ -1,3 +1,5 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$class_f_p_u_flags.html" title="A set of IEEE FPU flags." alt="" coords="5,5,85,32"/>
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_safe_bool.html" title="SafeBool\&lt; Error \&gt;" alt="" coords="6,5,133,32"/>
+<area shape="rect" id="node3" href="$class_error.html" title="A concise error report." alt="" coords="181,31,232,57"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="17,56,121,83"/>
 </map>

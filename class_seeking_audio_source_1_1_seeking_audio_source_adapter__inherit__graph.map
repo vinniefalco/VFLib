@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="SeekingAudioSource::SeekingAudioSourceAdapter" name="SeekingAudioSource::SeekingAudioSourceAdapter">
 <area shape="rect" id="node2" href="$class_seeking_audio_source.html" title="A SeekingSampleSource with sample rate conversion information." alt="" coords="31,155,173,181"/>
 <area shape="rect" id="node4" href="$class_seeking_sample_source.html" title="Abstract positionable source of audio samples." alt="" coords="25,80,180,107"/>
 <area shape="rect" id="node6" href="$class_sample_source.html" title="Abstract source of audio samples." alt="" coords="49,5,156,32"/>

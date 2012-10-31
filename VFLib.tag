@@ -2,123 +2,123 @@
 <tagfile>
   <compound kind="file">
     <name>vf_audio.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_audio/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_audio/</path>
     <filename>vf__audio_8cpp</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_audio.h</name>
-    <path>D:/Projects/VFLib/modules/vf_audio/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_audio/</path>
     <filename>vf__audio_8h</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_bzip2.c</name>
-    <path>D:/Projects/VFLib/modules/vf_bzip2/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_bzip2/</path>
     <filename>vf__bzip2_8c</filename>
   </compound>
   <compound kind="file">
     <name>vf_bzip2.h</name>
-    <path>D:/Projects/VFLib/modules/vf_bzip2/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_bzip2/</path>
     <filename>vf__bzip2_8h</filename>
   </compound>
   <compound kind="file">
     <name>vf_concurrent.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_concurrent/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_concurrent/</path>
     <filename>vf__concurrent_8cpp</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_concurrent.h</name>
-    <path>D:/Projects/VFLib/modules/vf_concurrent/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_concurrent/</path>
     <filename>vf__concurrent_8h</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_core.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_core/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/</path>
     <filename>vf__core_8cpp</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_core.h</name>
-    <path>D:/Projects/VFLib/modules/vf_core/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/</path>
     <filename>vf__core_8h</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_db.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_db/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_db/</path>
     <filename>vf__db_8cpp</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_db.h</name>
-    <path>D:/Projects/VFLib/modules/vf_db/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_db/</path>
     <filename>vf__db_8h</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_freetype.c</name>
-    <path>D:/Projects/VFLib/modules/vf_freetype/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_freetype/</path>
     <filename>vf__freetype_8c</filename>
   </compound>
   <compound kind="file">
     <name>vf_freetype.h</name>
-    <path>D:/Projects/VFLib/modules/vf_freetype/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_freetype/</path>
     <filename>vf__freetype_8h</filename>
   </compound>
   <compound kind="file">
     <name>vf_gui.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/</path>
     <filename>vf__gui_8cpp</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_gui.h</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/</path>
     <filename>vf__gui_8h</filename>
     <namespace>vf</namespace>
   </compound>
   <compound kind="file">
     <name>vf_lua.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_lua/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_lua/</path>
     <filename>vf__lua_8cpp</filename>
   </compound>
   <compound kind="file">
     <name>vf_lua.h</name>
-    <path>D:/Projects/VFLib/modules/vf_lua/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_lua/</path>
     <filename>vf__lua_8h</filename>
   </compound>
   <compound kind="file">
     <name>vf_luabridge.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_luabridge/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_luabridge/</path>
     <filename>vf__luabridge_8cpp</filename>
     <namespace>anonymous_namespace{vf_luabridge.cpp}</namespace>
   </compound>
   <compound kind="file">
     <name>vf_luabridge.h</name>
-    <path>D:/Projects/VFLib/modules/vf_luabridge/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_luabridge/</path>
     <filename>vf__luabridge_8h</filename>
   </compound>
   <compound kind="file">
     <name>vf_sqlite.c</name>
-    <path>D:/Projects/VFLib/modules/vf_sqlite/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_sqlite/</path>
     <filename>vf__sqlite_8c</filename>
   </compound>
   <compound kind="file">
     <name>vf_sqlite.h</name>
-    <path>D:/Projects/VFLib/modules/vf_sqlite/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_sqlite/</path>
     <filename>vf__sqlite_8h</filename>
   </compound>
   <compound kind="file">
     <name>vf_taglib.cpp</name>
-    <path>D:/Projects/VFLib/modules/vf_taglib/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_taglib/</path>
     <filename>vf__taglib_8cpp</filename>
   </compound>
   <compound kind="file">
     <name>vf_taglib.h</name>
-    <path>D:/Projects/VFLib/modules/vf_taglib/</path>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_taglib/</path>
     <filename>vf__taglib_8h</filename>
   </compound>
   <compound kind="group">
@@ -135,10 +135,13 @@
     <class kind="class">Metronome</class>
     <class kind="class">NoiseAudioSource</class>
     <class kind="class">SampleSource</class>
+    <class kind="class">SampleSource::AudioSourceAdapter</class>
+    <class kind="class">SampleSource::SampleSourceAdapter</class>
     <class kind="class">SeekingAudioSource</class>
     <class kind="class">SeekingAudioSource::PositionableAudioSourceAdapter</class>
     <class kind="class">SeekingAudioSource::SeekingAudioSourceAdapter</class>
     <class kind="class">SeekingSampleSource</class>
+    <class kind="class">SeekingSampleSource::PositionableAudioSourceAdapter</class>
     <member kind="typedef">
       <type>AudioSampleBufferArray&lt; 2 &gt;</type>
       <name>StereoSampleBuffer</name>
@@ -167,8 +170,12 @@
     <class kind="class">GlobalPagedFreeStore</class>
     <class kind="class">PagedFreeStore</class>
     <class kind="class">CallQueue</class>
+    <class kind="class">CallQueue::Work</class>
     <class kind="class">ConcurrentObject</class>
     <class kind="class">ConcurrentState</class>
+    <class kind="class">ConcurrentState::ReadAccess</class>
+    <class kind="class">ConcurrentState::UnlockedAccess</class>
+    <class kind="class">ConcurrentState::WriteAccess</class>
     <class kind="class">GlobalThreadGroup</class>
     <class kind="class">GuiCallQueue</class>
     <class kind="class">ManualCallQueue</class>
@@ -235,8 +242,11 @@
     <class kind="struct">LockFreeQueueDefaultTag</class>
     <class kind="class">LockFreeStack</class>
     <class kind="struct">LockFreeStackDefaultTag</class>
+    <class kind="class">Map2D</class>
     <class kind="class">Error</class>
     <class kind="class">FPUFlags</class>
+    <class kind="struct">FPUFlags::Enum</class>
+    <class kind="struct">FPUFlags::Flag</class>
     <class kind="class">ScopedFPUFlags</class>
     <class kind="class">OncePerSecond</class>
     <class kind="class">PerformedAtExit</class>
@@ -246,6 +256,7 @@
     <class kind="class">AtomicState</class>
     <class kind="class">InterruptibleThread</class>
     <class kind="class">Semaphore</class>
+    <class kind="class">SerialFor</class>
     <class kind="class">SafeBool</class>
     <class kind="class">RefCountedSingleton</class>
     <member kind="enumeration">
@@ -300,6 +311,7 @@
     <filename>group__vf__gui.html</filename>
     <file>vf_gui.cpp</file>
     <file>vf_gui.h</file>
+    <class kind="class">SharedTable</class>
     <class kind="class">componentBroadcast</class>
     <class kind="class">componentNotifyParent</class>
     <class kind="class">TransparentBorder</class>
@@ -740,8 +752,8 @@
       <anchor>a89de47524d62877f2198a58d78d1b0ed</anchor>
       <arglist>(String name)</arglist>
     </member>
-    <member kind="function">
-      <type></type>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
       <name>~CallQueue</name>
       <anchorfile>class_call_queue.html</anchorfile>
       <anchor>a243ab6a2217eb227bf4b6050447ead01</anchor>
@@ -1257,6 +1269,30 @@
     <filename>class_global_fifo_free_store.html</filename>
     <templarg></templarg>
     <base>RefCountedSingleton&lt; GlobalFifoFreeStore&lt; Tag &gt; &gt;</base>
+    <member kind="enumeration">
+      <name>Lifetime</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>ga9b008fe514a5b1eb71a1eb7f439da5a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemand</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemandOnce</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>persistAfterCreation</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Ptr</type>
       <name>getInstance</name>
@@ -1276,6 +1312,30 @@
     <name>GlobalPagedFreeStore</name>
     <filename>class_global_paged_free_store.html</filename>
     <base>RefCountedSingleton&lt; GlobalPagedFreeStore &gt;</base>
+    <member kind="enumeration">
+      <name>Lifetime</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>ga9b008fe514a5b1eb71a1eb7f439da5a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemand</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemandOnce</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>persistAfterCreation</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Ptr</type>
       <name>getInstance</name>
@@ -1301,6 +1361,30 @@
       <name>RefCountedSingleton&lt; GlobalThreadGroup &gt;</name>
       <anchorfile>class_global_thread_group.html</anchorfile>
       <anchor>a6f699b96be0bc13ade932d60601ca267</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>Lifetime</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>ga9b008fe514a5b1eb71a1eb7f439da5a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemand</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>createOnDemandOnce</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>persistAfterCreation</name>
+      <anchorfile>group__vf__core.html</anchorfile>
+      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -1379,8 +1463,8 @@
       <anchor>a89de47524d62877f2198a58d78d1b0ed</anchor>
       <arglist>(String name)</arglist>
     </member>
-    <member kind="function">
-      <type></type>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
       <name>~CallQueue</name>
       <anchorfile>class_call_queue.html</anchorfile>
       <anchor>a243ab6a2217eb227bf4b6050447ead01</anchor>
@@ -1456,11 +1540,24 @@
       <anchor>ab9493c093bea81bb7c5d8aae367b7957</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>synchronize</name>
+      <anchorfile>class_call_queue.html</anchorfile>
+      <anchor>a7b4ecb95445c00c815bc2407c9e008b7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>close</name>
+      <anchorfile>class_call_queue.html</anchorfile>
+      <anchor>ace99f6efb1cd9e6b3e0dac80fbb15690</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>InterruptibleThread</name>
     <filename>class_interruptible_thread.html</filename>
-    <base protection="protected">Thread</base>
     <member kind="function">
       <type></type>
       <name>InterruptibleThread</name>
@@ -1530,6 +1627,13 @@
       <anchorfile>class_interruptible_thread.html</anchorfile>
       <anchor>ad44319971f4e01fe04c4d7f25f6766e1</anchor>
       <arglist>(int priority)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static InterruptibleThread *</type>
+      <name>getCurrentThread</name>
+      <anchorfile>class_interruptible_thread.html</anchorfile>
+      <anchor>af718676b467cde39a59580ac1f2b6b5b</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2119,8 +2223,8 @@
       <anchor>a89de47524d62877f2198a58d78d1b0ed</anchor>
       <arglist>(String name)</arglist>
     </member>
-    <member kind="function">
-      <type></type>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
       <name>~CallQueue</name>
       <anchorfile>class_call_queue.html</anchorfile>
       <anchor>a243ab6a2217eb227bf4b6050447ead01</anchor>
@@ -2196,12 +2300,143 @@
       <anchor>ab9493c093bea81bb7c5d8aae367b7957</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>synchronize</name>
+      <anchorfile>class_call_queue.html</anchorfile>
+      <anchor>a7b4ecb95445c00c815bc2407c9e008b7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>close</name>
+      <anchorfile>class_call_queue.html</anchorfile>
+      <anchor>ace99f6efb1cd9e6b3e0dac80fbb15690</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Map2D</name>
+    <filename>class_map2_d.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>Map2D</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a6299ba995bdd5c65b1018ce19be3327a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Map2D</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a5ab84c2e8b6476dcbaaf458247b40950</anchor>
+      <arglist>(int width, int height, bool fillMemoryWithZeros=false)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Map2D</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>ac300c9a7e981a7e048e2cc5126acdae4</anchor>
+      <arglist>(Map2D const &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>Map2D &amp;</type>
+      <name>operator=</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>ae202c4bada1bd791baf208ec94d52ce8</anchor>
+      <arglist>(Map2D const &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Map2D</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a410dce8a218d94d390366c8f59f904a3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isNull</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a16f1f6ef73e3a44fc615d6876b93b52f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isValid</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a146078d839c50c5607f0da20dece96cf</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>reset</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>aad3337fde01e643ca0ad674cb19f0cf1</anchor>
+      <arglist>(U u=U()) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>getData</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a2ae4fba39849e9aacb2be9a18d679ae0</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>operator T *</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a9f15f737baf562436c26dc1746af24f0</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getRows</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>ae6be528a7bd2eb78d9302fce4472cfad</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getCols</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a1f10a1d4fa2ecdfedc56551aa7316c61</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>get</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>a05e0acca67036ae90a69bfa89d341272</anchor>
+      <arglist>(int x, int y) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>operator()</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>aa8fa4edfa5d4927dd49750b915cab89c</anchor>
+      <arglist>(int x, int y) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>getRow</name>
+      <anchorfile>class_map2_d.html</anchorfile>
+      <anchor>abf39b79957bed84a818a959ccd3f512e</anchor>
+      <arglist>(int y) const noexcept</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>MessageThread</name>
     <filename>class_message_thread.html</filename>
     <base>GuiCallQueue</base>
     <base protection="private">DeletedAtShutdown</base>
+    <member kind="typedef">
+      <type>FifoFreeStoreType</type>
+      <name>AllocatorType</name>
+      <anchorfile>class_call_queue.html</anchorfile>
+      <anchor>ab9493c093bea81bb7c5d8aae367b7957</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>GuiCallQueue</name>
@@ -2223,82 +2458,19 @@
       <anchor>a63f2c96d55cc954cf373d85f509f6dd3</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function">
-      <type></type>
-      <name>CallQueue</name>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>synchronize</name>
       <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a89de47524d62877f2198a58d78d1b0ed</anchor>
-      <arglist>(String name)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~CallQueue</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a243ab6a2217eb227bf4b6050447ead01</anchor>
+      <anchor>a7b4ecb95445c00c815bc2407c9e008b7</anchor>
       <arglist>()</arglist>
     </member>
-    <member kind="function">
+    <member kind="function" protection="protected">
       <type>void</type>
-      <name>callf</name>
+      <name>close</name>
       <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>aeb35530fa2af19554d407028bdb18621</anchor>
-      <arglist>(Functor const &amp;f)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>queuef</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a0f8328270c5957864a041e2cfc8045ad</anchor>
-      <arglist>(Functor f)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>callp</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a8a0830d21ece4b03d3fec8573127ed9a</anchor>
-      <arglist>(Work *c)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>queuep</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a35890339497d3ff7e2b2d5a4c41fea3f</anchor>
-      <arglist>(Work *c)</arglist>
-    </member>
-    <member kind="function">
-      <type>AllocatorType &amp;</type>
-      <name>getAllocator</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a35e200b282e06ae17ac052a815195eb7</anchor>
+      <anchor>ace99f6efb1cd9e6b3e0dac80fbb15690</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>isAssociatedWithCurrentThread</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>aaa82bf4b31dd6284e07a2103dc8e76f3</anchor>
-      <arglist>() const </arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>isBeingSynchronized</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a2baa26800f8f0edebf428d79cd04352a</anchor>
-      <arglist>() const </arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>call</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a7cbce7a131504706ba6c36bcab846f87</anchor>
-      <arglist>(Fn f)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>queue</name>
-      <anchorfile>class_call_queue.html</anchorfile>
-      <anchor>a7b7121a53b44c35b82358544a6a7cea0</anchor>
-      <arglist>(Fn f)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2395,6 +2567,13 @@
       <arglist>(ThreadGroup &amp;pool=*GlobalThreadGroup::getInstance())</arglist>
     </member>
     <member kind="function">
+      <type>int</type>
+      <name>getNumberOfThreads</name>
+      <anchorfile>class_parallel_for.html</anchorfile>
+      <anchor>abc990f743284b912090f5c880c3c40ee</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>loopf</name>
       <anchorfile>class_parallel_for.html</anchorfile>
@@ -2481,7 +2660,6 @@
     <name>RefCountedSingleton</name>
     <filename>class_ref_counted_singleton.html</filename>
     <templarg>Object</templarg>
-    <base>SingletonLifetime</base>
     <base protection="private">PerformedAtExit</base>
     <member kind="function" static="yes">
       <type>static Ptr</type>
@@ -2780,31 +2958,124 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>SingletonLifetime</name>
-    <filename>class_singleton_lifetime.html</filename>
-    <member kind="enumeration">
-      <name>Lifetime</name>
-      <anchorfile>group__vf__core.html</anchorfile>
-      <anchor>ga9b008fe514a5b1eb71a1eb7f439da5a2</anchor>
-      <arglist></arglist>
+    <name>SerialFor</name>
+    <filename>class_serial_for.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>SerialFor</name>
+      <anchorfile>class_serial_for.html</anchorfile>
+      <anchor>a020bb3a4c1c15e7f6cd5e32684ef0d40</anchor>
+      <arglist>()</arglist>
     </member>
-    <member kind="enumvalue">
-      <name>createOnDemand</name>
-      <anchorfile>group__vf__core.html</anchorfile>
-      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2a1e2725e778aa8d0f99589bfe980f362f</anchor>
-      <arglist></arglist>
+    <member kind="function">
+      <type>int</type>
+      <name>getNumberOfThreads</name>
+      <anchorfile>class_serial_for.html</anchorfile>
+      <anchor>a7633c165996befb8973ef36b71b75d36</anchor>
+      <arglist>() const </arglist>
     </member>
-    <member kind="enumvalue">
-      <name>createOnDemandOnce</name>
-      <anchorfile>group__vf__core.html</anchorfile>
-      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ab159ee90f788a298c261780fb5b84dd3</anchor>
-      <arglist></arglist>
+  </compound>
+  <compound kind="class">
+    <name>SharedTable</name>
+    <filename>class_shared_table.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>SharedTable</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>af470fbe662ad0b6a25e46660c4f74ddc</anchor>
+      <arglist>()</arglist>
     </member>
-    <member kind="enumvalue">
-      <name>persistAfterCreation</name>
-      <anchorfile>group__vf__core.html</anchorfile>
-      <anchor>gga9b008fe514a5b1eb71a1eb7f439da5a2ac60514e25bc9b84dc84052a7dbc998b0</anchor>
-      <arglist></arglist>
+    <member kind="function">
+      <type></type>
+      <name>SharedTable</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>ad6a93be9a73b87391374140efa015d45</anchor>
+      <arglist>(int numEntries)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SharedTable</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>af1a3b2ff706b8a300e8c5bb314e437b9</anchor>
+      <arglist>(SharedTable const &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>SharedTable &amp;</type>
+      <name>operator=</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a707d7d3e5de5fbe98d05313cbaebe47d</anchor>
+      <arglist>(SharedTable const &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~SharedTable</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>acac10fae4f550b4938f67765dd73b92f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>af5158dc69172e0e97b39b197aa3abaed</anchor>
+      <arglist>(SharedTable const &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a3ef71218e6d80f33481c0ed3cb7403f3</anchor>
+      <arglist>(SharedTable const &amp;other) const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isValid</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a310d185b46a0d4c7edfd5d5b95918e49</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isNull</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a28ab740e4f5193804b0068dc1e854eef</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getReferenceCount</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>ae50fa773601769edfda0d46236388b0c</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>SharedTable</type>
+      <name>createCopy</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a53dc040e09d6ac50e97e811bcacdb8c2</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>duplicateIfShared</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a8ca84938f4861be0476a72c41186df12</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>getNumEntries</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>aa2f9d6e7bbef08baec62e6aa966d51a8</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>ElementType &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>class_shared_table.html</anchorfile>
+      <anchor>a20276dc909f885d3643c0f173989bdac</anchor>
+      <arglist>(int index) const noexcept</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2911,8 +3182,8 @@
       <anchor>a89de47524d62877f2198a58d78d1b0ed</anchor>
       <arglist>(String name)</arglist>
     </member>
-    <member kind="function">
-      <type></type>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
       <name>~CallQueue</name>
       <anchorfile>class_call_queue.html</anchorfile>
       <anchor>a243ab6a2217eb227bf4b6050447ead01</anchor>
@@ -3029,6 +3300,11 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>Vec3</name>
+    <filename>struct_vec3.html</filename>
+    <templarg></templarg>
+  </compound>
   <compound kind="class">
     <name>VerticalGradient</name>
     <filename>class_vertical_gradient.html</filename>
@@ -3059,8 +3335,8 @@
     <filename>namespacevf.html</filename>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_audio/buffers/</name>
-    <path>D:/Projects/VFLib/modules/vf_audio/buffers/</path>
+    <name>buffers</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_audio/buffers/</path>
     <filename>dir_2361a89612979fe306184a2d90eaf779.html</filename>
     <file>vf_AudioBufferPool.cpp</file>
     <file>vf_AudioBufferPool.h</file>
@@ -3068,8 +3344,8 @@
     <file>vf_ScopedAudioSampleBuffer.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_gui/components/</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/components/</path>
+    <name>components</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/components/</path>
     <filename>dir_7e5f2a73e1ebacb8ae43953caa71c033.html</filename>
     <file>vf_ComponentBroadcast.h</file>
     <file>vf_ComponentNotifyParent.h</file>
@@ -3077,17 +3353,19 @@
     <file>vf_TransparentBorder.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/containers/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/containers/</path>
+    <name>containers</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/containers/</path>
     <filename>dir_06d797951ff7f21bf2a3d6d7fe24986b.html</filename>
     <file>vf_List.h</file>
     <file>vf_LockFreeQueue.h</file>
     <file>vf_LockFreeStack.h</file>
+    <file>vf_Map2D.h</file>
+    <file>vf_SharedTable.h</file>
     <file>vf_SortedLookupTable.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/diagnostic/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/diagnostic/</path>
+    <name>diagnostic</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/diagnostic/</path>
     <filename>dir_638f5f8e5b59d7c9204fec01646f9d67.html</filename>
     <file>vf_CatchAny.cpp</file>
     <file>vf_CatchAny.h</file>
@@ -3103,8 +3381,8 @@
     <file>vf_Throw.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/events/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/events/</path>
+    <name>events</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/events/</path>
     <filename>dir_3a2bbe0257dea7c5759c637ccf52d491.html</filename>
     <file>vf_OncePerSecond.cpp</file>
     <file>vf_OncePerSecond.h</file>
@@ -3112,15 +3390,15 @@
     <file>vf_PerformedAtExit.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/functor/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/functor/</path>
+    <name>functor</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/functor/</path>
     <filename>dir_639f687cdf2ae0790238d248eb3167d2.html</filename>
     <file>vf_Bind.h</file>
     <file>vf_Function.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_gui/graphics/</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/graphics/</path>
+    <name>graphics</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/graphics/</path>
     <filename>dir_ba7e779f4cbf707f7861b3bdfed86062.html</filename>
     <file>vf_ChannelImageType.cpp</file>
     <file>vf_ChannelImageType.h</file>
@@ -3135,8 +3413,8 @@
     <file>vf_XYZColour.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_gui/layout/</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/layout/</path>
+    <name>layout</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/layout/</path>
     <filename>dir_94c2295c5f97af57ee82b4948bbfb73e.html</filename>
     <file>vf_ContentComponentConstrainer.h</file>
     <file>vf_ResizableLayout.cpp</file>
@@ -3145,17 +3423,18 @@
     <file>vf_StackedLayout.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/math/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/math/</path>
+    <name>math</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/math/</path>
     <filename>dir_2186760568b5447aefde61542f70ed73.html</filename>
     <file>vf_Interval.h</file>
     <file>vf_Math.h</file>
     <file>vf_MurmurHash.cpp</file>
     <file>vf_MurmurHash.h</file>
+    <file>vf_Vec3.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/memory/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/memory/</path>
+    <name>memory</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/memory/</path>
     <filename>dir_5f282c27ddc28587a44bfb240081d875.html</filename>
     <file>vf_AtomicCounter.h</file>
     <file>vf_AtomicFlag.h</file>
@@ -3168,8 +3447,8 @@
     <file>vf_Uncopyable.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_concurrent/memory/</name>
-    <path>D:/Projects/VFLib/modules/vf_concurrent/memory/</path>
+    <name>memory</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_concurrent/memory/</path>
     <filename>dir_c6205d1ff49cd804fd8c8fdaeb9bac42.html</filename>
     <file>vf_AllocatedBy.h</file>
     <file>vf_FifoFreeStore.h</file>
@@ -3184,24 +3463,24 @@
     <file>vf_PagedFreeStore.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/</name>
-    <path>D:/Projects/VFLib/modules/</path>
+    <name>modules</name>
+    <path>D:/Projects/VFLib/VFLib/modules/</path>
     <filename>dir_e05d7e2b1ecd646af5bb94391405f3b5.html</filename>
-    <dir>modules/vf_audio/</dir>
-    <dir>modules/vf_bzip2/</dir>
-    <dir>modules/vf_concurrent/</dir>
-    <dir>modules/vf_core/</dir>
-    <dir>modules/vf_db/</dir>
-    <dir>modules/vf_freetype/</dir>
-    <dir>modules/vf_gui/</dir>
-    <dir>modules/vf_lua/</dir>
-    <dir>modules/vf_luabridge/</dir>
-    <dir>modules/vf_sqlite/</dir>
-    <dir>modules/vf_taglib/</dir>
+    <dir>vf_audio</dir>
+    <dir>vf_bzip2</dir>
+    <dir>vf_concurrent</dir>
+    <dir>vf_core</dir>
+    <dir>vf_db</dir>
+    <dir>vf_freetype</dir>
+    <dir>vf_gui</dir>
+    <dir>vf_lua</dir>
+    <dir>vf_luabridge</dir>
+    <dir>vf_sqlite</dir>
+    <dir>vf_taglib</dir>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_gui/mouse/</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/mouse/</path>
+    <name>mouse</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/mouse/</path>
     <filename>dir_74b08bafeb746d24098c2382891abffa.html</filename>
     <file>vf_DragAndDropData.cpp</file>
     <file>vf_DragAndDropData.h</file>
@@ -3210,8 +3489,8 @@
     <file>vf_MouseEnterGroup.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/native/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/native/</path>
+    <name>native</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/native/</path>
     <filename>dir_c7b0fdf6ff22bf466662af108b6ff5b9.html</filename>
     <file>vf_posix_FPUFlags.cpp</file>
     <file>vf_posix_Threads.cpp</file>
@@ -3219,8 +3498,8 @@
     <file>vf_win32_Threads.cpp</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_audio/sources/</name>
-    <path>D:/Projects/VFLib/modules/vf_audio/sources/</path>
+    <name>sources</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_audio/sources/</path>
     <filename>dir_2cb861d555f7b640b5083f24e435d827.html</filename>
     <file>vf_Metronome.cpp</file>
     <file>vf_Metronome.h</file>
@@ -3234,18 +3513,19 @@
     <file>vf_SeekingSampleSource.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/threads/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/threads/</path>
+    <name>threads</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/threads/</path>
     <filename>dir_220bc6aeb590c4cce7ed2a56534fec8e.html</filename>
     <file>vf_InterruptibleThread.cpp</file>
     <file>vf_InterruptibleThread.h</file>
     <file>vf_Semaphore.cpp</file>
     <file>vf_Semaphore.h</file>
+    <file>vf_SerialFor.h</file>
     <file>vf_SpinDelay.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_concurrent/threads/</name>
-    <path>D:/Projects/VFLib/modules/vf_concurrent/threads/</path>
+    <name>threads</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_concurrent/threads/</path>
     <filename>dir_b8d0591432e69a0faa23ffcae540237d.html</filename>
     <file>vf_CallQueue.cpp</file>
     <file>vf_CallQueue.h</file>
@@ -3271,94 +3551,94 @@
     <file>vf_ThreadWithCallQueue.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_audio/</name>
-    <path>D:/Projects/VFLib/modules/vf_audio/</path>
+    <name>vf_audio</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_audio/</path>
     <filename>dir_0bd4e217e6c468819e3ba163592e750b.html</filename>
-    <dir>modules/vf_audio/buffers/</dir>
-    <dir>modules/vf_audio/sources/</dir>
+    <dir>buffers</dir>
+    <dir>sources</dir>
     <file>vf_audio.cpp</file>
     <file>vf_audio.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_bzip2/</name>
-    <path>D:/Projects/VFLib/modules/vf_bzip2/</path>
+    <name>vf_bzip2</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_bzip2/</path>
     <filename>dir_9f84e27b6c93fe4dc8749df81a3a5ea8.html</filename>
     <file>vf_bzip2.c</file>
     <file>vf_bzip2.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_concurrent/</name>
-    <path>D:/Projects/VFLib/modules/vf_concurrent/</path>
+    <name>vf_concurrent</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_concurrent/</path>
     <filename>dir_9f890533c491a146662e80f58e9f36a1.html</filename>
-    <dir>modules/vf_concurrent/memory/</dir>
-    <dir>modules/vf_concurrent/threads/</dir>
+    <dir>memory</dir>
+    <dir>threads</dir>
     <file>vf_concurrent.cpp</file>
     <file>vf_concurrent.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_core/</name>
-    <path>D:/Projects/VFLib/modules/vf_core/</path>
+    <name>vf_core</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_core/</path>
     <filename>dir_6dd846d253d83dac76d51f7eecc0ffa8.html</filename>
-    <dir>modules/vf_core/containers/</dir>
-    <dir>modules/vf_core/diagnostic/</dir>
-    <dir>modules/vf_core/events/</dir>
-    <dir>modules/vf_core/functor/</dir>
-    <dir>modules/vf_core/math/</dir>
-    <dir>modules/vf_core/memory/</dir>
-    <dir>modules/vf_core/native/</dir>
-    <dir>modules/vf_core/threads/</dir>
+    <dir>containers</dir>
+    <dir>diagnostic</dir>
+    <dir>events</dir>
+    <dir>functor</dir>
+    <dir>math</dir>
+    <dir>memory</dir>
+    <dir>native</dir>
+    <dir>threads</dir>
     <file>vf_core.cpp</file>
     <file>vf_core.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_db/</name>
-    <path>D:/Projects/VFLib/modules/vf_db/</path>
+    <name>vf_db</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_db/</path>
     <filename>dir_d5f8b3dfb5d23698db30a7af4e8ad868.html</filename>
     <file>vf_db.cpp</file>
     <file>vf_db.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_freetype/</name>
-    <path>D:/Projects/VFLib/modules/vf_freetype/</path>
+    <name>vf_freetype</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_freetype/</path>
     <filename>dir_da6060636711807fc02fd05c0e2f986e.html</filename>
     <file>vf_freetype.c</file>
     <file>vf_freetype.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_gui/</name>
-    <path>D:/Projects/VFLib/modules/vf_gui/</path>
+    <name>vf_gui</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_gui/</path>
     <filename>dir_046cf30a07a711de88f37decc6f872aa.html</filename>
-    <dir>modules/vf_gui/components/</dir>
-    <dir>modules/vf_gui/graphics/</dir>
-    <dir>modules/vf_gui/layout/</dir>
-    <dir>modules/vf_gui/mouse/</dir>
+    <dir>components</dir>
+    <dir>graphics</dir>
+    <dir>layout</dir>
+    <dir>mouse</dir>
     <file>vf_gui.cpp</file>
     <file>vf_gui.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_lua/</name>
-    <path>D:/Projects/VFLib/modules/vf_lua/</path>
+    <name>vf_lua</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_lua/</path>
     <filename>dir_6a8db680e9c4ae923a1dc00452cbfe81.html</filename>
     <file>vf_lua.cpp</file>
     <file>vf_lua.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_luabridge/</name>
-    <path>D:/Projects/VFLib/modules/vf_luabridge/</path>
+    <name>vf_luabridge</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_luabridge/</path>
     <filename>dir_92c5c69953a75ea34e4a0b3c34a69bee.html</filename>
     <file>vf_luabridge.cpp</file>
     <file>vf_luabridge.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_sqlite/</name>
-    <path>D:/Projects/VFLib/modules/vf_sqlite/</path>
+    <name>vf_sqlite</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_sqlite/</path>
     <filename>dir_dfa8e4450b970508197477662be294e2.html</filename>
     <file>vf_sqlite.c</file>
     <file>vf_sqlite.h</file>
   </compound>
   <compound kind="dir">
-    <name>modules/vf_taglib/</name>
-    <path>D:/Projects/VFLib/modules/vf_taglib/</path>
+    <name>vf_taglib</name>
+    <path>D:/Projects/VFLib/VFLib/modules/vf_taglib/</path>
     <filename>dir_af6754f2ac9b0817f8b0259cf4779a4a.html</filename>
     <file>vf_taglib.cpp</file>
     <file>vf_taglib.h</file>

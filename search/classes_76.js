@@ -11,6 +11,7 @@ var searchData=
   ['valuetreewrapper',['ValueTreeWrapper',['http://www.rawmaterialsoftware.com/juce/api/classDrawableText_1_1ValueTreeWrapper.html',1,'DrawableText']]],
   ['valuetreewrapperbase',['ValueTreeWrapperBase',['http://www.rawmaterialsoftware.com/juce/api/classDrawable_1_1ValueTreeWrapperBase.html',1,'Drawable']]],
   ['var',['var',['http://www.rawmaterialsoftware.com/juce/api/classvar.html',1,'']]],
+  ['vec3',['Vec3',['../struct_vec3.html',1,'']]],
   ['vector3d',['Vector3D',['http://www.rawmaterialsoftware.com/juce/api/classVector3D.html',1,'']]],
   ['verticalgradient',['VerticalGradient',['../class_vertical_gradient.html',1,'']]],
   ['viewport',['Viewport',['http://www.rawmaterialsoftware.com/juce/api/classViewport.html',1,'']]],

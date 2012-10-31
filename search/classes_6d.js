@@ -2,6 +2,7 @@ var searchData=
 [
   ['macaddress',['MACAddress',['http://www.rawmaterialsoftware.com/juce/api/classMACAddress.html',1,'']]],
   ['manualcallqueue',['ManualCallQueue',['../class_manual_call_queue.html',1,'']]],
+  ['map2d',['Map2D',['../class_map2_d.html',1,'']]],
   ['marker',['Marker',['http://www.rawmaterialsoftware.com/juce/api/classMarkerList_1_1Marker.html',1,'MarkerList']]],
   ['markerlist',['MarkerList',['http://www.rawmaterialsoftware.com/juce/api/classMarkerList.html',1,'']]],
   ['master',['Master',['http://www.rawmaterialsoftware.com/juce/api/classWeakReference_1_1Master.html',1,'WeakReference']]],

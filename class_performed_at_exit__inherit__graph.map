@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="PerformedAtExit" name="PerformedAtExit">
 <area shape="rect" id="node3" href="$class_ref_counted_singleton.html" title="Thread&#45;safe singleton which comes into existence on first use." alt="" coords="217,5,359,46"/>
 <area shape="rect" id="node5" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalFifoFreeStore\l\&lt; Tag \&gt; \&gt;" alt="" coords="213,71,363,127"/>
 <area shape="rect" id="node9" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalPagedFreeStore \&gt;" alt="" coords="199,151,377,193"/>

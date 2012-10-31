@@ -150,7 +150,7 @@ var searchData=
   ['dropshadoweffect',['DropShadowEffect',['http://www.rawmaterialsoftware.com/juce/api/classDropShadowEffect.html#a385d398423cf81f8e073195ea84473b2',1,'DropShadowEffect']]],
   ['dropshadower',['DropShadower',['http://www.rawmaterialsoftware.com/juce/api/classDropShadower.html#ade4cff3b353cd000e0ce6b7faff94edd',1,'DropShadower']]],
   ['dummycriticalsection',['DummyCriticalSection',['http://www.rawmaterialsoftware.com/juce/api/classDummyCriticalSection.html#aed067ef6b51dcca1f25f19231a99b595',1,'DummyCriticalSection']]],
-  ['duplicateifshared',['duplicateIfShared',['http://www.rawmaterialsoftware.com/juce/api/classImage.html#ad995cd253234063d22b604984e83489d',1,'Image']]],
+  ['duplicateifshared',['duplicateIfShared',['http://www.rawmaterialsoftware.com/juce/api/classImage.html#ad995cd253234063d22b604984e83489d',1,'Image::duplicateIfShared()'],['../class_shared_table.html#a8ca84938f4861be0476a72c41186df12',1,'SharedTable::duplicateIfShared()']]],
   ['dynamiclibrary',['DynamicLibrary',['http://www.rawmaterialsoftware.com/juce/api/classDynamicLibrary.html#a7c6a13e65177869af7116175c7745e2e',1,'DynamicLibrary::DynamicLibrary() noexcept'],['http://www.rawmaterialsoftware.com/juce/api/classDynamicLibrary.html#af9ad02ee239000e67ff664ef4b5dfe2c',1,'DynamicLibrary::DynamicLibrary(const String &amp;name)']]],
   ['dynamicobject',['DynamicObject',['http://www.rawmaterialsoftware.com/juce/api/classDynamicObject.html#a50a7adf3d7d1f411ed2aa9a663bfe275',1,'DynamicObject']]]
 ];

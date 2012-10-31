@@ -1,3 +1,4 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$class_semaphore.html" title="A semaphore." alt="" coords="5,5,93,32"/>
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="juce.tag$classReferenceCountedObject.html" title="ReferenceCountedObject" alt="" coords="6,5,173,32"/>
+<area shape="rect" id="node3" href="$class_drag_and_drop_data.html" title="Flexible container for drag and drop data." alt="" coords="222,5,349,32"/>
 </map>

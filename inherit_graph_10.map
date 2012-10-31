@@ -1,3 +1,4 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$class_audio_sample_buffer_array.html" title="An array of movable pointers to existing audio buffers." alt="" coords="5,5,168,46"/>
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_audio_buffer_pool.html" title="Temporary audio buffers." alt="" coords="5,12,120,39"/>
+<area shape="rect" id="node3" href="$class_audio_buffer_pool_type.html" title="Template for AudioBufferPool with a specified lock type." alt="" coords="168,5,376,46"/>
 </map>

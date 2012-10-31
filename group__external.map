@@ -1,4 +1,4 @@
-<map id="structs" name="structs">
+<map id="external" name="external">
 <area shape="rect" id="node1" href="$group__vf__freetype.html" title="FreeType: A Free, High&#45;Quality, and Portable Font Engine." alt="" coords="220,17,303,44"/>
 <area shape="rect" id="node2" href="$group__vf__lua.html" title="A powerful, fast, lightweight, embeddable scripting language." alt="" coords="234,111,289,137"/>
 <area shape="rect" id="node4" href="$group__vf__bzip2.html" title="bZip2: A freely available, high quality data compressor." alt="" coords="227,204,295,231"/>

@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="SeekingAudioSource" name="SeekingAudioSource">
 <area shape="rect" id="node7" href="$class_seeking_audio_source_1_1_seeking_audio_source_adapter.html" title="Adapter to wrap a PositionableAudioSource." alt="" coords="5,230,200,271"/>
 <area shape="rect" id="node2" href="$class_seeking_sample_source.html" title="Abstract positionable source of audio samples." alt="" coords="25,80,180,107"/>
 <area shape="rect" id="node4" href="$class_sample_source.html" title="Abstract source of audio samples." alt="" coords="49,5,156,32"/>

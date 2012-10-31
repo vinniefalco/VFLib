@@ -1,4 +1,7 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="juce.tag$classThread.html" title="Thread" alt="" coords="5,5,67,32"/>
-<area shape="rect" id="node3" href="$class_interruptible_thread.html" title="A thread with soft interruption support." alt="" coords="115,5,243,32"/>
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_sample_source.html" title="Abstract source of audio samples." alt="" coords="5,41,112,68"/>
+<area shape="rect" id="node3" href="$class_sample_source_1_1_sample_source_adapter.html" title="Presents an AudioSource as a SampleSource." alt="" coords="160,5,360,46"/>
+<area shape="rect" id="node5" href="$class_seeking_sample_source.html" title="Abstract positionable source of audio samples." alt="" coords="183,71,337,97"/>
+<area shape="rect" id="node7" href="$class_seeking_audio_source.html" title="A SeekingSampleSource with sample rate conversion information." alt="" coords="409,71,551,97"/>
+<area shape="rect" id="node9" href="$class_seeking_audio_source_1_1_seeking_audio_source_adapter.html" title="Adapter to wrap a PositionableAudioSource." alt="" coords="601,63,797,105"/>
 </map>

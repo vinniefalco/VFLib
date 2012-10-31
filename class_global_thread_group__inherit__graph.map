@@ -1,6 +1,5 @@
-<map id="G" name="G">
+<map id="GlobalThreadGroup" name="GlobalThreadGroup">
 <area shape="rect" id="node2" href="$class_thread_group.html" title="A group of threads for parallelizing tasks." alt="" coords="5,88,101,115"/>
 <area shape="rect" id="node4" href="$class_ref_counted_singleton.html" title="RefCountedSingleton\l\&lt; GlobalThreadGroup \&gt;" alt="" coords="125,81,283,122"/>
-<area shape="rect" id="node6" href="$class_singleton_lifetime.html" title="SingletonLifetime" alt="" coords="71,5,192,32"/>
-<area shape="rect" id="node8" href="$class_performed_at_exit.html" title="Perform an action at program exit." alt="" coords="217,5,335,32"/>
+<area shape="rect" id="node6" href="$class_performed_at_exit.html" title="Perform an action at program exit." alt="" coords="145,5,263,32"/>
 </map>

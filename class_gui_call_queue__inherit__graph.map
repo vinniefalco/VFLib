@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="GuiCallQueue" name="GuiCallQueue">
 <area shape="rect" id="node7" href="$class_message_thread.html" title="A GuiCallQueue singleton for the message thread." alt="" coords="48,155,163,181"/>
 <area shape="rect" id="node2" href="$class_call_queue.html" title="A FIFO for calling functors asynchronously." alt="" coords="5,5,88,32"/>
 <area shape="rect" id="node4" href="juce.tag$classAsyncUpdater.html" title="AsyncUpdater" alt="" coords="112,5,216,32"/>
