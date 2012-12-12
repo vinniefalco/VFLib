@@ -305,6 +305,7 @@
 #  include <boost/bind.hpp>
 #  include <boost/function.hpp>
 # else
+#  include <ciso646>  // detect std::lib
 #  if _LIBCPP_VERSION // libc++
 #   include <functional>
 #  else // libstdc++ (GNU)
@@ -313,6 +314,7 @@
 # endif
 
 #elif JUCE_MAC
+# include <ciso646>  // detect std::lib
 # if _LIBCPP_VERSION // libc++
 #  include <functional>
 # else // libstdc++ (GNU)
