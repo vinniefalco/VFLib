@@ -299,19 +299,32 @@
 #if JUCE_MSVC
 # include <crtdbg.h>
 # include <functional>
+
 #elif JUCE_IOS
 # if VF_USE_BOOST
 #  include <boost/bind.hpp>
 #  include <boost/function.hpp>
 # else
+#  if _LIBCPP_VERSION // libc++
+#   include <functional>
+#  else // libstdc++ (GNU)
+#   include <tr1/functional>
+#  endif
+# endif
+
+#elif JUCE_MAC
+# if _LIBCPP_VERSION // libc++
+#  include <functional>
+# else // libstdc++ (GNU)
 #  include <tr1/functional>
 # endif
-#elif JUCE_MAC
-# include <tr1/functional>
+
 #elif JUCE_LINUX
 # include <tr1/functional>
+
 #else
 # error Unnkown platform!
+
 #endif
 
 #include <algorithm>
