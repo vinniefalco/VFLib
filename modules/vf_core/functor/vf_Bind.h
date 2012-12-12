@@ -54,20 +54,35 @@
     using ::_1;
     using ::_2;
   #else
-    /* Xcode puts these in std::tr1 */
+    #if _LIBCPP_VERSION // libc++
+      using std::ref;
+      using std::bind;
+      using std::function;
+      using std::placeholders::_1;
+      using std::placeholders::_2;
+    #else // libstdc++ (GNU)
+      using std::tr1::ref;
+      using std::tr1::bind;
+      using std::tr1::function;
+      using std::tr1::placeholders::_1;
+      using std::tr1::placeholders::_2;
+    #endif
+  #endif
+
+#elif JUCE_MAC
+  #if _LIBCPP_VERSION // libc++
+    using std::ref;
+    using std::bind;
+    using std::function;
+    using std::placeholders::_1;
+    using std::placeholders::_2;
+  #else // libstdc++ (GNU)
     using std::tr1::ref;
     using std::tr1::bind;
     using std::tr1::function;
     using std::tr1::placeholders::_1;
     using std::tr1::placeholders::_2;
   #endif
-
-#elif JUCE_MAC
-  using std::tr1::ref;
-  using std::tr1::bind;
-  using std::tr1::function;
-  using std::tr1::placeholders::_1;
-  using std::tr1::placeholders::_2;
 
 #elif JUCE_LINUX
   using std::tr1::bind;
