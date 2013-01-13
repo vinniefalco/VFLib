@@ -58,6 +58,7 @@
 #else
   // Amalgamated
   #include "FreeTypeAmalgam/FreeTypeAmalgam.h"
+  #include "FreeTypeAmalgam/FTextra.h"
 
 #endif
 
