@@ -322,11 +322,16 @@
 # endif
 
 #elif JUCE_LINUX
-# include <tr1/functional>
+    #include <tr1/functional>
+    #include <fenv.h>
 
+    #ifdef JUCE_64BIT
+        #include <x86_64-linux-gnu/fpu_control.h>
+    #else
+        #include <xi386/fpu_control.h>
+    #endif
 #else
-# error Unnkown platform!
-
+    #error Unknown platform!
 #endif
 
 #include <algorithm>
