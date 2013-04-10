@@ -190,7 +190,7 @@
       }
 
       // Notify listeners.
-      listeners.call (&Listener::onOutputLevelChanged, newOutputLevel);
+      m_listeners.call (&Listener::onOutputLevelChanged, newOutputLevel);
     }
 
   private:
@@ -200,6 +200,8 @@
 
       float outputLevel;
     };
+
+	Listeners<Listener> m_listeners;
 
     ConcurrentState <State> m_state;
 
