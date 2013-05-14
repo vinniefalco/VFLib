@@ -193,21 +193,13 @@ public:
 
   float getHeightToPointsFactor() const
   {
-    float factor;
-
-    float scale = 1.f;
-    // convert from font units to Juce normalized
-    scale *= 1.f/m_face->units_per_EM;
-    // fudge since Juce produces smaller paths than FreeType
-    // when it uses the Win32 API to extract the curves (?)
-    float boxHeight = float(m_face->bbox.yMax - m_face->bbox.yMin);
-    float fudge = m_face->units_per_EM / boxHeight;
-    // this small adjustment produces output identical to Juce under win32
-    fudge *= 1.0059625f;
-
-    factor = 1.f / fudge;
-
-    return factor;
+	int maxFontHeightInFontUnits = std::abs(m_face->bbox.yMax) + std::abs(m_face->bbox.yMin);
+	
+	float maxFontHeightInEm = ((float)maxFontHeightInFontUnits) / ((float)m_face->units_per_EM);
+	
+	float maxFontHeightInPixels = m_face->size->metrics.y_ppem * maxFontHeightInEm;
+	
+	return 1024.0f / maxFontHeightInPixels;
   }
 
 #ifdef TYPEFACE_BITMAP_RENDERING
@@ -475,20 +467,13 @@ Close:
 
   virtual void prepareFace ()
   {
-    // calculate outline scale factor
-    float scale = 1.f;
-    // convert from font units to Juce normalized
-    scale *= 1.f/m_face->units_per_EM;
-    // fudge since Juce produces smaller paths than FreeType
-    // when it uses the Win32 API to extract the curves (?)
-    float boxHeight = float(m_face->bbox.yMax - m_face->bbox.yMin);
-    float fudge = m_face->units_per_EM / boxHeight;
-    // this small adjustment produces output identical to Juce under win32
-    fudge *= 1.0059625f;
-
-    setParameters (scale * fudge,
+	FT_Set_Char_Size (m_face, 1024*64, 1024*64, 72, 72);
+	  
+	float scale = 1.0f / (float) (m_face->bbox.yMax - m_face->bbox.yMin);;
+	
+    setParameters (scale,
                    FT_LOAD_NO_BITMAP | FT_LOAD_NO_SCALE,
-                   fudge/ float(m_face->ascender - m_face->descender),
+                   scale,
                    FT_KERNING_UNSCALED);
   }
 
@@ -500,8 +485,7 @@ private:
     bool isBold = (m_face->style_flags & FT_STYLE_FLAG_BOLD) != 0;
     bool isItalic = (m_face->style_flags & FT_STYLE_FLAG_ITALIC) != 0;
     
-    // ??? what do I put here?
-    juce_wchar defaultChar = 0;//255;
+    juce_wchar defaultChar = ' ';
 
     setCharacteristics (name, ascent, isBold, isItalic, defaultChar);
 
@@ -756,19 +740,10 @@ public:
 protected:
   void prepareFace ()
   {
-    // calculate a fudged font scale to make things match Juce
-    float fontScale;
-    fontScale = 0.854f; // empirical
-    float adjustedHeight = m_fontHeight * fontScale;
-
-    // calculate outline scale factor
-    float scale = 1.f;
-    // convert 26p6 screen pixels to fractional screen pixels
-    scale *= 1.f / 64;
-    // convert to normalized based on created height
-    scale *= 1.f / adjustedHeight;
-    // account for the discrepancy in the juce height and the created height
-    scale *= adjustedHeight / m_fontHeight;
+	FT_Set_Char_Size (m_face, 1024*64, 1024*64, 72, 72);
+	
+	  float scale = 1.0f / (float) (m_face->ascender - m_face->descender);;
+	  
 
     FT_Int gasp = FT_Get_Gasp (m_face,
                                FT_UInt(m_fontHeight * m_face->units_per_EM));
@@ -790,8 +765,6 @@ protected:
 
     setParameters(scale, loadFlags,
                   scale, FT_KERNING_DEFAULT);
-
-    FT_Set_Char_Size (m_face, 0, FT_F26Dot6 (adjustedHeight * 64.f + 0.5f), 0, 0);
   }
 };
 
