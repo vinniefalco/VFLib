@@ -62,7 +62,7 @@
     #pragma warning (disable: 4456)
 #endif
 
-#include "modules/juce_core/system/juce_TargetPlatform.h"
+#include <modules/juce_core/juce_core.h>
 
 #if JUCE_IOS || JUCE_MAC
     #define VF_HAVE_NATIVE_SQLITE 1
