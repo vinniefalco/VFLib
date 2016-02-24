@@ -39,6 +39,8 @@
 #ifndef VF_SQLITE_VFHEADER
 #define VF_SQLITE_VFHEADER
 
+#include "juce_core/system/juce_TargetPlatform.h"
+
 /*============================================================================*/
 /** 
   A self-contained, serverless, zero configuration, transactional
@@ -61,8 +63,6 @@
     #pragma warning (disable: 4306)
     #pragma warning (disable: 4456)
 #endif
-
-#include <modules/juce_core/juce_core.h>
 
 #if JUCE_IOS || JUCE_MAC
     #define VF_HAVE_NATIVE_SQLITE 1

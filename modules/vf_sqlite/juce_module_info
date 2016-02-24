@@ -13,8 +13,8 @@
     "include":  "vf_sqlite.h",
 
     "compile":  [
-                    { "file": "vf_sqlite.cpp", "target": "! xcode" },
-                    { "file": "vf_sqlite.cpp", "target": "xcode" }
+                    { "file": "vf_sqlite.c", "target": "! xcode" },
+                    { "file": "vf_sqlite.c", "target": "xcode" }
                 ],
 
     "browse":   [
