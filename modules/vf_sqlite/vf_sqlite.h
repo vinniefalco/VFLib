@@ -39,6 +39,8 @@
 #ifndef VF_SQLITE_VFHEADER
 #define VF_SQLITE_VFHEADER
 
+#include "juce_core/system/juce_TargetPlatform.h"
+
 /*============================================================================*/
 /** 
   A self-contained, serverless, zero configuration, transactional
@@ -55,20 +57,29 @@
   @ingroup external
 */
 
-#include "modules/juce_core/system/juce_TargetPlatform.h"
+#if JUCE_MSVC
+    #pragma warning (push)
+    #pragma warning (disable: 4100)
+    #pragma warning (disable: 4306)
+    #pragma warning (disable: 4456)
+#endif
 
 #if JUCE_IOS || JUCE_MAC
-# define VF_HAVE_NATIVE_SQLITE 1
+    #define VF_HAVE_NATIVE_SQLITE 1
 #else
-# define VF_HAVE_NATIVE_SQLITE 0
+    #define VF_HAVE_NATIVE_SQLITE 0
 #endif
 
 #ifndef VF_SQLITE_PRIVATE_INTERFACE
-# if VF_USE_NATIVE_SQLITE && VF_HAVE_NATIVE_SQLITE
-#  include <sqlite3.h>
-# else
-#  include "sqlite/sqlite3.h" // Amalgamated
-# endif
+    #if VF_USE_NATIVE_SQLITE && VF_HAVE_NATIVE_SQLITE
+        #include <sqlite3.h>
+    #else
+        #include "sqlite/sqlite3.h" // Amalgamated
+    #endif
 #endif
 
+#if JUCE_MSVC
+    #pragma warning (pop)
 #endif
+
+#endif //VF_SQLITE_VFHEADER

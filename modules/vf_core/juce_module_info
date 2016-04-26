@@ -1,0 +1,30 @@
+{
+    "id":           "vf_core",
+    "name":         "Core (VFLib)",
+    "version":      "1.0.0",
+    "description":  "",
+    "website":      "https://github.com/vinniefalco/VFLib",
+    "license":      "MIT",
+
+    "dependencies": [
+                        { "id": "juce_core", "version": "matching" }
+                    ],
+
+    "include":  "vf_core.h",
+
+    "compile":  [
+                    { "file": "vf_core.cpp", "target": "! xcode" },
+                    { "file": "vf_core.cpp", "target": "xcode" }
+                ],
+
+    "browse":   [
+                    "containers/*",
+                    "diagnostic/*",
+                    "events/*",
+                    "functor/*",
+                    "math/*",
+                    "memory/*",
+                    "native/*",
+                    "threads/*"
+                ]
+}

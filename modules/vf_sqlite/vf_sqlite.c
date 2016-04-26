@@ -58,8 +58,9 @@
    multithreaded program so long as no two threads attempt to use the
    same database connection at the same time.
 */
-
-#define SQLITE_THREADSAFE 2
+#ifndef SQLITE_THREADSAFE
+ #define SQLITE_THREADSAFE 1
+#endif
 
 #include "sqlite/sqlite3.c"
 #include "sqlite/sqlite3async.c"

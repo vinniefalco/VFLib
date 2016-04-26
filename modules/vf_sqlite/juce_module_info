@@ -1,0 +1,23 @@
+{
+    "id":           "vf_sqlite",
+    "name":         "SQLite (VFLib)",
+    "version":      "1.0.0",
+    "description":  "",
+    "website":      "https://github.com/vinniefalco/VFLib",
+    "license":      "MIT",
+
+    "dependencies": [
+                        { "id": "juce_core", "version": "matching" }
+                    ],
+
+    "include":  "vf_sqlite.h",
+
+    "compile":  [
+                    { "file": "vf_sqlite.c", "target": "! xcode" },
+                    { "file": "vf_sqlite.c", "target": "xcode" }
+                ],
+
+    "browse":   [
+                    "sqlite/*"
+                ]
+}

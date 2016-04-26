@@ -1,0 +1,25 @@
+{
+    "id":           "vf_db",
+    "name":         "Database (VFLib)",
+    "version":      "1.0.0",
+    "description":  "",
+    "website":      "https://github.com/vinniefalco/VFLib",
+    "license":      "MIT",
+
+    "dependencies": [
+                        { "id": "vf_core", "version": "matching" }
+                    ],
+
+    "include":  "vf_db.h",
+
+    "compile":  [
+                    { "file": "vf_db.cpp", "target": "! xcode" },
+                    { "file": "vf_db.cpp", "target": "xcode" }
+                ],
+
+    "browse":   [
+                    "api/*",
+                    "detail/*",
+                    "source/*"
+                ]
+}
